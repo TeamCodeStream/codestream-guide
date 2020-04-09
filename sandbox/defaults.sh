@@ -37,7 +37,7 @@ sandutil_load_options $CSG_SANDBOX || { echo "failed to load options" >&2 && ret
 # Uncomment and setup if node is required. Available versions can be seen
 # with the command:
 #   ssh $DT_CLOUD_SERVER ls /home/web/SandboxRepos/software/node-$DT_OS_TYPE-*
-export CSG_NODE_VER=12.4.1
+export CSG_NODE_VER=12.14.1
 export PATH=$CSG_SANDBOX/node/bin:$CSG_TOP/node_modules/.bin:$PATH
 
 
