@@ -1,0 +1,5 @@
+SB_TYPE=csguide
+SB_PREFIX=CSG
+GIT_ORIGIN=git@github.com:teamcodestream/codestream-guide
+SB_PROJECT_PATH=codestream-guide
+# SB_DEPS=a:b:c
