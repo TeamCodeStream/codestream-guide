@@ -1,46 +1,45 @@
 ---
-title: Documentation Home (index.mdx)
-description: Explore the CodeStream Guide
+title: CodeStream User Guide
+description: Thes best way for developers to collaborate around their code.
 ---
 
-import DocsetMenu from './components/docset-menu';
+<!-- import DocsetMenu from './components/docset-menu'; -->
 import { MenuWrapper } from './components/menu';
 import WorkoutMenuItem from './components/workout-menu-item';
 import { Button } from '@apollo/space-kit/Button';
 import { IconRobot1 } from '@apollo/space-kit/icons/IconRobot1';
 import { Link } from 'gatsby';
 import { colors } from 'gatsby-theme-apollo-core';
-import {
-  ExpansionPanel,
-} from 'gatsby-theme-apollo-docs/src/components/expansion-panel';
+import { ExpansionPanel } from 'gatsby-theme-apollo-docs/src/components/expansion-panel';
 import { ReactComponent as Paragliding } from './assets/paragliding.svg';
 import { ReactComponent as Weightlift } from './assets/weightlift.svg';
 import { ReactComponent as Diving } from './assets/diving.svg';
 import { ReactComponent as HeadLight } from './assets/head-light.svg';
 
-Welcome! 👋 Glad you're here. CodeStream really does rock.
+Welcome! 👋 Glad you're here. Our user guide will get you up and running quickly
+and present all the features of CodeStream.
 
-<DocsetMenu />
+<!-- <DocsetMenu /> -->
 
 ## New to CodeStream?
 
 It's easy to install and use.
 
 <div>
-  <Button
-    size="large"
-    color={colors.primary}
-    as={<Link to="/tutorial/introduction" />}
-  >
-    Start the tutorial!
-  </Button>
-  <Button
-    size="large"
-    as={<Link to="/intro/platform" />}
-    style={{marginLeft: 16}}
-  >
-    Learn more
-  </Button>
+	<Button
+		size="large"
+		color={colors.primary}
+		as={<Link to="/tutorial/introduction" />}
+	>
+		I want to get going now!
+	</Button>
+	<Button
+		size="large"
+		as={<Link to="/intro/what-is-codestream" />}
+		style={{marginLeft: 16}}
+	>
+		Learn more
+	</Button>
 </div>
 
 ## Recommended workouts
@@ -48,9 +47,9 @@ It's easy to install and use.
 <MenuWrapper>
 
 <WorkoutMenuItem
-  icon={HeadLight}
-  keyWord="Install"
-  otherWords="CodeStream"
+	icon={HeadLight}
+	keyWord="Install"
+	otherWords="CodeStream"
 >
 
 * It's so cool
@@ -61,9 +60,9 @@ It's easy to install and use.
 </WorkoutMenuItem>
 
 <WorkoutMenuItem
-  icon={Diving}
-  keyWord="Dive in"
-  otherWords="to the basics"
+	icon={Diving}
+	keyWord="Dive in"
+	otherWords="to the basics"
 >
 
 * Basically you should get started
@@ -73,9 +72,9 @@ It's easy to install and use.
 </WorkoutMenuItem>
 
 <WorkoutMenuItem
-  icon={Weightlift}
-  keyWord="Create"
-  otherWords="your first codemark"
+	icon={Weightlift}
+	keyWord="Create"
+	otherWords="your first codemark"
 >
 
 * Install CodeStream Link
@@ -86,9 +85,9 @@ It's easy to install and use.
 </WorkoutMenuItem>
 
 <WorkoutMenuItem
-  icon={Paragliding}
-  keyWord="Share your CodeMarks"
-  otherWords="with Messaging Integrations"
+	icon={Paragliding}
+	keyWord="Share your CodeMarks"
+	otherWords="with Messaging Integrations"
 >
 
 * Sign-in with Slack or MS Teams

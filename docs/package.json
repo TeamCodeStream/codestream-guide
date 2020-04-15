@@ -3,7 +3,9 @@
     "prestart": "gatsby clean",
     "start": "gatsby develop",
     "build": "gatsby build",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "pack": "[ ! -d dist ] && mkdir dist || /bin/echo -n; tar czpf dist/codestream-guide.tgz public",
+    "deploy": "rsync -avn --delete public web@tc:/cs/mnt/local/guide"
   },
   "dependencies": {
     "gatsby": "^2.20.20",
