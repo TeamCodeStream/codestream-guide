@@ -1,0 +1,99 @@
+---
+title: Documentation Home (index.mdx)
+description: Explore the CodeStream Guide
+---
+
+import DocsetMenu from './components/docset-menu';
+import { MenuWrapper } from './components/menu';
+import WorkoutMenuItem from './components/workout-menu-item';
+import { Button } from '@apollo/space-kit/Button';
+import { IconRobot1 } from '@apollo/space-kit/icons/IconRobot1';
+import { Link } from 'gatsby';
+import { colors } from 'gatsby-theme-apollo-core';
+import {
+  ExpansionPanel,
+} from 'gatsby-theme-apollo-docs/src/components/expansion-panel';
+import { ReactComponent as Paragliding } from './assets/paragliding.svg';
+import { ReactComponent as Weightlift } from './assets/weightlift.svg';
+import { ReactComponent as Diving } from './assets/diving.svg';
+import { ReactComponent as HeadLight } from './assets/head-light.svg';
+
+Welcome! 👋 Glad you're here. CodeStream really does rock.
+
+<DocsetMenu />
+
+## New to CodeStream?
+
+It's easy to install and use.
+
+<div>
+  <Button
+    size="large"
+    color={colors.primary}
+    as={<Link to="/tutorial/introduction" />}
+  >
+    Start the tutorial!
+  </Button>
+  <Button
+    size="large"
+    as={<Link to="/intro/platform" />}
+    style={{marginLeft: 16}}
+  >
+    Learn more
+  </Button>
+</div>
+
+## Recommended workouts
+
+<MenuWrapper>
+
+<WorkoutMenuItem
+  icon={HeadLight}
+  keyWord="Install"
+  otherWords="CodeStream"
+>
+
+* It's so cool
+* Covid-19 Blows
+* Gatsby is ok
+* I'm hungry
+
+</WorkoutMenuItem>
+
+<WorkoutMenuItem
+  icon={Diving}
+  keyWord="Dive in"
+  otherWords="to the basics"
+>
+
+* Basically you should get started
+* Link to more here
+* And another link here
+
+</WorkoutMenuItem>
+
+<WorkoutMenuItem
+  icon={Weightlift}
+  keyWord="Create"
+  otherWords="your first codemark"
+>
+
+* Install CodeStream Link
+* Register for CodeStream Cloud
+* Verify your account
+* Create a CodeMark
+
+</WorkoutMenuItem>
+
+<WorkoutMenuItem
+  icon={Paragliding}
+  keyWord="Share your CodeMarks"
+  otherWords="with Messaging Integrations"
+>
+
+* Sign-in with Slack or MS Teams
+* Create your CodeMark and share it with your preferred service
+
+</WorkoutMenuItem>
+
+</MenuWrapper>
