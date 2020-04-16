@@ -27,6 +27,8 @@ This site utilizes markdown and MDX for much of its content.
 	- React Native Tools
 	- Rewrap
 
+* Make sure 
+
 ## Installation
 
 ### With dev_tools
@@ -51,13 +53,14 @@ the playground from a new shell with the command `dt-load-playground csg`.
 
 _**NOTE: Documentation and features will be limited without dev_tools.**_
 
-1.	Clone the repo and install the node modules
+1.  Clone the repo, install the node modules and add the npm bin directory to
+    your search path.
 	```
 	$ git clone https://github.com/teamcodestream/codestream-guide.git
 	$ cd codestream-guide/docs
 	$ npm install --no-save
+	$ export PATH=$PATH:node_modules/.bin
 	```
-
 
 ## Running gatsby in development mode
 

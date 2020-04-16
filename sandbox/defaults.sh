@@ -38,7 +38,7 @@ sandutil_load_options $CSG_SANDBOX || { echo "failed to load options" >&2 && ret
 # with the command:
 #   ssh $DT_CLOUD_SERVER ls /home/web/SandboxRepos/software/node-$DT_OS_TYPE-*
 export CSG_NODE_VER=12.14.1
-export PATH=$CSG_SANDBOX/node/bin:$CSG_TOP/node_modules/.bin:$PATH
+export PATH=$CSG_SANDBOX/node/bin:$CSG_TOP/node_modules/.bin:$PATH:$CSG_TOP/docs/node_modules/.bin
 
 
 # Add $MY_SANDBOX/bin to the search path
