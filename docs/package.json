@@ -1,8 +1,8 @@
 {
   "scripts": {
-    "prestart": "gatsby clean",
+    "clean": "/bin/rm -rf ./public ./.cache ./dist; gatsby clean",
     "start": "gatsby develop",
-    "build": "gatsby build",
+    "build": "/bin/rm -rf ./public ./.cache && gatsby build",
     "serve": "gatsby serve",
     "pack": "[ ! -d dist ] && mkdir dist || /bin/echo -n; tar czpf dist/codestream-guide.tgz public",
     "deploy": "rsync -av --delete public web@tc:/cs/mnt/local/guide"
