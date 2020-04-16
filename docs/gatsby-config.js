@@ -1,30 +1,26 @@
 const navConfig = {
-	'CodeStream Guide': {
-		url: 'https://guide.codestream.com/',
-		description: 'The CodeStream Guide',
+	'User Guide': {
+		url: 'https://docs.codestream.com/userguide',
+		description: 'The complete guide to using CodeStream',
 		// I think this is true if it's being served by this site ???
 		omitLandingPage: true
 	},
-	'CodeStream Marketing': {
-		url: 'https://www.codestream.com/',
-		description: 'What is CodeStream? An introduction and other general marketing information.'
+	'Open Core - Client Development': {
+		url: 'https://docs.codestream.com/openclient',
+		description: `Learn about CodeStream's Open Client development and how to participate`
 	},
-	'CodeStream Open Core': {
-		url: 'https://opencore.codestream.com/',
-		description: 'Learn about the CodeStream Open Core project and how to participate.'
+	'Open Core - API Development': {
+		url: 'https://docs.codestream.com/openapi',
+		description: `Learn about CodeStream's Open API development and how to participate`
 	},
 	'CodeStream On-Prem': {
-		url: 'https://github.com/teamcodestream/onprem-install/wiki/',
-		description: 'Install CodeStream on your own network using docker'
+		url: 'https://docs.codestream.com/onprem',
+		description: 'Run CodeStream on your own network with docker'
 	},
-	'CodeStream Support': {
+	'Support': {
 		url: 'https://github.com/teamcodestream/codestream/issues/',
-		description: 'Get help from CodeStream support.'
+		description: 'Get help from the CodeStream support staff'
 	},
-	'The Old User Docs': {
-		url: 'https://help.codestream.com/',
-		description: `This 'ol documentation is goin' away!`
-	}
 }
 
 const footerNavConfig = {
@@ -33,8 +29,10 @@ const footerNavConfig = {
 		target: '_blank',
 		rel: 'noopener noreferrer'
 	},
-	Contribute: {
-		href: 'https://opencore.codestream.com/community/'
+	'Who are we?': {
+		href: 'https://www.codestream.com/',
+		target: '_blank',
+		rel: 'noopener noreferrer'
 	}
 };
 
@@ -46,48 +44,53 @@ module.exports = {
 			options: {
 				siteName: 'CodeStream Guide',
 				pageTitle: 'My Page Title',
-				menuTitle: 'My Menu Totle',
+				menuTitle: 'The CodeStream Ecosystem',
 				// segmentApiKey: '',
 				baseUrl: 'https://help.codestream.com',
 				twitterHandle: 'teamcodestream',
-				youtubeUrl: 'https://www.youtube.com/channel/UCXw0MdEDy4NKfcAcRJRYkUw',
+				youtubeUrl:
+					'https://www.youtube.com/channel/UCXw0MdEDy4NKfcAcRJRYkUw',
 				logoLink: 'https://www.codestream.com',
 				baseDir: 'docs',
 				contentDir: 'src',
 				root: __dirname,
-				subtitle: 'CodeStream Sub-Guide',
-				description: `Complete user's and administrator's guide to CodeStream`,
-				githubRepo: 'teamcodestream/codestream-guide',
+				subtitle: 'User Guide',
+				description: `Complete user guide to CodeStream`,
+				// githubRepo: 'teamcodestream/codestream-guide',
 				spectrumPath: '/',
 				sidebarCategories: {
-					null: ['index'],
-					// null: ['index', 'intro/what-is-codestream'],
-					// null: ['index', 'intro/platform', 'intro/benefits'],
+					null: ['index', 'intro/what-is-codestream'],
 					'Getting Started': [
-						'gettingStarted/Installing-CodeStream',
+						'gettingStarted/install-codestream',
+						'gettingStarted/create-a-team',
+						'gettingStarted/join-a-team',
+						'gettingStarted/code-discussion-with-codemarks',
+						'gettingStarted/code-review',
 					],
-					// 'Using CodeStream': [
-
-					// ],
-					// FAQ: [
-
-					// ],
-					// Tutorial: [
-					// 	'tutorial/introduction',
-					// 	'tutorial/schema',
-					// 	'tutorial/data-source',
-					// 	'tutorial/resolvers',
-					// 	'tutorial/production',
-					// 	'tutorial/client',
-					// 	'tutorial/queries',
-					// 	'tutorial/mutations',
-					// 	'tutorial/local-state',
-					// ],
-					// 'Development Tools': [
-					// 	'devtools/cli',
-					// 	'devtools/editor-plugins',
-					// 	'devtools/apollo-config',
-					// ],
+					Features: [
+						'features/activity-feed',
+						'features/creating-codemarks',
+						'features/managing-codemarks',
+						'features/slack-integration',
+						'features/msteams-integration',
+						'features/team-view-live',
+						'features/filter-and-search',
+						'features/permalinks',
+						'features/keyboard-shortcuts',
+						'features/notifications',
+						'features/issue-tracking-integrations',
+						'features/pr-integrations',
+						'features/account-settings',
+					],
+					FAQ: [
+						'faq/what-editors',
+						'faq/store-source',
+						'faq/git-access',
+						'faq/need-teams',
+						'faq/change-headshot',
+						'faq/git-issues',
+						'faq/client-logs',
+					],
 					// Resources: [
 					// 	'[Principled GraphQL](https://principledgraphql.com)',
 					// 	'resources/graphql-glossary',
@@ -99,4 +102,4 @@ module.exports = {
 			},
 		},
 	],
-};
+}

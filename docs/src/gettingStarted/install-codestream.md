@@ -1,6 +1,6 @@
 ---
-title: Installing CodeStream
-description: Installing CodeStream Cloud in your IDE
+title: Install CodeStream
+description:
 ---
 ## System & Configuration Requirements
 
@@ -24,5 +24,5 @@ appear at the right side of your editor. If for some reason it doesn't, simply
 click on the CodeStream entry in your IDE's status bar. Just look for the double
 chat bubble icon followed by "CodeStream".
 
-Now that you’ve got the plugin up and running, you’re ready to [sign
-up](https://github.com/TeamCodeStream/CodeStream/wiki/Creating-a-Team)!
+Now that you’ve got the plugin up and running, you’re ready to sign up and
+create a team!

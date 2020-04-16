@@ -16,7 +16,8 @@ function getBoxShadow(opacity, y, blur) {
 	return `rgba(18, 21, 26, ${opacity}) 0 ${y}px ${blur}px`
 }
 
-const {indigo} = colors;
+// const {indigo} = colors;
+const indigo = colors.blue;
 const AppIcon = styled.div({
 	...size('100%'),
 	display: 'flex',

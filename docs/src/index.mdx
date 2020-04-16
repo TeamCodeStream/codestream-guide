@@ -3,7 +3,7 @@ title: CodeStream User Guide
 description: Thes best way for developers to collaborate around their code.
 ---
 
-<!-- import DocsetMenu from './components/docset-menu'; -->
+import DocsetMenu from './components/docset-menu';
 import { MenuWrapper } from './components/menu';
 import WorkoutMenuItem from './components/workout-menu-item';
 import { Button } from '@apollo/space-kit/Button';
@@ -16,22 +16,24 @@ import { ReactComponent as Weightlift } from './assets/weightlift.svg';
 import { ReactComponent as Diving } from './assets/diving.svg';
 import { ReactComponent as HeadLight } from './assets/head-light.svg';
 
-Welcome! 👋 Glad you're here. Our user guide will get you up and running quickly
-and present all the features of CodeStream.
+Our user guide will get you up and running quickly and cover all of CodeStream's
+client-side features.
 
-<!-- <DocsetMenu /> -->
 
 ## New to CodeStream?
 
-It's easy to install and use.
+It's easy to get up and running with CodeStream. Just push the big blue botton
+to begin or learn more about us first.  We also have an array of short,
+to-the-point videos highlighting our many features. You'll find links to those
+below.
 
 <div>
 	<Button
 		size="large"
 		color={colors.primary}
-		as={<Link to="/tutorial/introduction" />}
+		as={<Link to="/gettingStarted/install-codestream" />}
 	>
-		I want to get going now!
+		Let's go!
 	</Button>
 	<Button
 		size="large"
@@ -42,57 +44,64 @@ It's easy to install and use.
 	</Button>
 </div>
 
-## Recommended workouts
+## Feature and Integration Short Videos
 
 <MenuWrapper>
 
 <WorkoutMenuItem
 	icon={HeadLight}
-	keyWord="Install"
-	otherWords="CodeStream"
+	keyWord="Features"
 >
 
-* It's so cool
-* Covid-19 Blows
-* Gatsby is ok
-* I'm hungry
+* [Discussing Code](https://www.youtube.com/watch?v=RPaIIZgaFK8)
+* [Code Reviews](https://www.youtube.com/watch?v=2AyqT4z5Omc)
+* [Activity Feed](https://www.youtube.com/watch?v=mdMBcmjb89A)
+* [Permalinks](https://www.youtube.com/watch?v=6M4ZCWFIyK4)
+* [Multi-Range Codemarks](https://www.youtube.com/watch?v=c9wm1dZuP2U)
+* [Live View](https://www.youtube.com/watch?v=h5KI3svlq-0)
+* [Unified Integrations](https://www.youtube.com/watch?v=vPChygnwMAw)
 
 </WorkoutMenuItem>
 
 <WorkoutMenuItem
 	icon={Diving}
-	keyWord="Dive in"
-	otherWords="to the basics"
+	keyWord="Source Hosting"
+	otherWords="Integrations"
 >
 
-* Basically you should get started
-* Link to more here
-* And another link here
+* [GitHub](https://www.youtube.com/watch?v=Fg1uP-CxCXY)
+* [BitBucket](https://www.youtube.com/watch?v=_fC_Gh9zWGQ)
+* [GitLab](https://www.youtube.com/watch?v=_WEU9fEwEF4)
+* [Pull Requests](https://www.youtube.com/watch?v=sM607iVWM3w)
 
 </WorkoutMenuItem>
+
 
 <WorkoutMenuItem
 	icon={Weightlift}
-	keyWord="Create"
-	otherWords="your first codemark"
+	keyWord="Messaging"
+	otherWords="Integrations"
 >
 
-* Install CodeStream Link
-* Register for CodeStream Cloud
-* Verify your account
-* Create a CodeMark
+* [Slack](https://www.youtube.com/watch?v=c_PWVdZbiUw)
+* [Microsoft Teams](https://www.youtube.com/watch?v=C9dioFbHjOg)
 
 </WorkoutMenuItem>
 
+
 <WorkoutMenuItem
 	icon={Paragliding}
-	keyWord="Share your CodeMarks"
-	otherWords="with Messaging Integrations"
+	keyWord="Issue Tracking"
+	otherWords="Integrations"
 >
 
-* Sign-in with Slack or MS Teams
-* Create your CodeMark and share it with your preferred service
+* [Trello](https://www.youtube.com/watch?v=lUI110T_SHY)
+* [Jira](https://www.youtube.com/watch?v=o9FOLVABrag)
 
 </WorkoutMenuItem>
 
 </MenuWrapper>
+
+## More documentation and resources
+
+<DocsetMenu />
