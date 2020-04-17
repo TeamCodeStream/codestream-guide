@@ -1,6 +1,6 @@
 ---
 title: Permalinks
-description: Share your codemarks with anyone using permenant links
+description: 
 ---
 
 ## Permalinks for Codemarks

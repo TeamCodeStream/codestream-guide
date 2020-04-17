@@ -1,6 +1,6 @@
 ---
-title: Create a Code Review
-description: Lightning code reviews make peer examination as simple as can be
+title: Code Review
+description: 
 ---
 
 _**CodeStream’s code review functionality is currently in BETA only available in

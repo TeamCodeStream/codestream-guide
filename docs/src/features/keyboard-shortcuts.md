@@ -1,6 +1,6 @@
 ---
 title: Keyboard Shortcuts
-description: Move around your IDE even faster with keyboard shortcuts
+description: 
 ---
 
 ## Creating Codemarks

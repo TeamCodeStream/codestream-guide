@@ -1,6 +1,6 @@
 ---
 title: What is CodeStream?
-description: What exactly is CodeStream and why do I want it?
+description: 
 ---
 
 CodeStream is developer collaboration platform that makes it incredibly easy for

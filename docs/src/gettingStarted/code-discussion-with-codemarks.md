@@ -1,6 +1,6 @@
 ---
-title: Start a Discussion
-description: Create a codemark to start a discussion around code
+title: Code Discussion with Codemarks
+description: 
 ---
 
 Just like Twitter has Tweets, CodeStream uses **Codemarks** as a unit of
