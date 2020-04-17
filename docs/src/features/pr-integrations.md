@@ -1,6 +1,6 @@
 ---
 title: Pull Request Integrations
-description: Integrate CodeStream with your source-code hosting service's pull request workflow
+description: 
 ---
 
 If your code is hosted on GitHub, GitLab or Bitbucket (cloud versions only, for

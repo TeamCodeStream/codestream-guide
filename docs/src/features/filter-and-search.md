@@ -1,6 +1,6 @@
 ---
 title: Filter and Search
-description: Find what's important to you quickly and easily
+description: 
 ---
 
 The Filter & Search tab allows you to slice and dice your team’s collection of

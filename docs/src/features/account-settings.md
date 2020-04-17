@@ -1,6 +1,6 @@
 ---
 title: Account Settings
-description: Modify your account profile's settings
+description: 
 ---
 
 Look for the “Account” menu under the ellipses menu at the top of the CodeStream

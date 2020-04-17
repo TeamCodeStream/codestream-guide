@@ -1,6 +1,6 @@
 ---
 title: Activity Feed
-description: Keep an eye on what's going on
+description: 
 ---
 
 The activity feed is the definitive place to find out about new codemarks posted
