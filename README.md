@@ -15,9 +15,10 @@ This site utilizes markdown and MDX for much of its content.
 ## Prerequisites
 
 * Install either the CodeStream
-  [https://github.com/teamcodestream/dev_tools](dev_tools) tool kit or make sure
-  you have a recent version of [Node](https://nodejs.org). dev_tools will be
-  needed if you plan to use the extended features for deployment and builds.
+  [dev_tools](https://github.com/teamcodestream/dev_tools) tool kit or make sure
+  you have a recent version of [Node](https://nodejs.org). The dev_tools toolkit
+  will be needed if you plan to use the extended features for deployment and
+  builds.
 
 * Recommended VS Code extensions:
 	- ESLint
@@ -26,8 +27,6 @@ This site utilizes markdown and MDX for much of its content.
 	- MDX Preview
 	- React Native Tools
 	- Rewrap
-
-* Make sure 
 
 ## Installation
 
@@ -67,20 +66,35 @@ _**NOTE: Documentation and features will be limited without dev_tools.**_
 All of your work should eventually land on the **develop** branch, which is the
 default branch on the origin.
 
-1.	Run gatsby in development mode
+1.	Run gatsby in development mode from the **docs/** directory.
 	```
-	$ cd docs
 	$ gatsby develop
 	```
-1. Preview the site at `http://localhost:8000`
+1. Preview the site at http://localhost:8000
 
 
+## Consistent CodeStream Doc ites
 
+In an effort to make consistent sites across all products in our platform, there
+are some files and folders in the **docs/src/** that are meant to be shared.
+Ultimately, it would be nice to package them in a codestream theme to be used on
+top of the apollo themes but that will take some work.
+
+For now, they are:
+```
+docs/src/
+      |-- codestream-config.js        # global codestream config data
+      |-- assets/codeStream/          # global codestream assets (icons, ...)
+      |-- components/                 # component overrides
+      |-- gatsby-theme-apollo-core/   # component shadowning from Apollo core theme
+      |-- gatsby-theme-apollo-docs/   # component shadowning from Apollo docs theme
+```
+To create a tarball with these files, run `csg-make-cs-theme-pkg`
 
 ## Other Resources
 
-* [Gatsby Docs](https://www.gatsbyjs.org/docs/)
+* [Gatsby Documentation](https://www.gatsbyjs.org/docs/)
 * [Gatsby Apollo Core Theme](https://github.com/apollographql/gatsby-theme-apollo/tree/master/packages/gatsby-theme-apollo-docs)
 * [Gatsby Apollo Docs Theme](https://github.com/apollographql/gatsby-theme-apollo/tree/master/packages/gatsby-theme-apollo-core)
-* [Apollo docs these themes were created for](https://www.apollographql.com/docs/)
+* [Apollo's doc sites created with these themes](https://www.apollographql.com/docs/)
 * [Space Kit Icons](https://space-kit.netlify.app/?path=/story/icons--default)

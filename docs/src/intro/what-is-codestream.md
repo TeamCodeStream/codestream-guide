@@ -17,7 +17,7 @@ participate in the discussion right from their IDE, and you can optionally share
 the discussion on Slack or Microsoft Teams so teammates can participate from
 their chat clients as well. 
 
-![CodeStream](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/animated/DiscussCode.gif)
+![CodeStream](../assets/images/animated/DiscussCode.gif)
 
 ## In-IDE Code Review
 
@@ -25,13 +25,13 @@ CodeStream's lightweight code reviews let you request a review on any code
 regardless of the current state of your repo, without the friction of
 committing, pushing or issuing a pull request.
 
-![Request a Code Review](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/animated/CodeReviewRequest.gif)
+![Request a Code Review](../assets/images/animated/CodeReviewRequest.gif)
 
 Your teammates can review your changes right in their IDE, with full file
 context, and with no need to set aside their current work to switch branches or
 pull the latest. 
 
-![Review Changes](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/animated/CodeReviewPerform.gif)
+![Review Changes](../assets/images/animated/CodeReviewPerform.gif)
 
 CodeStream’s code reviews are so easy that you can start doing them throughout
 the development process instead of waiting until the end. You’re a few days into
@@ -47,7 +47,7 @@ discussion about your code, and saving it with your code. Comment and code
 review threads are automatically repositioned as your code changes, even across
 branches. All with zero effort on your part.
 
-![Knowledge Base](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/animated/KnowledgeBase.gif)
+![Knowledge Base](../assets/images/animated/KnowledgeBase.gif)
 
 Previously discussed questions and issues that explain important decisions are
 now accessible right where you need them, when you need them. Just click on the
@@ -68,4 +68,4 @@ exposed to their teammates through CodeStream. The information is displayed
 contextually, in the IDE, and even warns teammates of potential merge conflicts…
 before they happen!
 
-![Live View](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/TeamTab.png)
+![Live View](../assets/images/TeamTab.png)

@@ -43,7 +43,7 @@ selecting “Request a Code Review” from the “+” menu in the CodeStream gl
 navigation or by using a keyboard shortcut (`ctlr+shift+/` `r`, or `ctrl+/` `r`
 on a Mac).
 
-![Request a Review](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/RequestReview.png)
+![Request a Review](../assets/images/RequestReview.png)
 
 CodeStream assumes that you are requesting a review based on the repo/branch of
 the file currently selected in your editor. If you have multiple repositories
@@ -54,13 +54,13 @@ most with this set of changes (or other developers that have also committed to
 this branch). Hover of a reviewer’s name to see more details, or click on the
 name to remove them.
 
-![Suggested Reviewers](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/ReviewSuggestions.png)
+![Suggested Reviewers](../assets/images/ReviewSuggestions.png)
 
 The Changed Files section lists all of the files that have been added, removed
 or modified. You can even click on any file to view a diff just as the assigned
 reviewer(s) will see it.
 
-![Changed Files](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/ChangedFiles.png)
+![Changed Files](../assets/images/ChangedFiles.png)
 
 If you have a file that’s not suitable for code review, such as a checked-in
 binary file, you can hover over any file and click the X to exclude that file
@@ -68,7 +68,7 @@ from the review. That file will be moved to a list below the review form. Note
 that new files are, by default, excluded from the review, but you can hover over
 their entry in the list and click "+" to add them into the review.
 
-![Excluded Files](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/ExcludeFromReview.png)
+![Excluded Files](../assets/images/ExcludeFromReview.png)
 
 Hover over an excluded file and click on the trashcan to permanently exclude it
 from all future reviews. Permanently excluding files creates a .codestreamignore
@@ -102,7 +102,7 @@ When you submit your code review, teammates will be notified via the activity
 feed, with anyone assigned as a reviewer being @mentioned so that they’ll also
 receive an email notification. 
 
-![Review in Activity Feed](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/ReviewInFeed.png)
+![Review in Activity Feed](../assets/images/ReviewInFeed.png)
 
 As with codemarks, notifications for code reviews are based on whether or not
 you follow the review. By default you automatically follow code reviews that you
@@ -119,14 +119,16 @@ over to the Filter & Search tab. By default, any open code reviewers where you
 are an assigned reviewer will be displayed in an “Open & Assigned to Me”
 section.
 
-![Review Search](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/ReviewSearch.png)
+![Review Search](../assets/images/ReviewSearch.png)
 
 There are some additional filters related to code reviews:
 
 * All Open Issues and Code Reviews - Everything the team has outstanding.
 * Your Code Reviews - All code reviews you have requested.
 * Everything impacting code you wrote - All code reviews that include changes to code that you wrote.
-* Custom filters - Use [advanced search syntax](https://github.com/TeamCodeStream/CodeStream/wiki/Filter-and-Search) to create, and optionally save, your own filters based on review status, author, assignee, etc.
+* Custom filters - Use [advanced search syntax](../features/filter-and-search)
+  to create, and optionally save, your own filters based on review status,
+  author, assignee, etc.
 
 ## Performing a Review
 As if being able to request a code review right from inside your IDE wasn’t
@@ -136,14 +138,14 @@ long as they have the appropriate repo open in the IDE, they can simply click on
 the review, from either the activity feed or the filter & search tab, and start
 reviewing the changes.
 
-![Reviewing Changes](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/ReviewDiff.png)
+![Reviewing Changes](../assets/images/ReviewDiff.png)
 
 Click on any file in the Changed Files section to review the changes. You’ll be
 presented with a diff in your editor, and you can step through the changes in
 the file using the up and down arrows provided by your IDE at the top of the
 editor.
 
-![Navigate Changes](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/NavigateChanges.png)
+![Navigate Changes](../assets/images/NavigateChanges.png)
 
 Typically, the diff will represent the changes in the branch associated with the
 review (i.e., usually a feature/topic branch) against the base branch, at the
@@ -158,7 +160,7 @@ continuity.
 If you have a general comment about the review / changes, just add a reply to
 the review’s thread.
 
-![Reply to a Review](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/ReviewReply.png)
+![Reply to a Review](../assets/images/ReviewReply.png)
 
 But if you want to comment on the actual changes, just hover up and down the
 gutter at the left side of the CodeStream pane and then click on the comment
@@ -166,7 +168,7 @@ button that appears to the right. You can also select a block of code from the
 right side of the diff, and then either click on the comment button or use a
 keyboard shortcut (`ctlr+shift+/` `c`, or `ctrl+/` `c` on a Mac).
 
-![Comment on Changes](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/ReviewComment.png)
+![Comment on Changes](../assets/images/ReviewComment.png)
 
 Since you have the full file context when doing a review, you aren’t limited to
 commenting on just the lines of code that changed. For example, you might notice
@@ -182,14 +184,14 @@ part of the review, and they will get added as a reply to the review. This is
 helpful to be able to point your teammate to another location in the codebase
 that might have a hint of a better way to do something.
 
-![Request a Change](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/ReviewChgReqCheck.png)
+![Request a Change](../assets/images/ReviewChgReqCheck.png)
 
 All of the change requests associated with the review are summarized in a
 section at the top of the review, in addition to being part of the review’s
 discussion thread. This is where they will get marked complete when the work is
 done.
 
-![Change Requests](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/ReviewChgReqSection.png)
+![Change Requests](../assets/images/ReviewChgReqSection.png)
 
 Look for the green and red buttons at the top of the review to either approve or
 reject it, and click Exit to leave the review. Note that, for the moment, you’ll

@@ -7,7 +7,7 @@ Look for the “Account” menu under the ellipses menu at the top of the CodeSt
 pane and you’ll find options for changing your profile photo, username, full
 name and email address. 
 
-![Account Settings](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/AccountSettings1.png)
+![Account Settings](../assets/images/AccountSettings1.png)
 
 Note that when you change your email address, the old one will remain in effect
 until you click on the link in the confirmation email sent to you.

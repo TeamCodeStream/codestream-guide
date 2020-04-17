@@ -17,7 +17,7 @@ code, or even just you trying to remember why you made that change six months
 ago… whatever the case, CodeStream helps you understand the code by surfacing
 the discussions in a contextual way.
 
-![Codemark Hover](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/SpatialSingleMarker3.png)
+![Codemark Hover](../assets/images/SpatialSingleMarker3.png)
 
 Even as a file changes over time, the codemarks will remain connected to the
 code. Add some new lines of code above the code block, make edits to the code,
@@ -32,19 +32,19 @@ CodeStream pane. CodeStream will even automatically mention the teammate that
 most recently touched that code (although you can, of course, mention any
 teammate).
 
-![New Codemark](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/animated/SpatialVSC2.gif)
+![New Codemark](../assets/images/animated/SpatialVSC2.gif)
 
 You can also use the CodeStream options in either the lightbulb or context
 menus, which are always available... even when the CodeStream pane is closed.
 
-![Context Menu](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/ContextMenu2.png)
+![Context Menu](../assets/images/ContextMenu2.png)
 
 Need to reach teammates that don’t spend a lot of time in the IDE? Or maybe some
 teammates that aren’t yet on CodeStream? You can optionally share a codemark out
 to Slack or Microsoft Teams. The Slack integration even allows your teammates to
 reply directly from Slack.
 
-![Share on Slack or Teams](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/SharingOptions1.png)
+![Share on Slack or Teams](../assets/images/SharingOptions1.png)
 
 ### Comment Codemarks
 
@@ -52,7 +52,7 @@ The all-purpose codemark for linking any type of discussion to a block of code.
 Ask a question. Make a suggestion. Document some code. Make note of key sections
 of the codebase. The possibilities are endless!
 
-![Comment Codemark](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/CodemarkComment4.png)
+![Comment Codemark](../assets/images/CodemarkComment4.png)
 
 ### Issue Codemarks
 
@@ -61,12 +61,12 @@ if it’s captured as an issue, with someone’s name attached. Assign issues as
 way of providing informal code review. Or manage your tech debt by capturing
 items as tracked issues instead of inline FIXMEs. 
 
-![Issue Codemark](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/CodemarkIssue5.png)
+![Issue Codemark](../assets/images/CodemarkIssue5.png)
 
 CodeStream integrates with issue-tracking services such as Jira, Trello, GitHub,
 and others so you can create an issue on one of those services directly from
 CodeStream. Learn more about [CodeStream's issue-tracking
-integrations.](https://github.com/TeamCodeStream/CodeStream/wiki/Issue-tracking-Integrations)
+integrations](../features/issue-tracking-integrations).
 
 ## Different versions of the code?
 
@@ -80,7 +80,7 @@ CodeStream recognizes these situations and gives you the ability to view the
 code block as a diff against your version of the code (see “Compare” button), or
 you can use the “Apply” button to apply the code block in your editor.
 
-![Compare and Apply](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/CompareApply3.png)
+![Compare and Apply](../assets/images/CompareApply3.png)
 
 Keep in mind that with CodeStream you can discuss any line of code, in any
 source file, at any time, even if it’s code that you just typed into your editor
@@ -92,16 +92,17 @@ feedback from your teammates without having to go through a formal process.
 ## How are codemarks discovered?
 
 Your teammates will get notified about new codemarks via the [activity
-feed](https://github.com/TeamCodeStream/CodeStream/wiki/Activity-Feed), and
-potentially via [email and desktop
-notifications](https://github.com/TeamCodeStream/CodeStream/wiki/Guide-to-CodeStream-Notifications),
-or sharing on
-[Slack](https://github.com/TeamCodeStream/CodeStream/wiki/Slack-Integration) or
-[Microsoft
-Teams](https://github.com/TeamCodeStream/CodeStream/wiki/Microsoft-Teams-Integration).
-CodeStream also makes sure the right developer sees past discussions at the
-right time by displaying them right alongside the blocks of code they refer to.
+feed](../features/activity-feed), and potentially via [email and desktop
+notifications](../features/notifications), or sharing on
+[Slack](../features/slack-integration) or [Microsoft
+Teams](../features/msteams-integration). CodeStream also makes sure the right
+developer sees past discussions at the right time by displaying them right
+alongside the blocks of code they refer to.
 
-![Codemarks](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/SpatialView2.png)
+![Codemarks](../assets/images/SpatialView2.png)
 
-Seeing codemarks related to the files you’re working on is how you’ll leverage your team’s knowledge base on an ongoing basis. Note the icons in the special gutter at the left side of the editor. These allow you to know where discussions about code took place, even when the CodeStream pane is closed. Just click to view the discussion.
+Seeing codemarks related to the files you’re working on is how you’ll leverage
+your team’s knowledge base on an ongoing basis. Note the icons in the special
+gutter at the left side of the editor. These allow you to know where discussions
+about code took place, even when the CodeStream pane is closed. Just click to
+view the discussion.

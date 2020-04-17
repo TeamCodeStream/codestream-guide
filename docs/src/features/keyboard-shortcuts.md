@@ -25,4 +25,4 @@ In addition to the shortcuts above for creating codemarks, you can also set a
 shortcut for any individual codemark by selecting "Set Keybinding" from the
 ellipses menu at the top-right of the codemark.
 
-![Codemark Shortcut](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/CodemarkWithShortcut.png)
+![Codemark Shortcut](../assets/images/CodemarkWithShortcut.png)

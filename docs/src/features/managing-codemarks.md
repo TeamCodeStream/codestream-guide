@@ -10,7 +10,7 @@ edit or delete it. Note that in most cases it might make sense to archive (see
 below) a codemark instead of deleting it, so that the codemark can still provide
 some value down the road.
 
-![Codemark Menu](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/CodemarkMenu.png)
+![Codemark Menu](../assets/images/CodemarkMenu.png)
 
 ## Archiving & Resolving
 
@@ -20,9 +20,10 @@ you can archive it instead. This will collapse it at the right side of the
 CodeStream pane, where you can easily click to expand it again. Similarly, when
 you mark an issue as resolved it’s collapsed as well.
 
-Click on the “archived” filter in the toolbar at the bottom to quickly display all archived codemarks and closed issues.
+Click on the “archived” filter in the toolbar at the bottom to quickly display
+all archived codemarks and closed issues.
 
-![Codemark Shortcut](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/animated/Archiving.gif)
+![Codemark Shortcut](../assets/images/animated/Archiving.gif)
 
 ## Starred Replies
 
@@ -32,7 +33,7 @@ that represents “the answer”, star it so that it is displayed along with the
 codemark. Someone else looking at this codemark down the road won’t need to go
 hunting for the most relevant information.
 
-![Starred Reply](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/StarredReply1.png)
+![Starred Reply](../assets/images/StarredReply1.png)
 
 ## Keyboard Shortcuts
 
@@ -40,7 +41,7 @@ In addition to the shortcuts above for creating codemarks, you can also set a
 shortcut for any individual codemark by selecting "Set Keybinding" from the
 ellipses menu at the top-right of the codemark. 
 
-![Codemark Shortcut](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/CodemarkWithShortcut.png)
+![Codemark Shortcut](../assets/images/CodemarkWithShortcut.png)
 
 ## Reposition Codemark
 
@@ -52,7 +53,7 @@ able to handle automatically. For example, if you pasted the block of code into
 a different file. In these cases, Reposition Codemark allows you to select the
 new location of the block of code so that the codemark is displayed properly.
 
-![Reposition Codemark](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/RepositionCodemark.png)
+![Reposition Codemark](../assets/images/RepositionCodemark.png)
 
 ## Inject as Comment
 
@@ -62,4 +63,4 @@ indicate if you want to include timestamps, replies, or to have the comment
 wrapped at 80 characters. You can also elect to have the codemark archived once
 it's been added as an inline comment.
 
-![Inject as Comment](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/InjectAsComment.png)
+![Inject as Comment](../assets/images/InjectAsComment.png)

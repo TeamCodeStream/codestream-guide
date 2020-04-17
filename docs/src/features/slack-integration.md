@@ -13,12 +13,12 @@ yet joined CodeStream, or maybe don’t spend a lot of time in their IDE.
 Clicking on the Slack link at the bottom of the codemark form will take you off
 to the web to authenticate with one of your Slack workspaces.
 
-![Connect to Share](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/NewCodemark-NotConnected.png)
+![Connect to Share](../assets/images/NewCodemark-NotConnected.png)
 
 Once you’ve connected to a workspace you’ll be able to select a channel or
 direct message to share to.
 
-![Select Channel](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/PostTo-Slack.png)
+![Select Channel](../assets/images/PostTo-Slack.png)
 
 By default, CodeStream will remember if/where you shared your last codemark and
 the form will default to the same selections the next time you post a codemark.
@@ -36,7 +36,7 @@ A codemark shared to Slack is much more powerful than a simple notification.
 Your teammates can interact with the codemark, and participate in the discussion
 right from Slack!
 
-![Codemark on Slack](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/ShareOnSlack1.png)
+![Codemark on Slack](../assets/images/ShareOnSlack1.png)
 
 ### View Discussion & Reply
 
@@ -45,7 +45,7 @@ codemark, and that reply will get posted to CodeStream. If there were any
 previous replies to the codemark, they’ll be displayed as well so that they can
 catch up on the entire discussion. 
 
-![Reply from Slack](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/animated/ReplyFromSlack.gif)
+![Reply from Slack](../assets/images/animated/ReplyFromSlack.gif)
 
 Note that your teammates don’t need to be CodeStream users in order to
 participate in discussions via Slack.

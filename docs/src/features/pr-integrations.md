@@ -15,7 +15,7 @@ pane while on the Current File tab. When you first click that toggle, if you
 haven’t already authenticated with GitHub/GitLab/Bitbucket you’ll be prompted to
 do so.
 
-![PR Filter](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/PRfilter.png)
+![PR Filter](../assets/images/PRfilter.png)
 
 Comments from merged PRs will appear next to the blocks of code they refer to.
 Comments from open PRs will also be included if you are on a relevant branch.
@@ -23,7 +23,7 @@ For example, if the open PR is a request to merge the feature/foo branch into
 master, you’ll see comments from that PR if you are checked out to either
 feature/foo or master, but not when you’re on any other branch.
 
-![PR Display](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/PRSpatial.png)
+![PR Display](../assets/images/PRSpatial.png)
 
 As the code evolves, the location of each comment is automatically updated so
 that it remains linked to the block of code it refers to.

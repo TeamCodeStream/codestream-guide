@@ -19,56 +19,56 @@ IDE.
    click on the Add button. Note, do not expand it and select the options to add
    to team or chat. Simply click Add.
 
-	![Add App](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/MSTCSAppPage.png)
+	![Add App](../assets/images/MSTCSAppPage.png)
 
 1. This will take you to your private chat with the CodeStream bot, and you’ll
    see the CodeStream logo appear in the Teams sidebar. Type `signin` in this
    chat and submit.
 
-	![Signin Command](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/MSTSigninMsg.png)
+	![Signin Command](../assets/images/MSTSigninMsg.png)
 
 1. A post from the bot will appear in the stream, along with a “Sign in” button.
 
-	![Signin Button](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/MSTSigninButton.png)
+	![Signin Button](../assets/images/MSTSigninButton.png)
 
 1. Click the button and you’ll be taken to the web and prompted to sign into
    CodeStream. 
 
-	![Sign into CodeStream](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/MSTCSSigninPage.png)
+	![Sign into CodeStream](../assets/images/MSTCSSigninPage.png)
 
 1. After signing in you’ll be provided with a token that you’ll need to copy and
    paste into your chat with the CodeStream bot back in MS Teams. 
 
-	![Signin Token](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/MSTSigninToken.png)
+	![Signin Token](../assets/images/MSTSigninToken.png)
 
 1. Paste the token into the chat and submit.
 
-	![Token Message](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/MSTTokenMsg.png)
+	![Token Message](../assets/images/MSTTokenMsg.png)
 
 1. Go to a channel in which you’d like to share, type `@`, and then select `Get
    bots` from the popup. 
 
-	![Get Bots](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/MSTGetBots.png)
+	![Get Bots](../assets/images/MSTGetBots.png)
 
 1. Select the CodeStream bot from the list (and search for it if you need to),
    and then click "Add".
 
-	![Add a Bot](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/MSTAddABot.png)
+	![Add a Bot](../assets/images/MSTAddABot.png)
 
 1. Now return to the channel and @mention the CodeStream bot with the `connect`
    command. Repeat this in any channel that you'd like to share to.
 
-	![Connect Bot](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/MSTConnectBot1.png)
+	![Connect Bot](../assets/images/MSTConnectBot1.png)
 
 1. Once you get the following confirmation, you’re ready to share to Teams from
    CodeStream.
 
-	![Upload App](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/MSTConnected1.png)
+	![Upload App](../assets/images/MSTConnected1.png)
 
 1. When you return to CodeStream you'll now be able to share to the channels
    that you just connected.
 
-	![Select Channel](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/MSTSelectChannel.png)
+	![Select Channel](../assets/images/MSTSelectChannel.png)
 
 ## Participating from Microsoft Teams
 
@@ -76,7 +76,7 @@ When you share a codemark to Teams, not only does it notify your teammates about
 the codemark, but they can use it to jump directly into their IDEs to
 participate in the conversation on CodeStream.
 
-![Reply from Teams](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/ShareOnMST1.png)
+![Reply from Teams](../assets/images/ShareOnMST1.png)
 
 ### Open in IDE
 

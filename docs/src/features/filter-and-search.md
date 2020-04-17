@@ -8,21 +8,21 @@ codemarks and code reviews however you see fit. By default, you’ll get a view 
 any open issues or code reviewers assigned to you, followed by all open issues
 and code reviews.
 
-![Filter and Search](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/FilterAndSearch.png)
+![Filter and Search](../assets/images/FilterAndSearch.png)
 
 Hover over any codemark or code review in the list to get more details.
 
-![Hover for Details](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/SearchHover.png)
+![Hover for Details](../assets/images/SearchHover.png)
 
 CodeStream provides a number of powerful predefined filters to make things easy.
 
-![Hover for Details](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/Filters.png)
+![Hover for Details](../assets/images/Filters.png)
 
 But you can also use advanced search syntax (see below for full list) to create
 your own, and you can save them for future use by clicking the bookmark icon at
 the right side of the search box.
 
-![Hover for Details](https://raw.githubusercontent.com/TeamCodeStream/CodeStream/master/images/SavedFilter.png)
+![Hover for Details](../assets/images/SavedFilter.png)
 
 ## Advanced Search Syntax
 

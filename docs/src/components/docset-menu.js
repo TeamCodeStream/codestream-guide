@@ -1,16 +1,8 @@
 import React, { useContext } from 'react';
 import styled from '@emotion/styled';
 
-// import { ReactComponent as AppleLogo } from '../assets/apple-logo.svg';
-// import { IconSatellite3 } from '@apollo/space-kit/icons/IconSatellite3';
-// import { IconSchema } from '@apollo/space-kit/icons/IconSchema';
-// import { ReactComponent as ReactLogo } from '../assets/react-logo.svg';
-
-import { IconDocument as IconUserGuide } from '@apollo/space-kit/icons/IconDocument';
-import { IconSingleService as IconOpenApi } from '@apollo/space-kit/icons/IconSingleService';
-import { IconComment as IconOpenClient } from '@apollo/space-kit/icons/IconComment';
-import { IconHome as IconOnPrem } from '@apollo/space-kit/icons/IconHome';
-import { IconHelp as IconSupport } from '@apollo/space-kit/icons/IconHelp';
+import { navConfig } from '../../codestream-config';
+import { plugins as gatsbyPlugins } from '../../gatsby-config';
 
 import { 
 	NavItemsContext,
@@ -20,6 +12,7 @@ import {
 import { colors } from '@apollo/space-kit/colors';
 import { size } from 'polished';
 import { MenuWrapper, MenuItem } from './menu';
+
 
 function getBoxShadow(opacity, y, blur) {
 	return `rgba(18, 21, 26, ${opacity}) 0 ${y}px ${blur}px`
@@ -55,23 +48,20 @@ const StyledLink = styled.a({
 	}
 });
 
-// must be same order as navConfig?
-const icons = [
-	<IconOpenClient weight="thin" />,
-	<IconOpenApi weight="thin" />,
-	<IconOnPrem weight="thin" />,
-	<IconSupport weight="thin" />,
-]
-// const icons = [
-// 	<IconSatellite3 weight="thin" />,
-// 	<ReactLogo />,
-// 	<IconSchema weight="thin" />,
-// 	<AppleLogo style={{
-// 		padding: 1,
-// 		paddingTop: 0,
-// 		paddingBottom: 2
-// 	}} />,
-// ];
+var thisDocModule;
+gatsbyPlugins.forEach((plugin) => {
+	if(plugin.resolve === 'gatsby-theme-apollo-docs') {
+		thisDocModule = plugin.options.codeStreamDocModule;
+	}
+});
+var icons = [];
+for (const key of Object.keys(navConfig)) {
+	if(key !== thisDocModule) {
+		console.log(`pushing ${key}`);
+		icons.push(React.createElement(navConfig[key].icon, { weight: 'thin' }));
+	}
+};
+
 
 export default function DocsetMenu() {
 	const navItems = useContext(NavItemsContext);
