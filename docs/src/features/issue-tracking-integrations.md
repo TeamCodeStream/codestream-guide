@@ -1,6 +1,6 @@
 ---
 title: Issue Tracking Integrations
-description: Link your codemarks with your existing issue tracking system
+description: 
 ---
 
 With the ability to comment on any line of code in your codebase, and not just
@@ -12,9 +12,7 @@ If your team uses Jira (cloud or Server), Azure DevOps, Trello, Asana, GitHub
 (cloud or Enterprise), Bitbucket, GitLab (cloud or Enterprise) or YouTrack for
 tracking issues, you can create an issue on one of those services directly from
 CodeStream. Just select the service you use from the dropdown at the top of the
-CodeMark form. As you'll see, there are some additional steps required for
-[GitHub Enterprise](github-integration) and [GitLab
-Self-Managed](gitlab-integration).
+CodeMark form.
 
 ![Issue-Tracking Services](../assets/images/IssueTrackingIntegrations.png)
 

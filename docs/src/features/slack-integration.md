@@ -1,6 +1,6 @@
 ---
 title: Slack Integration
-description: Share your discussions on Slack
+description: 
 ---
 
 When you post a codemark your teammates will get notified via the activity feed,

@@ -1,6 +1,6 @@
 ---
 title: Where can I find my client-side logs?
-description: CodeStream support may ask for your client-side logs when troubleshooting a problem with you
+description: 
 ---
 
 As part of submitting a bug report on our

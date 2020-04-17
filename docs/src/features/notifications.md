@@ -1,6 +1,6 @@
 ---
 title: Notifications
-description: Keep track of the work you care about most
+description: 
 ---
 
 CodeStream will notify you about codemarks and code reviews that you "follow",

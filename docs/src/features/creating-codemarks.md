@@ -1,6 +1,6 @@
 ---
 title: Creating Codemarks
-description: Create a codemark to begin a discussion with your fellow developers
+description: 
 ---
 The [introduction to
 codemarks](../gettingStarted/code-discussion-with-codemarks) covered, at a high

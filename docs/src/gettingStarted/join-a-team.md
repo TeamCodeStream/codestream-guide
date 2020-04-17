@@ -1,6 +1,6 @@
 ---
 title: Join a Team
-description: Accept an invitation to join a team
+description: 
 ---
 
 If any of your teammates are already on CodeStream you’ll want to join their

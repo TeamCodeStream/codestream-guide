@@ -1,6 +1,6 @@
 ---
 title: Create a Team
-description: Register an account and create your first team for collaborating with others
+description: 
 ---
 
 A “team” on CodeStream is where you and your teammates will discuss code. It’s

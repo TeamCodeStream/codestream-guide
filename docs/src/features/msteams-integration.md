@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams Integration
-description: Share your discussions on MS Teams
+description: 
 ---
 
 When you post a codemark your teammates will get notified via the activity feed,
