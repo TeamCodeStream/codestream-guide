@@ -11,9 +11,6 @@ sys.path.append(os.environ['DT_TOP'] + "/lib")
 import sysUtils as su
 import buildUtils
 
-su.printErr("this script needs to be customized")
-exit(1)
-
 # 1. add filename extensions for all assets created (tgz, vsix, zip, ...)
 assetExtensionList = ['tgz']
 
@@ -28,7 +25,9 @@ args = buildUtils.parseStandardBuildArgs()
 buildOptions = {
 	'verbose': args.verbose,
 	'assetExtensionList': assetExtensionList,
-	'additionalRepos': additionalRepos
+	'additionalRepos': additionalRepos,
+	'buildDirectory': 'docs',
+	'useDistDir': True
 }
 
 # 4. Set this if you want your applied git tags to be something other than 'v' (v1.2.3)
@@ -50,15 +49,22 @@ if args.action == 'prep':
 elif args.action == 'build':
 	build.build()                             # complete build so services can be started
 elif args.action == 'citest':
-	build.citest()                            # run the continuous integration test suite
+	# build.citest()                            # run the continuous integration test suite
+	print("citest step disabled")
 elif args.action == 'pack':
-	build.pack()                              # create asset info file and package assets
+	# build.pack()                              # create asset info file and package assets
+	build.writeAssetInfo(directory='public')
+	build.execCmd('npm run pack')
+	build.getMD5SumsForAssets()
+	build.writeAssetInfo()
 elif args.action == 'publish':
 	build.publish()                           # publish assets for distribution
 elif args.action == 'tag':
-	build.tag()                               # update version info and apply tags
+	# build.tag()                               # update version info and apply tags
+	print("tag step disabled")
 elif args.action == 'release':
-	build.release()                           # release assets to the general public
+	# build.release()                           # release assets to the general public
+	print("release step disabled")
 else:
 	su.printErr("invalid build args")
 	exit(1)

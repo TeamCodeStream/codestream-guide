@@ -4,7 +4,7 @@ const thisDocModule = 'User Guide'
 
 navConfig[thisDocModule].omitLandingPage = true;
 module.exports = {
-	pathPrefix: '/docs',
+	pathPrefix: '/userguide',
 	plugins: [
 		{
 			resolve: 'gatsby-theme-apollo-docs',
@@ -14,7 +14,7 @@ module.exports = {
 				pageTitle: 'My Page Title', // ?
 				menuTitle: codeStreamCfg.ecoSystem,
 				segmentApiKey: codeStreamCfg.segmentApiKey,
-				baseUrl: codeStreamCfg.baseUrl,
+				// baseUrl: codeStreamCfg.baseUrl,
 				twitterHandle: codeStreamCfg.twitter,
 				youtubeUrl: codeStreamCfg.youTubeUrl,
 				logoLink: codeStreamCfg.marketingSite,

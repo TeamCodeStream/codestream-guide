@@ -1,16 +1,22 @@
 {
-  "scripts": {
-    "clean": "/bin/rm -rf ./public ./.cache ./dist; gatsby clean",
-    "start": "gatsby develop",
-    "build": "/bin/rm -rf ./public ./.cache && gatsby build",
-    "serve": "gatsby serve",
-    "pack": "[ ! -d dist ] && mkdir dist || /bin/echo -n; tar czpf dist/codestream-guide.tgz public",
-    "deploy": "rsync -av --delete public web@tc:/cs/mnt/local/guide"
-  },
-  "dependencies": {
-    "gatsby": "^2.20.20",
-    "gatsby-theme-apollo-docs": "^4.1.4",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
-  }
+	"name": "docs-userguide",
+	"version": "1.0.1",
+	"scripts": {
+		"clean": "/bin/rm -rf ./public ./.cache ./dist && gatsby clean",
+		"start": "npm run develop",
+		"develop": "gatsby develop",
+		"build": "/bin/rm -rf ./public ./.cache && gatsby build",
+		"cibuild": "/bin/rm -rf ./public ./.cache && gatsby build --prefix-paths",
+		"serve": "gatsby serve",
+		"serve-final": "gatsby serve --prefix-paths",
+		"pack": "[ ! -d dist ] && mkdir dist || /bin/echo -n; mv public userguide && tar czpf dist/docs-userguide.tgz userguide && mv userguide public && ls -l dist/docs-userguide.tgz",
+		"deploy-to-preview": "npm run build-final && rsync -a --delete public/ web@tc:/cs/local/guide/userguide",
+		"deploy-to-s3": "aws --quiet s3 sync public/ s3://docs.codestream.com/userguide/ --delete"
+	},
+	"dependencies": {
+		"gatsby": "^2.20.20",
+		"gatsby-theme-apollo-docs": "^4.1.4",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1"
+	}
 }
