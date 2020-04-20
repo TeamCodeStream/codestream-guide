@@ -16,17 +16,17 @@ module.exports = {
 			description: 'The complete guide to using CodeStream',
 			icon: IconDocument,
 		},
-		'Open Core - Client Development': {
-			url: 'https://docs.codestream.com/openclient',
-			description: `Learn about CodeStream's Open Client development and how to participate`,
-			icon: IconComment,
-		},
-		'Open Core - API Development': {
-			url: 'https://docs.codestream.com/openapi',
-			description: `Learn about CodeStream's Open API development and how to participate`,
-			icon: IconSingleService,
-		},
-		'CodeStream On-Prem': {
+		// 'Open Core - Client Development': {
+		// 	url: 'https://docs.codestream.com/openclient',
+		// 	description: `Learn about CodeStream's Open Client development and how to participate`,
+		// 	icon: IconComment,
+		// },
+		// 'Open Core - API Development': {
+		// 	url: 'https://docs.codestream.com/openapi',
+		// 	description: `Learn about CodeStream's Open API development and how to participate`,
+		// 	icon: IconSingleService,
+		// },
+		'On-Prem Guide': {
 			url: 'https://docs.codestream.com/onprem',
 			description: 'Run CodeStream on your own network with docker',
 			icon: IconHome,
