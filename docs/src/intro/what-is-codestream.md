@@ -1,6 +1,6 @@
 ---
 title: What is CodeStream?
-description: 
+description: The Code Collaboration Tool Built for Remote Teams
 ---
 
 CodeStream is developer collaboration platform that makes it incredibly easy for
