@@ -40,7 +40,7 @@ module.exports = {
 						'features/managing-codemarks',
 						'features/slack-integration',
 						'features/msteams-integration',
-						'features/team-view-live',
+						'features/team-live-view',
 						'features/filter-and-search',
 						'features/permalinks',
 						'features/keyboard-shortcuts',
