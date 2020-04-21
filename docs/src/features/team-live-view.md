@@ -38,11 +38,6 @@ sharing by clicking on the icon to the right (although your team admin may have
 set this to always on or always off at the team level).
 
 ![Opt Out](../assets/images/LiveViewOptOut.png)
-
-If you're a team admin you can also assign/remove admin privileges or remove
-people from the team.
-
-![Admin Rights](../assets/images/AdminRights.png)
  
 ### Current File
 
@@ -57,12 +52,3 @@ If both you and the other developer have made changes to the file, you’ll see
 the following message.
 
 ![Merge Conflict](../assets/images/LiveViewMergeConflict.png)
-
-### Team Settings
-
-If you are a team admin, the team name on the Team tab will be a dropdown
-exposing some team settings. In addition to changing the team’s name, you can
-also determine how Live View is used by your team. It can be on for everyone,
-off for everyone, or up to each individual team member to decide.
-
-![Team Settings](../assets/images/TeamSettings.png)
