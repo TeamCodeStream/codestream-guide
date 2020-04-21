@@ -17,11 +17,12 @@ githook_file_has_changed() {
 # return 0 if any git submodues have been modified, 1 otherwise
 githook_module_is_modified() {
     local submod
+    [ ! -f .gitmodules ] && return 1
     local tmpFile=/tmp/modupdated$$
     local rc=1
     for submod in `cat .gitmodules|grep '^\[submodule'|cut -f2 -d\"`; do
-        [ ! -f /tmp/updated-mods ] && git status -s | grep "^ M" >$tmpFile
-        grep -q "$submod$" $tmpFile && rc=0 && echo "git submodule $submod updated" && break
+        git status -s | grep "^ M" >$tmpFile
+        grep -q "$submod$" $tmpFile && rc=0 && echo "git submodule $submod updated"
     done
     /bin/rm $tmpFile
     return $rc

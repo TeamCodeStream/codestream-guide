@@ -10,7 +10,7 @@ module.exports = {
 			resolve: 'gatsby-theme-apollo-docs',
 			options: {
 				codeStreamDocModule: thisDocModule,  // this is definitely NOT ideal - see docset-menu.js
-				siteName: 'CodeStream User Guide',
+				siteName: 'User Guide',
 				pageTitle: 'My Page Title', // ?
 				menuTitle: codeStreamCfg.ecoSystem,
 				segmentApiKey: codeStreamCfg.segmentApiKey,

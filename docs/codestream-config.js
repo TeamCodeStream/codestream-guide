@@ -3,8 +3,8 @@
 
 // so we can have a standard docset-menu.js across all codestream doc sites
 const { IconDocument } = require('@apollo/space-kit/icons/IconDocument');
-const { IconSingleService } = require('@apollo/space-kit/icons/IconSingleService');
-const { IconComment } = require('@apollo/space-kit/icons/IconComment');
+// const { IconSingleService } = require('@apollo/space-kit/icons/IconSingleService');
+// const { IconComment } = require('@apollo/space-kit/icons/IconComment');
 const { IconHome } = require('@apollo/space-kit/icons/IconHome');
 const { IconHelp } = require('@apollo/space-kit/icons/IconHelp');
 
@@ -12,7 +12,8 @@ module.exports = {
 	// the icon attributes are a codestream thing - see docset-menu.js
 	navConfig: {
 		'User Guide': {
-			url: 'https://docs.codestream.com/userguide',
+			// url: 'https://docs.codestream.com/userguide',
+			url: '/userguide',
 			description: 'The complete guide to using CodeStream',
 			icon: IconDocument,
 		},
@@ -27,7 +28,8 @@ module.exports = {
 		// 	icon: IconSingleService,
 		// },
 		'On-Prem Guide': {
-			url: 'https://docs.codestream.com/onprem',
+			// url: 'https://docs.codestream.com/onprem',
+			url: '/onprem',
 			description: 'Run CodeStream on your own network with docker',
 			icon: IconHome,
 		},

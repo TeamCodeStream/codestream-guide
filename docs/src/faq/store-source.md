@@ -8,6 +8,5 @@ however, does not require direct access to your source tree and does not store
 copies of any code beyond the specific snippets being discussed.
 
 If your company requires that all code discussions and code snippets remain on
-your network, CodeStream does offer an [on-premises
-solution](https://github.com/TeamCodeStream/onprem-install/wiki) in addition to
-the cloud service.
+your network, CodeStream does offer an <a href="/onprem">on-premises
+solution</a> in addition to the cloud service.
