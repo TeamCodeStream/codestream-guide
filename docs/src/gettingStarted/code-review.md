@@ -160,7 +160,7 @@ continuity.
 If you have a general comment about the review / changes, just add a reply to
 the review’s thread.
 
-![Reply to a Review](../assets/images/ReviewReply.png)
+![Reply to a Review](../assets/images/ReviewReply1.png)
 
 But if you want to comment on the actual changes, just hover up and down the
 gutter at the left side of the CodeStream pane and then click on the comment
@@ -194,8 +194,9 @@ done.
 ![Change Requests](../assets/images/ReviewChgReqSection.png)
 
 Look for the green and red buttons at the top of the review to either approve or
-reject it, and click Exit to leave the review. Note that, for the moment, you’ll
-need to separately close the diff view as well.
+reject it, and click Exit to leave the review. Note that if there are any open change requests, the approve button will be replaced by a blue button that indicates the number. You can still approve the review but we wanted to make sure you were aware of the outstanding work.
+
+![Outstanding Change Requests](../assets/images/ApproveWithChgReqs.png)
 
 ## Does it connect to a pull request?
 At the moment, there’s no formal connection between CodeStream code reviews and
