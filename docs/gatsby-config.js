@@ -26,8 +26,9 @@ module.exports = {
 				// githubRepo: 'teamcodestream/codestream-guide',  // exposes a github repo link on right rail
 				// spectrumPath: '/',
 				sidebarCategories: {
-					null: ['index', 'intro/what-is-codestream'],
+					null: ['index'],
 					'Getting Started': [
+						'gettingStarted/what-is-codestream',
 						'gettingStarted/install-codestream',
 						'gettingStarted/create-a-team',
 						'gettingStarted/join-a-team',
