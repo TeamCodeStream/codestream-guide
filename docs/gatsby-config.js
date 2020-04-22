@@ -34,12 +34,13 @@ module.exports = {
 						'gettingStarted/code-discussion-with-codemarks',
 						'gettingStarted/code-review',
 					],
-					Features: [
+					'Using CodeStream': [
 						'features/activity-feed',
 						'features/creating-codemarks',
 						'features/managing-codemarks',
 						'features/slack-integration',
 						'features/msteams-integration',
+						'features/managing-the-team',
 						'features/team-live-view',
 						'features/filter-and-search',
 						'features/permalinks',
@@ -54,7 +55,6 @@ module.exports = {
 						'faq/store-source',
 						'faq/git-access',
 						'faq/need-teams',
-						'faq/change-headshot',
 						'faq/git-issues',
 						'faq/client-logs',
 					],

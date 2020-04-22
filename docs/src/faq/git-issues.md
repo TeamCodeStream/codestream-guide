@@ -1,5 +1,5 @@
 ---
-title: I'm having some issues with my GIT repo. What can I do?
+title: Git Issues
 description:
 ---
 
