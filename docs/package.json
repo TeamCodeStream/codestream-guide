@@ -11,7 +11,7 @@
 		"serve-final": "gatsby serve --prefix-paths",
 		"pack": "[ ! -d dist ] && mkdir dist || /bin/echo -n; mv public userguide && tar czpf dist/docs-userguide.tgz userguide && mv userguide public && ls -l dist/docs-userguide.tgz",
 		"deploy-to-preview": "npm run cibuild && rsync -a --delete public/ web@tc:/cs/local/guide/userguide",
-		"cfdirty": "aws cloudfront create-invalidation --distribution-id E1EN2JD6OKX54H --paths /userguide",
+		"cfdirty": "aws cloudfront create-invalidation --distribution-id E1EN2JD6OKX54H --paths '/userguide/*'",
 		"deploy-to-s3": "aws --quiet s3 sync public/ s3://docs.codestream.com/userguide/ --delete && npm run cfdirty"
 	},
 	"dependencies": {
