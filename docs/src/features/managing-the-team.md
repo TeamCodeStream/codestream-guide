@@ -13,6 +13,10 @@ You can invite people by entering their email address and, if you're an admin, y
 
 ![Invite People](../assets/images/Invite.png)
 
+Occassionally CodeStream invitations can end up in spam folders or be blocked by some corporate email systems. If the emails aren't getting through, just hover over the "reinvite" link, copy the invitation code, and email/message it to the given person on your own.
+
+![Reinvite](../assets/images/Reinvite.png)
+
 ## Team Admin & Settings
 
 If you're a team admin you can also assign/remove admin privileges or remove people from the team.
