@@ -73,7 +73,7 @@ default branch on the origin.
 1. Preview the site at http://localhost:8000
 
 
-## Consistent CodeStream Doc ites
+## Consistent CodeStream Documentation Sites
 
 In an effort to make consistent sites across all products in our platform, there
 are some files and folders in the **docs/src/** that are meant to be shared.

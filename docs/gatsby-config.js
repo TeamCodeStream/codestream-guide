@@ -11,7 +11,7 @@ module.exports = {
 			options: {
 				codeStreamDocModule: thisDocModule,  // this is definitely NOT ideal - see docset-menu.js
 				siteName: 'User Guide',
-				pageTitle: 'My Page Title', // ?
+				pageTitle: 'CodeStream User Guide',
 				menuTitle: codeStreamCfg.ecoSystem,
 				segmentApiKey: codeStreamCfg.segmentApiKey,
 				// baseUrl: codeStreamCfg.baseUrl,

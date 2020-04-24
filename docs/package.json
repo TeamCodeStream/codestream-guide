@@ -6,7 +6,7 @@
 		"start": "npm run develop",
 		"develop": "gatsby develop",
 		"build": "/bin/rm -rf ./public ./.cache && gatsby build",
-		"cibuild": "/bin/rm -rf ./public ./.cache && gatsby build --prefix-paths",
+		"cibuild": "/bin/rm -rf ./public ./.cache && ./fudge-it.sh pre && gatsby build --prefix-paths; ./fudge-it.sh post",
 		"serve": "gatsby serve",
 		"serve-final": "gatsby serve --prefix-paths",
 		"pack": "[ ! -d dist ] && mkdir dist || /bin/echo -n; mv public userguide && tar czpf dist/docs-userguide.tgz userguide && mv userguide public && ls -l dist/docs-userguide.tgz",

@@ -3,4 +3,4 @@
 # desc# create a tarball with components common to all doc sites
 
 cd $CSG_TOP/docs || exit 1
-tar czpvf ../codestream-common-doc-components.tgz codestream-config.js src/assets/codeStream src/components src/gatsby-theme-apollo-core src/gatsby-theme-apollo-docs
+tar czpvf ../codestream-common-doc-components.tgz codestream-config.js src/assets/codeStream src/components src/gatsby-theme-apollo-core src/gatsby-theme-apollo-docs fudge-it.sh
