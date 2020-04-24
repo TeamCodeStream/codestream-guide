@@ -9,9 +9,10 @@ module.exports = {
 		{
 			resolve: 'gatsby-theme-apollo-docs',
 			options: {
-				codeStreamDocModule: thisDocModule,  // this is definitely NOT ideal - see docset-menu.js
-				siteName: 'User Guide',
-				pageTitle: 'CodeStream User Guide',
+				// THIS SECTION SHOULD BE THE SAME ACROSS ALL CODESTREAM DOC SITES
+				codeStreamDocModule: thisDocModule, // this is definitely NOT ideal - see docset-menu.js
+				siteName: thisDocModule,
+				// pageTitle: thisDocModule,
 				menuTitle: codeStreamCfg.ecoSystem,
 				segmentApiKey: codeStreamCfg.segmentApiKey,
 				// baseUrl: codeStreamCfg.baseUrl,
@@ -25,6 +26,10 @@ module.exports = {
 				description: navConfig[thisDocModule].description,
 				// githubRepo: 'teamcodestream/codestream-guide',  // exposes a github repo link on right rail
 				// spectrumPath: '/',
+				navConfig,
+				footerNavConfig,
+
+				// Navigation - the order of these properties seems to be used on the site ??
 				sidebarCategories: {
 					null: ['index'],
 					'Getting Started': [
@@ -60,8 +65,6 @@ module.exports = {
 						'faq/client-logs',
 					],
 				},
-				navConfig,
-				footerNavConfig,
 			},
 		},
 	],

@@ -94,7 +94,7 @@ To create a tarball with these files, run `csg-make-cs-theme-pkg`
 ## Other Resources
 
 * [Gatsby Documentation](https://www.gatsbyjs.org/docs/)
-* [Gatsby Apollo Core Theme](https://github.com/apollographql/gatsby-theme-apollo/tree/master/packages/gatsby-theme-apollo-docs)
-* [Gatsby Apollo Docs Theme](https://github.com/apollographql/gatsby-theme-apollo/tree/master/packages/gatsby-theme-apollo-core)
+* [Gatsby Apollo Core Theme](https://github.com/apollographql/gatsby-theme-apollo/tree/master/packages/gatsby-theme-apollo-core)
+* [Gatsby Apollo Docs Theme](https://github.com/apollographql/gatsby-theme-apollo/tree/master/packages/gatsby-theme-apollo-docs)
 * [Apollo's doc sites created with these themes](https://www.apollographql.com/docs/)
 * [Space Kit Icons](https://space-kit.netlify.app/?path=/story/icons--default)
