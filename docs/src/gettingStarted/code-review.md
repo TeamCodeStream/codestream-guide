@@ -3,7 +3,7 @@ title: Code Review
 description: 
 ---
 
-_**CodeStream’s code review functionality is currently in BETA only available in
+_**CodeStream’s code review functionality is currently only available in
 our extensions for VS Code and JetBrains.**_
 
 Traditional code review happens at the end of the development cycle, when you’re
@@ -49,12 +49,14 @@ CodeStream assumes that you are requesting a review based on the repo/branch of
 the file currently selected in your editor. If you have multiple repositories
 open in your IDE at the same time, you can change this via the repo dropdown at
 the very top of the form. The review title defaults to the name of the branch,
-and up to two reviewers may be set based on whose code you’re “stomping on” the
-most with this set of changes (or other developers that have also committed to
-this branch). Hover of a reviewer’s name to see more details, or click on the
-name to remove them.
+and, depending on [your team's
+settings](../features/managing-the-team/#code-review-assignment--approval) some
+reviewers may be suggested. Hover of a reviewer’s name to see more details or to
+remove them. If multiple reviewers are assigned you may also have the option to
+determine whether any of them can approve the review, or if each one has to
+approve it individually.
 
-![Suggested Reviewers](../assets/images/ReviewSuggestions.png)
+![Suggested Reviewers](../assets/images/ReviewAssignment.png)
 
 The Changed Files section lists all of the files that have been added, removed
 or modified. You can even click on any file to view a diff just as the assigned
@@ -125,7 +127,8 @@ There are some additional filters related to code reviews:
 
 * All Open Issues and Code Reviews - Everything the team has outstanding.
 * Your Code Reviews - All code reviews you have requested.
-* Everything impacting code you wrote - All code reviews that include changes to code that you wrote.
+* Everything impacting code you wrote - All code reviews that include changes to
+  code that you wrote.
 * Custom filters - Use [advanced search syntax](../features/filter-and-search)
   to create, and optionally save, your own filters based on review status,
   author, assignee, etc.
@@ -138,7 +141,7 @@ long as they have the appropriate repo open in the IDE, they can simply click on
 the review, from either the activity feed or the filter & search tab, and start
 reviewing the changes.
 
-![Reviewing Changes](../assets/images/ReviewDiff.png)
+![Reviewing Changes](../assets/images/ReviewDiff1.png)
 
 Click on any file in the Changed Files section to review the changes. You’ll be
 presented with a diff in your editor, and you can step through the changes in
@@ -200,6 +203,14 @@ indicates the number. You can still approve the review but we wanted to make
 sure you were aware of the outstanding work.
 
 ![Outstanding Change Requests](../assets/images/ApproveWithChgReqs.png)
+
+When there are multiple reviewers, and approval is required from each,
+CodeStream makes it very clear when there are still outstanding approvals. The
+blue button at the top-right indicates how many approvals are outstanding, and
+the green “thumbs up” on the headshots of reviewers indicates those that have
+already approved.
+
+![Outstanding Approvals](../assets/images/ReviewIncomplete.png)
 
 ## Does it connect to a pull request?
 At the moment, there’s no formal connection between CodeStream code reviews and

@@ -9,13 +9,12 @@ conversation.
 ## What is a codemark?
 
 Quite simply, a codemark is a discussion connected to the code. It could be a
-question, a suggestion, a bug report, documentation, or even an informal code
-review. All of these discussions are saved, anchored to the blocks of code they
-refer to, so that they can be leveraged in the future. It could be a new
-developer joining the team, a developer trying to fix a bug in someone else’s
-code, or even just you trying to remember why you made that change six months
-ago… whatever the case, CodeStream helps you understand the code by surfacing
-the discussions in a contextual way.
+question, a suggestion, a bug report, or documentation. All of these discussions
+are saved, anchored to the blocks of code they refer to, so that they can be
+leveraged in the future. It could be a new developer joining the team, a
+developer trying to fix a bug in someone else’s code, or even just you trying to
+remember why you made that change six months ago… whatever the case, CodeStream
+helps you understand the code by surfacing the discussions in a contextual way.
 
 ![Codemark Hover](../assets/images/SpatialSingleMarker3.png)
 

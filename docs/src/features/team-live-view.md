@@ -5,7 +5,7 @@ description:
 
 Development is a collaborative activity, yet much of it happens in isolation,
 with work only shared with the team at the end of a cycle, or sprint.
-CodeStream’s “LiveView” increases transparency by making the local edits of
+CodeStream’s “Live View” increases transparency by making the local edits of
 individual developers visible to team members, so that everyone knows what
 everyone else is working on, in real-time.
 
@@ -19,7 +19,7 @@ before they happen!
 
 In addition to allowing you to see who is on your team, and to invite new
 members, the Team tab also gives you a live view into what everyone is working
-on. Below each user’s name is a list of the repositories in which they have made
+on. Below each teammate’s name is a list of the repositories in which they have made
 local changes (i.e., changes that haven’t been pushed). In addition to the repo
 name, you’ll see the branch name, line additions/deletions, a count of the
 number of changes to code that you wrote (in lines of code), and a warning if
