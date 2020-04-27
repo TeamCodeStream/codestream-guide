@@ -29,8 +29,7 @@ be able to see the codemark.
 
 From the command line, do a `git remote -v` to confirm whether or not you have a
 remote URL configured for this repository. If there is no remote URL, find out
-the correct URL and then specify the remote by doing a `git remote add origin
-<remote URL>`.
+the correct URL and then specify the remote by doing a `git remote add origin <remote URL>`.
 
 ## Unsaved File
 

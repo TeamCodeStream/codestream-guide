@@ -8,8 +8,8 @@ company/organization may have more than one team on CodeStream. A good analogy
 is your #development channel on Slack. A small company probably starts with a
 single channel where all development communication happens, but as the company
 grows and the number of developers grow, conversations start to move from the
-single development channel to more narrowly focused channels (e.g., #backend,
-#mobile, etc.). And of course, some developers are in more than one, or even all
+single development channel to more narrowly focused channels (e.g., backend,
+mobile, etc.). And of course, some developers are in more than one, or even all
 of those channels.
 
 You can think of a CodeStream team the same way. While not every codemark or
