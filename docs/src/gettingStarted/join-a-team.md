@@ -5,10 +5,10 @@ description:
 
 If any of your teammates are already on CodeStream you’ll want to join their
 CodeStream team, and in order to do so you’ll need one of them to invite you.
-Once you receive the invitation email, click on the "Find your team" button to
+Once you receive the invitation email, click on the "Join an existing team" button to
 get started.
 
-![Join Team](../assets/images/InitialPane1.png)
+![Join Team](../assets/images/InitialPane2.png)
 
 Copy the invitation code from the email, paste it into the form, and then click
 "Join".
