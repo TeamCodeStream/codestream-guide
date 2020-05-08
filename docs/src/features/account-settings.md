@@ -1,5 +1,5 @@
 ---
-title: Account Settings
+title: Account Settings & Profile
 description: 
 ---
 
@@ -14,3 +14,17 @@ until you click on the link in the confirmation email sent to you.
 
 If you would like to cancel your CodeStream account look for the option to do so
 under Other Actions.
+
+## Profile
+
+If you click on a headshot from the Team tab, or anywhere else in CodeStream
+(e.g., activity feed, a codemark thread, etc.) you'll be taken to the person's
+profile page.
+
+![Profile Page](../assets/images/ProfilePage.png)
+
+When viewing your own profile page, hover over entries for username, email
+address, phone number, works on or the profile photo to see a pencil icon that
+will allow you to make changes.
+
+![Edit Profile](../assets/images/EditProfile.png)
