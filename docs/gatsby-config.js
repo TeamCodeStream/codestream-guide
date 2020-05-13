@@ -62,6 +62,7 @@ module.exports = {
 						'faq/git-access',
 						'faq/need-teams',
 						'faq/git-issues',
+						'faq/proxy-support',
 						'faq/client-logs',
 					],
 				},
