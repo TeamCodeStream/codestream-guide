@@ -26,6 +26,12 @@ Admins can also assign/remove admin privileges or remove people from the team.
 
 ![Admin Rights](../assets/images/AdminRights.png)
 
+For CodeStream On-Prem installations where outbound email hasn't been
+configured, when you invite someone CodeStream will provide you with the
+invitation code that you can then email/message to the person on your own.
+
+![Invite Manually](../assets/images/InviteOnPrem.png)
+
 ## Team Settings
 
 If you are a team admin, the team name on the Team tab will be a dropdown
