@@ -146,7 +146,8 @@ reviewing the changes.
 Click on any file in the Changed Files section to review the changes. You’ll be
 presented with a diff in your editor, and you can step through the changes in
 the file using the up and down arrows provided by your IDE at the top of the
-editor.
+editor. Note that for JetBrains IDEs, CodeStream doesn't currently support the
+"Unified viewer" for diffs. Just the "Side-by-side viewer".
 
 ![Navigate Changes](../assets/images/NavigateChanges.png)
 
