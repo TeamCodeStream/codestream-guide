@@ -186,7 +186,7 @@ changes.
 While you are performing a review, you can even comment on files that are not
 part of the review, and they will get added as a reply to the review. This is
 helpful to be able to point your teammate to another location in the codebase
-that might have a hint of a better way to do something.
+that might be an example of a better way to do something.
 
 ![Request a Change](../assets/images/ReviewChgReqCheck.png)
 
@@ -212,6 +212,31 @@ the green “thumbs up” on the headshots of reviewers indicates those that hav
 already approved.
 
 ![Outstanding Approvals](../assets/images/ReviewIncomplete.png)
+
+## Amending a Review
+A typical code review workflow involves the reviewer leaving some comments or
+suggesting some changes, and then the developer responding to that feedback with
+more changes to the code. To continue the process you can amend the review to
+add your changes. Just look for the blue "+" at the top of the review. 
+
+![Amend Review](../assets/images/ReviewAmend.png)
+
+Amending a review is very similar to requesting the initial review in that you
+can choose from your saved and stages changes, and your local and pushed
+commits, to include in the update. Any open change requests are listed as well
+so that you can mark off any that are addressed by the update.
+
+![Amend Review Form](../assets/images/ReviewAmendForm.png)
+
+When the reviewer goes back into the review, by default they’ll be looking at
+the complete change set (i.e., changes across all updates) as they go through
+the diffs for each file. They can, however, elect to view the diffs specific to
+any individual update.
+
+![Amend Review Form](../assets/images/ReviewCheckpoints.png)
+
+This process can continue across as many updates as needed to get to the
+ultimate approval of the review.
 
 ## Does it connect to a pull request?
 At the moment, there’s no formal connection between CodeStream code reviews and
