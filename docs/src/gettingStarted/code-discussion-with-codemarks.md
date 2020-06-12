@@ -67,6 +67,23 @@ and others so you can create an issue on one of those services directly from
 CodeStream. Learn more about [CodeStream's issue-tracking
 integrations](../features/issue-tracking-integrations).
 
+## Bringing the right people into the discussion
+
+When you create a codemark, CodeStream automatically mentions the people that
+most recently touched of the code you are commenting on. They may be the best
+people to answer your question, but you can, of course, remove those mentions
+and manually mention someone else if appropriate.
+
+![Auto Mention](../assets/images/AutoMention.png)
+
+It may be the case that the people that have touched the code aren't yet on
+CodeStream, in which case CodeStream will provide checkboxes to have them
+notified via email. They can simply reply to the email to have their comment
+posted to CodeStream, and of course they can install CodeStream to participate
+from their IDE.
+
+![Invitee Mention](../assets/images/InviteeMention.png)
+
 ## Different versions of the code?
 
 Maybe you’re on a feature branch, have local changes, or simply haven’t pulled

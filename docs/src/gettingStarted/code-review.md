@@ -48,13 +48,16 @@ on a Mac).
 CodeStream assumes that you are requesting a review based on the repo/branch of
 the file currently selected in your editor. If you have multiple repositories
 open in your IDE at the same time, you can change this via the repo dropdown at
-the very top of the form. The review title defaults to the name of the branch,
-and, depending on [your team's
-settings](../features/managing-the-team/#code-review-assignment--approval) some
-reviewers may be suggested. Hover of a reviewer’s name to see more details or to
-remove them. If multiple reviewers are assigned you may also have the option to
-determine whether any of them can approve the review, or if each one has to
-approve it individually.
+the very top of the form. 
+
+Depending on [your team's
+settings](../features/managing-the-team/#code-review-assignment--approval),
+CodeStream may suggest some reviewers. Based on the commit history of the code
+being changed, the suggestions may even include someone that isn't yet on your
+team (in which case they'd be notified via email). Hover of a reviewer’s name to
+see more details or to remove them. If multiple reviewers are assigned you may
+also have the option to determine whether any of them can approve the review, or
+if each one has to approve it individually.
 
 ![Suggested Reviewers](../assets/images/ReviewAssignment.png)
 

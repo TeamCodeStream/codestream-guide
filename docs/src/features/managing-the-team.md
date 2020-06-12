@@ -63,3 +63,19 @@ will randomly assign the review to any developer on the team. The Authorship
 options will suggest up to three reviewers based on the developers who wrote the
 lines of code impacted by the changes, as well as other developers who may have
 committed to the branch.
+
+## Blame Map
+
+By default, when you comment on code, CodeStream mentions (or offers to email)
+the author(s) of the code you are commenting on. But if that person has left the
+company, or transitioned to a different role, it might not be the right thing to
+do.
+
+![Blame Map](../assets/images/BlameMap.png)
+
+The Blame Map allows you to direct discussions about code that Dave worked on to
+someone else on the team. The next time someone asks a question about that code,
+or requests a review of changes to that code, Tracy will be mentioned/assigned
+instead of Dave.
+
+The blame map is accessible at the bottom of the Team tab, for team admins only.
