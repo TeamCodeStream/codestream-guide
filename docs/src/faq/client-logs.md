@@ -11,11 +11,11 @@ GitHub issue, or if you’d prefer, you can email them to support@codestream.com
 and reference the GitHub issue number in the subject.
 
 **JetBrains**
-- Go to Help > Diagnostic Tools > Debug Log Settings… in your IDE.
+<!--- Go to Help > Diagnostic Tools > Debug Log Settings… in your IDE.
 - In the "Custom Debug Log Configuration" dialog, add `#com.codestream:trace`
   and then click OK. (Note that you can remove this after you’ve sent us the log
   files so that logging isn't as verbose.)
-- Restart the IDE.
+- Restart the IDE.-->
 - Reproduce the issue and then go to Help > Collect Logs and Diagnostic Data.
   This will open the finder where you should see a newly created zip file.
 
