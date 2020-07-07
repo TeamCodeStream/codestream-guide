@@ -132,7 +132,7 @@ There are some additional filters related to code reviews:
 * Your Code Reviews - All code reviews you have requested.
 * Everything impacting code you wrote - All code reviews that include changes to
   code that you wrote.
-* Custom filters - Use [advanced search syntax](../features/filter-and-search)
+* Custom filters - Use [advanced search syntax](../features/filter-and-search#advanced-search-syntax)
   to create, and optionally save, your own filters based on review status,
   author, assignee, etc.
 
