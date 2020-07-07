@@ -25,7 +25,7 @@ name, you’ll see the branch name, line additions/deletions, a count of the
 number of changes to code that you wrote (in lines of code), and a warning if
 any of the changes could lead to a merge conflict.
 
-![Team Tab](../assets/images/TeamTab.png)
+![Team Tab](../assets/images/TeamTab1.png)
 
 You can also hover over an entry to see the files that have been changed,
 including ones that represent potential merge conflicts, and how recently this
@@ -46,9 +46,9 @@ you’re immediately aware of when other developers are working in the same file
 as you. If another developer has the same file open in their IDE and has made
 changes, you’ll see the following message.
  
-![Editing](../assets/images/LiveViewEditing.png)
+![Editing](../assets/images/LiveViewEditing1.png)
 
 If both you and the other developer have made changes to the file, you’ll see
 the following message.
 
-![Merge Conflict](../assets/images/LiveViewMergeConflict.png)
+![Merge Conflict](../assets/images/LiveViewMergeConflict1.png)

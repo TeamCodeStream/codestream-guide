@@ -34,7 +34,7 @@ codemarks if they’re @mentioned.
 To create an additional CodeStream team, just look for the “Create New Team”
 menu option.
 
-![Create New Team](../assets/images/CreateNewTeam.png)
+![Create New Team](../assets/images/CreateNewTeam1.png)
 
 When creating a new team you'll also be able to specify which
 organization/company it belongs to. If you're creating a team for a side

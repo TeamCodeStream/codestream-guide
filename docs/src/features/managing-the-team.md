@@ -13,7 +13,7 @@ You can invite people by entering their email address and, if you're an admin,
 you'll also see a list of suggested teammates based on the people that have
 committed to the repos you currently have open.
 
-![Invite People](../assets/images/Invite.png)
+![Invite People](../assets/images/TeamTab1.png)
 
 Occassionally CodeStream invitations can end up in spam folders or be blocked by
 some corporate email systems. If the emails aren't getting through, just hover

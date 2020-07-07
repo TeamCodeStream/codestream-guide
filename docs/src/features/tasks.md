@@ -3,7 +3,7 @@ title: Tasks
 description: 
 ---
 
-The new “Tasks” tab gives you quick access to everything on your plate. Open
+The “Tasks” tab gives you quick access to everything on your plate. Open
 code reviews. Work in progress in your IDE. And the backlog of tickets assigned
 to you in your issue tracker.  All accessible, and actionable, right from your
 IDE.

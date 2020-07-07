@@ -8,7 +8,7 @@ codemarks and code reviews however you see fit. By default, you’ll get a view 
 any open issues or code reviewers assigned to you, followed by all open issues
 and code reviews.
 
-![Filter and Search](../assets/images/FilterAndSearch.png)
+![Filter and Search](../assets/images/FilterAndSearch1.png)
 
 Hover over any codemark or code review in the list to get more details.
 
