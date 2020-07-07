@@ -49,3 +49,15 @@ If you need to work on something that doesn’t have an associated ticket you ca
 either click “Ad-hoc Work” to get started without a ticket, or click “New Item”
 to create a ticket in your issue tracking service right from CodeStream. You can
 even associate that ticket with a block of code in your editor!
+
+Whether it's an ad-hoc item or a ticket from your issue tracker, once you've
+decided what you're working on it will be reflected in the Work In Progress
+section. To clear your selection, just hover over the ticket name and click the
+"x" that appears to the right.
+
+![Work in Progress](../assets/images/Tasks-WIP.png)
+
+It will also be reflected on the Team tab.
+
+![Team Tab](../assets/images/Team-MyStatus.png)
+
