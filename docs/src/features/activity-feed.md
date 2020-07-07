@@ -11,7 +11,7 @@ means that there are new codemarks or replies, and a blue badge with a number
 inside means that there are new codemarks or replies where you’ve been mentioned
 (with the number indicating the number of mentions).
 
-![Activity Feed Badge](../assets/images/ActivityFeedWithBadge.png)
+![Activity Feed Badge](../assets/images/ActivityFeedWithBadge1.png)
 
 Note that CodeStream’s entry in your IDE’s status bar also let’s you know when
 there are new messages in the feed. A dot to the right of your username means

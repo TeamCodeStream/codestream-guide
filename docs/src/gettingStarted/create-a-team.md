@@ -42,6 +42,6 @@ Now that you’ve created a team, and are signed into CodeStream, it’s time to
 
 Click on the Team tab in CodeStream’s top navigation to invite your teammates.
 
-![Team Tab](../assets/images/TeamTab.png)
+![Team Tab](../assets/images/TeamTab1.png)
 
 You’ll see a list of people already on the team, and can invite others by email address.

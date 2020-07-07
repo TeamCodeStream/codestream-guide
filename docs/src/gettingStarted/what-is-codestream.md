@@ -68,4 +68,4 @@ exposed to their teammates through CodeStream. The information is displayed
 contextually, in the IDE, and even warns teammates of potential merge conflicts…
 before they happen!
 
-![Live View](../assets/images/TeamTab.png)
+![Live View](../assets/images/TeamTab1.png)

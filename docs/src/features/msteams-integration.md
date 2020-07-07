@@ -94,7 +94,7 @@ Note that if you’re using a JetBrains IDE you’ll need to first install the
 [Toolbox App](https://www.jetbrains.com/toolbox-app/) so that CodeStream can
 deep link into the IDE.
 
-### Open on GitHub [or Bitbucket or GitLab]
+### Open on GitHub (or Bitbucket or GitLab)
 
 If the code block is from a repo hosted on GitHub, Bitbucket or GitLab, this
 button will take you to the corresponding block of code on that hosting service.
