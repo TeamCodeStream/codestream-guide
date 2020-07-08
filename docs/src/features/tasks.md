@@ -38,7 +38,7 @@ for both you and the person doing the review.
 Once you’ve connected CodeStream to your team’s issue tracking service,
 everything assigned to you will be listed here.
 
-![List of Tickets](../assets/images/WorkingOn-Tickets.png)
+![List of Tickets](../assets/images/WorkingOn-Tickets1.png)
 
 Note that you can be connected to multiple services at once, simply by selecting
 them from the dropdown list.
@@ -61,7 +61,7 @@ Or just click on a ticket to [start work](../workflow/start-work) by creating a
 feature branch, updating the ticket status, and even updating your status on
 Slack.
 
-![Start Work](../assets/images/StartWork.png)
+![Start Work](../assets/images/StartWork1.png)
 
 If you need to work on something that doesn’t have an associated ticket, you can
 either click “Ad-hoc Work” to get started without a ticket.

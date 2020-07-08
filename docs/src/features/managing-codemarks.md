@@ -10,7 +10,7 @@ edit or delete it. Note that in most cases it might make sense to archive (see
 below) a codemark instead of deleting it, so that the codemark can still provide
 some value down the road.
 
-![Codemark Menu](../assets/images/CodemarkMenu.png)
+![Codemark Menu](../assets/images/CodemarkMenu1.png)
 
 ## Archiving & Resolving
 
@@ -34,14 +34,6 @@ codemark. Someone else looking at this codemark down the road won’t need to go
 hunting for the most relevant information.
 
 ![Starred Reply](../assets/images/StarredReply1.png)
-
-## Keyboard Shortcuts
-
-In addition to the shortcuts above for creating codemarks, you can also set a
-shortcut for any individual codemark by selecting "Set Keybinding" from the
-ellipses menu at the top-right of the codemark. 
-
-![Codemark Shortcut](../assets/images/CodemarkWithShortcut.png)
 
 ## Reposition Codemark
 

@@ -14,12 +14,12 @@ all in one step, right from your IDE.
 To get started, head to the Tasks tab in CodeStream and connect to your team’s
 issue tracking service.
 
-![Connect Issue Tracker](../assets/images/WorkingOn-Connect.png)
+![Connect Issue Tracker](../assets/images/WorkingOn-Connect1.png)
 
 Once you’re connected, you’ll be able to see all of the tickets assigned to you,
 filtering by project, board, list, etc., as you see fit. 
 
-![List of Tickets](../assets/images/WorkingOn-Tickets.png)
+![List of Tickets](../assets/images/WorkingOn-Tickets1.png)
 
 You can view any ticket on the appropriate issue tracking service.
 
@@ -27,13 +27,13 @@ You can view any ticket on the appropriate issue tracking service.
 
 Or just click on a ticket to get started!
 
-![Start Work](../assets/images/StartWork.png)
+![Start Work](../assets/images/StartWork1.png)
 
 If your team uses a feature branch Git workflow, you can create a branch to do
 your work on. Expand the dropdown for options to change repos, edit the branch
 name, change the base branch, or select an existing branch.
 
-![Branch Details](../assets/images/StartWork-Branch.png)
+![Branch Details](../assets/images/StartWork-Branch1.png)
 
 If you’re a team admin, you can even set up a branch naming template for the
 team so that all of the team’s feature branches get named in a consistent

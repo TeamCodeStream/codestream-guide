@@ -17,7 +17,7 @@ Note that CodeStream’s entry in your IDE’s status bar also let’s you know 
 there are new messages in the feed. A dot to the right of your username means
 there are new messages, and a number means there are new mentions.
 
-![Status Bar](../assets/images/StatusBarWithMentions.png)
+![Status Bar](../assets/images/StatusBarWithMentions1.png)
 
 As you might expect, new stuff gets added to the top of the feed, even if it’s a
 new reply to a very old codemark. CodeStream makes it even easier to identify
