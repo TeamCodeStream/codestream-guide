@@ -11,4 +11,4 @@ cd $CSG_TOP
 
 # uncomment these if you use iterm2 and want to colorize your tabs
 # . $DT_TOP/lib/iterm2-utils.sh
-# it2_tab_rgb `basename ${BASH_SOURCE[0]}` 110 188 145
+# it2_tab_rgb {{SBNAME_csguide}} 110 188 145
