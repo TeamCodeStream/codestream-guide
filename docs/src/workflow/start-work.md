@@ -17,7 +17,7 @@ issue tracking service.
 ![Connect Issue Tracker](../assets/images/WorkingOn-Connect1.png)
 
 Once you’re connected, you’ll be able to see all of the tickets assigned to you,
-filtering by project, board, list, etc., as you see fit. 
+filtering by project, board, list, etc., as you see fit.
 
 ![List of Tickets](../assets/images/WorkingOn-Tickets1.png)
 
@@ -27,19 +27,19 @@ You can view any ticket on the appropriate issue tracking service.
 
 Or just click on a ticket to get started!
 
-![Start Work](../assets/images/StartWork1.png)
+![Start Work](../assets/images/StartWork2.png)
 
 If your team uses a feature branch Git workflow, you can create a branch to do
-your work on. Expand the dropdown for options to change repos, edit the branch
-name, change the base branch, or select an existing branch.
+your work on. Use the dropdowns to either change the base branch or edit the
+name of the feature branch.
 
-![Branch Details](../assets/images/StartWork-Branch1.png)
+![Branch Details](../assets/images/StartWork-BranchOptions.png)
 
 If you’re a team admin, you can even set up a branch naming template for the
 team so that all of the team’s feature branches get named in a consistent
 manner.
 
-![Branch Template](../assets/images/StartWork-BranchTemplate.png)
+![Branch Template](../assets/images/StartWork-BranchTemplate1.png)
 
 Depending on which issue tracking service you use, you can also choose to update
 the ticket’s status. For example, if you use Trello, you’ll be able to move the

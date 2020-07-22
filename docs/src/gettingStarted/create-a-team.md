@@ -16,9 +16,9 @@ If you already have the CodeStream extension [installed in your
 IDE](install-codestream), you can start the signup process from the CodeStream
 pane.
 
-![Create a Team](../assets/images/InitialPane3.png)
+![Create a Team](../assets/images/InitialPane4.png)
 
-Click on the "Create a team" button to get started.
+Click on the "Sign Up and Create a team" button to get started.
 
 ![Create an Account](../assets/images/CreateAnAccount3.png)
 

@@ -47,7 +47,8 @@ them from the dropdown list.
 
 Click the Search button to search the list by keyword, and for many services you
 can also filter the list. For example, if you’re connected to Trello, you can
-filter to see a specific list or set of lists.
+filter to see a specific list or set of lists. For Jira and GitHub, you can even
+create custom queries.
 
 ![Filter Tickets](../assets/images/Tasks-FilterTkts.png)
 
@@ -61,7 +62,7 @@ Or just click on a ticket to [start work](../workflow/start-work) by creating a
 feature branch, updating the ticket status, and even updating your status on
 Slack.
 
-![Start Work](../assets/images/StartWork1.png)
+![Start Work](../assets/images/StartWork2.png)
 
 If you need to work on something that doesn’t have an associated ticket, you can
 either click “Ad-hoc Work” to get started without a ticket.
