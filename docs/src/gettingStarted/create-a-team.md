@@ -20,11 +20,11 @@ pane.
 
 Click on the "Sign Up and Create a team" button to get started.
 
-![Create an Account](../assets/images/CreateAnAccount3.png)
+![Create an Account](../assets/images/CreateAnAccount4.png)
 
 You can sign up by either creating a set of CodeStream credentials (i.e., email
-address and password), or you can sign up using GitHub. Note that signup via
-GitHub currently works with GitHub's cloud service.
+address and password), or you can sign up using GitHub, GitLab or Bitbucket
+(cloud versions only).
 
 If you sign up via CodeStream, your next step will be to confirm your email
 address by entering a code sent to you via email. Note that you can paste the

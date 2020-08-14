@@ -17,11 +17,11 @@ Copy the invitation code from the email, paste it into the form, and then click
 
 You'll then be taken to CodeStream’s signup form.
 
-![Create an Account](../assets/images/CreateAnAccountInvite2.png)
+![Create an Account](../assets/images/CreateAnAccountInvite3.png)
 
 You can sign up by either creating a set of CodeStream credentials (i.e., email
-address and password), or you can sign up using GitHub. Note that signup via
-GitHub currently works with GitHub's cloud service.
+address and password), or you can sign up using GitHub, GitLab or Bitbucket
+(cloud versions only). 
 
 If you sign up via CodeStream, and you want to use an email address other than
 the one the invitation was sent to, you can simply replace the one that was
