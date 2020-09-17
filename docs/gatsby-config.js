@@ -68,6 +68,7 @@ module.exports = {
 						'faq/git-access',
 						'faq/need-teams',
 						'faq/github-org-repos',
+						'faq/jira-server-integration',
 						'faq/proxy-support',
 						'faq/git-issues',
 						'faq/cspane-in-vsc',

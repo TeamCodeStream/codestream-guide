@@ -26,11 +26,6 @@ the right side of the search box.
 
 ## Advanced Search Syntax
 
-Note that some filters below refer to CodeStream’s new code review
-functionality, which is currently in beta and only available in our extensions
-for VS Code and JetBrains. If your team is interested in participating in the
-beta, reach out to us at support@codestream.com.
-
 - **status:open** - Returns all open issue codemarks and code reviews.
 - **status:closed** - Returns all resolved issue codemarks.
 - **status:approved** - Returns all approved code reviews.
@@ -43,7 +38,7 @@ beta, reach out to us at support@codestream.com.
 - **impacts:@** - Returns all code reviews that cover code that you (@me) or any teammate (@username) have touched.
 - **assignee:@** - Returns all issue codemarks and code reviews assigned to you (@me) or a teammate (@username).
 - **reviewer:@** - Returns all issue codemarks and code reviews assigned to you (@me) or a teammate (@username).
-- **tag:** - Returns all codemarks and code reviews with the specified tag. Use quotes around multi-word tags (e.g., tag:"api server").
+- **tag:** - Returns all codemarks and code reviews with the specified tag. Use quotes around multi-word tags (e.g., tag:"api server"). You can combine multiple tags to create an AND query. For example, `tag:blue tag:green` will return codemarks and reviews that have both blue and green tags.
 - **no:tag** - Returns all codemarks and code reviews that have no tags.
 - **branch:** - Returns all codemarks and code reviews created against the specified branch.
 - **commit:** - Returns all codemarks and code reviews that include code with the specified commit ID.

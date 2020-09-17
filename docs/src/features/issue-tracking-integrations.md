@@ -3,16 +3,13 @@ title: Issue Tracking Integrations
 description: 
 ---
 
-With the ability to comment on any line of code in your codebase, and not just
-code that has recently been changed, CodeStream represents a lightweight form of
-continuous code review. See some problematic code? Just select it and create an
-issue!
-
 If your team uses Jira (cloud or Server), Azure DevOps, Trello, Asana, GitHub
-(cloud or Enterprise), Bitbucket (cloud), GitLab (cloud or Self-Managed) or YouTrack for
-tracking issues, you can create an issue on one of those services directly from
-CodeStream. Just select the service you use from the dropdown at the top of the
-CodeMark form.
+(cloud or Enterprise), Bitbucket (cloud), GitLab (cloud or Self-Managed) or
+YouTrack for tracking issues, you can create an issue on one of those services
+directly from CodeStream. Just select the service you use from the dropdown at
+the top of the codemark form. Note that the Jira Server integration requires [a
+little up-front work](../faq/jira-server-integration) from your Jira
+administrator.
 
 ![Issue-Tracking Services](../assets/images/IssueTrackingIntegrations.png)
 
