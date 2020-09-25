@@ -3,8 +3,8 @@ title: Request a code review
 description: 
 ---
 
-_**CodeStream’s code review functionality is currently only available in
-our extensions for VS Code and JetBrains.**_
+_**CodeStream’s code review functionality is currently available in
+our extensions for VS Code, Visual Studio and JetBrains.**_
 
 Traditional code review happens at the end of the development cycle, when you’re
 looking to get the changes merged. Not only are end-of-cycle code reviews much
