@@ -20,7 +20,7 @@ pane.
 
 Click on the "Sign Up and Create a team" button to get started.
 
-![Create an Account](../assets/images/CreateAnAccount4.png)
+![Create an Account](../assets/images/CreateAnAccount5.png)
 
 You can sign up by either creating a set of CodeStream credentials (i.e., email
 address and password), or you can sign up using GitHub, GitLab or Bitbucket
@@ -30,18 +30,21 @@ If you sign up via CodeStream, your next step will be to confirm your email
 address by entering a code sent to you via email. Note that you can paste the
 code into any of the boxes rather than typing each number individually.
 
-![Confirm Email](../assets/images/EmailConfirmation.png)
+![Confirm Email](../assets/images/EmailConfirmation1.png)
 
 From there you’ll be asked to give your team a name.
 
 ![Team Name](../assets/images/TeamName.png)
 
-Now that you’ve created a team, and are signed into CodeStream, it’s time to invite your teammates!
+Now that you’ve created a team, and are signed into CodeStream, it’s time to
+invite your teammates!
 
 ## Invite your team
 
-Click on the Team tab in CodeStream’s top navigation to invite your teammates.
+Looks for the My Team section at the bottom of the CodeStream pane to invite
+your teammates.
 
-![Team Tab](../assets/images/TeamTab1.png)
+![Team Tab](../assets/images/MyTeamSection-Initial.png)
 
-You’ll see a list of people already on the team, and can invite others by email address.
+You’ll see a list of people already on the team, and can invite others by email
+address.

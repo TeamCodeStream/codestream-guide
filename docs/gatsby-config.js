@@ -41,8 +41,8 @@ module.exports = {
 					'CodeStream Workflow': [
 						'workflow/start-work',
 						'workflow/discuss-code',
-						'workflow/review-code',
-						'workflow/create-pr',
+						'workflow/feedback-requests',
+						'workflow/pull-requests',
 					],
 					'Using CodeStream': [
 						'features/tasks',

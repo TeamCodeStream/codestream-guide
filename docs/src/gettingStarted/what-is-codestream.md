@@ -19,10 +19,10 @@ their chat clients as well.
 
 ![CodeStream](../assets/images/animated/DiscussCode.gif)
 
-## In-IDE Code Review
+## Get Feedback on Work in Progress with Pre-PR Code Review
 
-CodeStream's lightweight code reviews let you request a review on any code
-regardless of the current state of your repo, without the friction of
+CodeStream's lightweight feedback requests let you have someone look over your
+changes regardless of the current state of your repo, without the friction of
 committing, pushing or issuing a pull request.
 
 ![Request a Code Review](../assets/images/animated/CodeReviewRequest.gif)
@@ -33,19 +33,31 @@ pull the latest.
 
 ![Review Changes](../assets/images/animated/CodeReviewPerform.gif)
 
-CodeStream’s code reviews are so easy that you can start doing them throughout
-the development process instead of waiting until the end. You’re a few days into
-a sprint and have some work stubbed out? Maybe some work that hasn’t even been
-committed. Request of a review of your work-in-progress so that you can identify
-and resolve issues early instead of saving those gotchas for when you need to
-get the code merged.
+CodeStream’s code feedback requests are so easy that you can start doing them
+throughout the development process instead of waiting until the end. You’re a
+few days into a sprint and have some work stubbed out? Maybe some work that
+hasn’t even been committed. Request of a review of your work in progress so that
+you can identify and resolve issues early instead of saving those gotchas for
+when you need to get the code merged.
+
+## Create and Review Pull Requests
+
+For most development teams, the final step in the development process is a pull
+request. Even if your team has decided to use CodeStream's [feedback
+requests](feedback-requests) as a replacement for, and not just a precursor to,
+your end-of-cycle PR-based code reviews, CodeStream allows you to keep all of
+that workflow right in your IDE. You can create pull requests, and review pull
+requests, right inside your IDE.
+
+![Review a Pull Request](../assets/images/animated/ReviewPullRequest.gif)
 
 ## Build the Knowledge Base Behind Your Codebase
 
 CodeStream turns conversation into documentation by capturing all of the
-discussion about your code, and saving it with your code. Comment and code
-review threads are automatically repositioned as your code changes, even across
-branches. All with zero effort on your part.
+discussion about your code, whether it was from a pull request, a feedback
+request, or just an ad-hoc question/comment, and saving it with your code. And
+the real magix is that the discussions are automatically repositioned as your
+code changes, even across branches. All with zero effort on your part.
 
 ![Knowledge Base](../assets/images/animated/KnowledgeBase.gif)
 
@@ -54,18 +66,4 @@ now accessible right where you need them, when you need them. Just click on the
 codemark to expand it and see how something works or why something was done a
 certain way.
 
-## Team Transparency through Live View
 
-Development is a collaborative activity, yet much of it happens in isolation,
-with work only shared with the team at the end of a cycle, or sprint.
-CodeStream’s “LiveView” increases transparency by making the local edits of
-individual developers visible to team members, so that everyone knows what
-everyone else is working on, in real-time.
-
-As developers write code, whether editing existing files or creating new files,
-a summary of their changes, including the repo(s), files, and lines changed is
-exposed to their teammates through CodeStream. The information is displayed
-contextually, in the IDE, and even warns teammates of potential merge conflicts…
-before they happen!
-
-![Live View](../assets/images/TeamTab1.png)

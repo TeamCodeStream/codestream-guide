@@ -19,10 +19,10 @@ Studio](https://marketplace.visualstudio.com/items?itemName=CodeStream.codestrea
 [Atom](https://atom.io/packages/codestream). Support for more editors is on the
 way.
 
-Once you've installed the extension, the CodeStream view should automatically
-appear at the right side of your editor. If for some reason it doesn't, simply
-click on the CodeStream entry in your IDE's status bar. Just look for the double
-chat bubble icon followed by "CodeStream".
+Once you've installed the extension, the CodeStream pane should automatically
+appear in the sidebar for VS Code, or in a tool window at the right side for a
+JetBrains IDE or Visual Studio. If for some reason it doesn't, simply click on
+the CodeStream entry in your IDE's status bar.
 
 Now that you’ve got the plugin up and running, you’re ready to sign up and
 create a team!
