@@ -21,10 +21,12 @@ reviewing your changes before opening the pull request.
 ![Open a Pull Request](../assets/images/OpenPullRequest.png)
 
 With a single click you can name the pull request based on the last commit
-message, the branch name, or, if you [started work by selecting a ticket](start-work), the
-ticket title. If you have a ticket selected, you can also explicitly tie the
-ticket to the pull request, and CodeStream will include a link to the ticket in
-the pull request's description.
+message, the branch name, or, if you [started work by selecting a
+ticket](start-work), the ticket title. If you have a ticket selected, you can
+also explicitly tie the ticket to the pull request, and CodeStream will include
+a link to the ticket in the pull request's description. Before submitting the
+pull request you can even review your changes by clicking on any of the files
+listed below the form.
 
 You can also create a pull request from within a CodeStream feedback request.
 Once the feedback request has been approved, you’ll see an option to open a pull
@@ -78,6 +80,10 @@ either List View or Tree View. Just select the code you want to comment on, and
 then cick on the Comment button (or select Comment from the context menu).
 
 ![Add Comment](../assets/images/PRComment-GH.png)
+
+When commenting you can either add a single comment, or start a review.
+
+![Start a Review](../assets/images/PRCommentForm-GH.png)
 
 Another difference from GitHub is that CodeStream allows you to comment on lines
 of code that haven't changed. You can select ANY lines of code in the diff, and
