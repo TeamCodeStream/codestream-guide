@@ -188,7 +188,7 @@ some changes, and then the developer responding to that feedback with more
 changes to the code. To continue the process, click the blue Amend button to add
 your changes.
 
-![Amend Review](../assets/images/ReviewAmeFRAmend.png)
+![Amend Review](../assets/images/FRAmend.png)
 
 As when you originally submitted the feedback request, you can choose from your
 saved and stages changes, and your local and pushed commits. Any open change

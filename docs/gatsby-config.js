@@ -47,7 +47,6 @@ module.exports = {
 					'Using CodeStream': [
 						'features/tasks',
 						'features/activity-feed',
-						'features/creating-codemarks',
 						'features/managing-codemarks',
 						'features/slack-integration',
 						'features/msteams-integration',
@@ -71,7 +70,6 @@ module.exports = {
 						'faq/jira-server-integration',
 						'faq/proxy-support',
 						'faq/git-issues',
-						'faq/cspane-in-vsc',
 						'faq/client-logs',
 					],
 				},

@@ -17,8 +17,8 @@ Not to worry! There are a couple of ways you can still participate in CodeStream
 discussions with the rest of your team.
 
 * **Email Notifications** - By default, you’ll receive email notifications for
-  codemarks where you’re mentioned, and you can even reply to the email and your
-  reply will get posted to CodeStream.
+  codemarks and feature requests where you’re mentioned, and you can even reply
+  to the email and your reply will get posted to CodeStream.
 * **Slack Sharing** - Codemarks can optionally be shared out to channels and
   direct messages on Slack, and teammates can add replies directly from Slack.
   If one or more people on your team use an IDE that isn’t supported by

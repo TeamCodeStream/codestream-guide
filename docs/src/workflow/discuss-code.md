@@ -60,7 +60,11 @@ issues instead of inline FIXMEs.
 
 CodeStream integrates with issue-tracking services such as Jira, Trello, GitHub,
 and others so you can create an issue on one of those services directly from
-CodeStream. Learn more about [CodeStream's issue-tracking
+CodeStream. 
+
+![Issue Tracking Services](../assets/images/CodemarkIssueServices.png)
+
+Learn more about [CodeStream's issue-tracking
 integrations](../features/issue-tracking-integrations).
 
 ## Bringing the right people into the discussion
@@ -98,4 +102,50 @@ source file, at any time, even if it’s code that you just typed into your edit
 and haven’t yet saved or committed. CodeStream allows you to discuss code at the
 very earliest stages of the development process.
 
-[Learn more about codemarks](../features/creating-codemarks)
+## Advanced Features
+
+### Multiple Ranges
+
+Many discussions about code involve more than just one block of code, and
+concepts are often best presented when you can refer to multiple code locations
+at once. To create a multi-range codemark, click on "+ Add Code Block".
+
+![Add Code Block](../assets/images/CodemarkAddRange.png)
+
+And then select another block of code from the same file, a different file, or
+even a different repo.
+
+![Select Range](../assets/images/CodemarkSelectRange.png)
+
+Once you've created the codemark, you can easily jump between the different
+locations by clicking the Jump icon at the bottom-right of each code block.
+
+### Tagging
+
+Look for the tag icon inside the codemark compose box to either select a tag or
+create a tag using any combination of color and text label.
+
+![Tags Popup](../assets/images/TagsPopup.png)
+
+Tags are a great way to broadly organize and group your team’s codemarks, and
+the possibilities here are endless. Note that you can also filter by tag on the
+[Filter & Search page](../features/filter-and-search).
+
+### Related Codemarks
+
+Click on the CodeStream icon in the codemark compose form to select other,
+related codemarks to “attach” to the current codemark. This allows you to easily
+establish a connection between different parts of a codebase. For example, when
+a change to one part of the codebase would require a change to another part,
+identify the dependency by creating two related codemarks.
+
+![Related Codemarks](../assets/images/AddCodelink.png)
+
+Once you’ve added the related codemarks they’ll be displayed in a “Related”
+section and you can click on any one to jump to that codemark and the
+corresponding section of the code.
+
+![Codemark with Related](../assets/images/CodemarkWithRelated.png)
+
+
+[Learn more about managing codemarks](../features/managing-codemarks)

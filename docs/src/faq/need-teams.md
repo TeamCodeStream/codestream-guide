@@ -31,10 +31,8 @@ are more relevant to them. Even if they never really switch to the other team
 when in CodeStream, they’ll still get email notifications for the other team’s
 codemarks if they’re @mentioned.
 
-To create an additional CodeStream team, just look for the “Create New Team”
-menu option.
-
-![Create New Team](../assets/images/CreateNewTeam1.png)
+To create an additional CodeStream team, click on your headshot at the top-left
+of the CodeStream pane and go to "Switch Team" > “Create New Team”.
 
 When creating a new team you'll also be able to specify which
 organization/company it belongs to. If you're creating a team for a side

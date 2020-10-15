@@ -20,12 +20,9 @@ and reference the GitHub issue number in the subject.
   This will open the finder where you should see a newly created zip file.
 
 **VS Code**
-- Go into your VS Code user settings and search for CodeStream. 
-- Scroll down to the Trace Level setting and make sure it's set to "Debug". 
-- Reload VS Code and then try to reproduce the issue. 
-- Open the Output view (“View: Toggle Output” from the command palette) and
-  select "CodeStream" from the dropdown menu at the top-right. Copy all of the
-  output you see and save it in a text file.
+- Reproduce the issue and then open the Output view (“View: Toggle Output” from
+  the command palette) and select "CodeStream" from the dropdown menu at the
+  top-right. Copy all of the output you see and save it in a text file.
 - Change the dropdown select to “CodeStream (Agent)” and grab that output as well.
 
 **Visual Studio**
