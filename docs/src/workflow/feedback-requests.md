@@ -36,7 +36,7 @@ clicking on the "+" button at the top of the CodeStream pane, or the "+"
 button in the header of the Feedback Requests section. You can also use a
 keyboard shortcut (`ctlr+shift+/` `r`, or `ctrl+/` `r` on a Mac).
 
-![Request a Review](../assets/images/RequestReview.png)
+![Request a Review](../assets/images/RequestFeedback.png)
 
 With a single click you can name the feedback request based on the last commit
 message, the branch name, or, if you [started work by selecting a
@@ -60,7 +60,7 @@ The Changed Files section lists all of the files that have been added, removed
 or modified. Click on any file to view a diff if you want to review your changes
 before submitting the feedback request.
 
-![Changed Files](../assets/images/ChangedFiles.png)
+![Changed Files](../assets/images/ChangedFiles1.png)
 
 If you have a file that’s not suitable for review, such as a checked-in binary
 file, you can hover over any file and click the "x" to exclude that file from the
@@ -92,7 +92,8 @@ uncheck the boxes for all preceding commits. In other words, the commits
 included in the feedback request must be consecutive. Only your commits are
 checked by default, but you can include any of them in your review. (Tip: Make
 sure the email address in your git configuration matches your CodeStream email
-address.)
+address. Or, ask your CodeStream team's admin to set up a blame map to map your
+git email address to you CodeStream email address.)
 
 Lastly, you can optionally share the feedback request out to either Slack or
 Microsoft Teams.
@@ -109,7 +110,7 @@ set aside their own work to switch branches or pull changes, and no need to for
 them to leave their IDE. As long as they have the appropriate repo, they can
 simply open the feedback request and start reviewing the changes.
 
-![Reviewing Changes](../assets/images/ReviewDiff2.png)
+![Reviewing Changes](../assets/images/FRDiff.png)
 
 Click on any file in the Changed Files section to review the changes. You’ll be
 presented with a diff in your editor, and you can step through the changes in
@@ -134,14 +135,14 @@ continuity.
 If you have a general comment about the changes, just add a reply to the
 feedback request's thread.
 
-![Reply to a Review](../assets/images/ReviewReply1.png)
+![Reply to a Review](../assets/images/FRReply.png)
 
 But if you want to comment on the actual changes, just select some code from the
 right side of the diff and then click on the comment button that appears in the
 CodeStream pane next to your selection. You can also use a keyboard shortcut
 (`ctlr+shift+/` `c`, or `ctrl+/` `c` on a Mac) after selecting some code.
 
-![Comment on Changes](../assets/images/ReviewComment.png)
+![Comment on Changes](../assets/images/QS-FeedbackRequest.png)
 
 Since you have the full file context, you aren’t limited to commenting on just
 the lines of code that changed. For example, you might notice another part of
@@ -170,7 +171,7 @@ will be replaced by a blue button that indicates the number. You can still
 approve the changes but we wanted to make sure you were aware of the outstanding
 work.
 
-![Outstanding Change Requests](../assets/images/ApproveWithChgReqs1.png)
+![Outstanding Change Requests](../assets/images/ApproveWithChgReqs2.png)
 
 When there are multiple reviewers, and approval is required from each,
 CodeStream makes it very clear when there are still outstanding approvals. The
@@ -187,7 +188,7 @@ some changes, and then the developer responding to that feedback with more
 changes to the code. To continue the process, click the blue Amend button to add
 your changes.
 
-![Amend Review](../assets/images/ReviewAmend1.png)
+![Amend Review](../assets/images/ReviewAmeFRAmend.png)
 
 As when you originally submitted the feedback request, you can choose from your
 saved and stages changes, and your local and pushed commits. Any open change
