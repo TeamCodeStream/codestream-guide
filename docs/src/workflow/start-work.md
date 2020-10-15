@@ -14,12 +14,12 @@ all in one step, right from your IDE.
 To get started, look for the Issues section in the CodeStream pane and connect
 to your team’s issue tracking service.
 
-![Connect Issue Tracker](../assets/images/WorkingOn-Connect1.png)
+![Connect Issue Tracker](../assets/images/IssuesSection-Connect.png)
 
 Once you’re connected, you’ll be able to see all of the issues assigned to you,
 filtering by project, board, list, etc., as you see fit.
 
-![List of Issues](../assets/images/WorkingOn-Tickets1.png)
+![List of Issues](../assets/images/IssuesSection-Backlog.png)
 
 You can view any issue on the appropriate issue tracking service.
 
@@ -55,5 +55,5 @@ decided what you're working on it will be reflected in the Work In Progress
 section. To clear your selection, just hover over the issue name and click the
 "x" that appears to the right.
 
-![Work in Progress](../assets/images/Tasks-WIP.png)
+![Work in Progress](../assets/images/WIPSection.png)
 

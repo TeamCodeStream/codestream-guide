@@ -25,7 +25,7 @@ CodeStream's lightweight feedback requests let you have someone look over your
 changes regardless of the current state of your repo, without the friction of
 committing, pushing or issuing a pull request.
 
-![Request a Code Review](../assets/images/animated/CodeReviewRequest.gif)
+![Feedback Request](../assets/images/animated/CodeReviewRequest.gif)
 
 Your teammates can review your changes right in their IDE, with full file
 context, and with no need to set aside their current work to switch branches or
@@ -44,7 +44,7 @@ when you need to get the code merged.
 
 For most development teams, the final step in the development process is a pull
 request. Even if your team has decided to use CodeStream's [feedback
-requests](feedback-requests) as a replacement for, and not just a precursor to,
+requests](../workflow/feedback-requests) as a replacement for, and not just a precursor to,
 your end-of-cycle PR-based code reviews, CodeStream allows you to keep all of
 that workflow right in your IDE. You can create pull requests, and review pull
 requests, right inside your IDE.

@@ -16,7 +16,7 @@ If you already have the CodeStream extension [installed in your
 IDE](install-codestream), you can start the signup process from the CodeStream
 pane.
 
-![Create a Team](../assets/images/InitialPane4.png)
+![Create a Team](../assets/images/InitialPane5.png)
 
 Click on the "Sign Up and Create a team" button to get started.
 
@@ -34,7 +34,7 @@ code into any of the boxes rather than typing each number individually.
 
 From there you’ll be asked to give your team a name.
 
-![Team Name](../assets/images/TeamName.png)
+![Team Name](../assets/images/TeamName1.png)
 
 Now that you’ve created a team, and are signed into CodeStream, it’s time to
 invite your teammates!
