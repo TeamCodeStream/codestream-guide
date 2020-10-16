@@ -25,7 +25,7 @@ you’ll see the codemark move right along with the changes.
 Create a codemark by selecting a block of code in your editor and then clicking
 on one of the icons that appears in the CodeStream pane next to your selection.
 
-![New Codemark](../assets/images/animated/SpatialVSC2.gif)
+![New Codemark](../assets/images/animated/DiscussCode1-VSC.gif)
 
 Even when the CodeStream pane is closed or not in view, you can create a
 codemark via the CodeStream options in either the lightbulb or context menus.

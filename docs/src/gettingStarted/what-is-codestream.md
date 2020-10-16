@@ -17,7 +17,7 @@ participate in the discussion right from their IDE, and you can optionally share
 the discussion on Slack or Microsoft Teams so teammates can participate from
 their chat clients as well. 
 
-![CodeStream](../assets/images/animated/DiscussCode.gif)
+![CodeStream](../assets/images/animated/DiscussCode1-VSC.gif)
 
 ## Get Feedback on Work in Progress with Pre-PR Code Review
 
@@ -25,13 +25,13 @@ CodeStream's lightweight feedback requests let you have someone look over your
 changes regardless of the current state of your repo, without the friction of
 committing, pushing or issuing a pull request.
 
-![Feedback Request](../assets/images/animated/CodeReviewRequest.gif)
+![Feedback Request](../assets/images/animated/FRRequest-VSC.gif)
 
 Your teammates can review your changes right in their IDE, with full file
 context, and with no need to set aside their current work to switch branches or
 pull the latest. 
 
-![Review Changes](../assets/images/animated/CodeReviewPerform.gif)
+![Review Changes](../assets/images/animated/FRPerform-VSC.gif)
 
 CodeStream’s code feedback requests are so easy that you can start doing them
 throughout the development process instead of waiting until the end. You’re a
@@ -49,7 +49,7 @@ your end-of-cycle PR-based code reviews, CodeStream allows you to keep all of
 that workflow right in your IDE. You can create pull requests, and review pull
 requests, right inside your IDE.
 
-![Review a Pull Request](../assets/images/animated/ReviewPullRequest.gif)
+![Review a Pull Request](../assets/images/animated/PullRequest-VSC.gif)
 
 ## Build the Knowledge Base Behind Your Codebase
 
@@ -59,7 +59,7 @@ request, or just an ad-hoc question/comment, and saving it with your code. And
 the real magix is that the discussions are automatically repositioned as your
 code changes, even across branches. All with zero effort on your part.
 
-![Knowledge Base](../assets/images/animated/KnowledgeBase.gif)
+![Knowledge Base](../assets/images/animated/KnowledgeBase1-VSC.gif)
 
 Previously discussed questions and issues that explain important decisions are
 now accessible right where you need them, when you need them. Just click on the
