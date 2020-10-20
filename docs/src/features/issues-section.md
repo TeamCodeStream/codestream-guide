@@ -1,39 +1,7 @@
 ---
-title: Tasks
+title: Issues Section
 description: 
 ---
-
-The “Tasks” tab gives you quick access to everything on your plate. Open
-code reviews. Work in progress in your IDE. And the backlog of tickets assigned
-to you in your issue tracker.  All accessible, and actionable, right from your
-IDE.
-
-## Open Reviews
-
-The Open Review section lists all open code reviews that have been assigned to
-you, and all open code reviews that you have requested. Click on a review to
-jump in and start reviewing, or to see your teammate’s comments on your work.
-
-![Open Reviews](../assets/images/Tasks-OpenReviews.png)
-
-## Work In Progress
-
-The Work In Progress section is a snapshot of the local changes you have in
-flight in your IDE, as well as the associated ticket from your issue tracking
-service. Click on any file name to view a diff of your changes so far, and look
-out for the file names in orange as they represent potential merge conflicts.
-Hover over the file name to see which teammate you need to coordinate with to
-avoid a conflict.
-
-![Work in Progress](../assets/images/Tasks-WIP.png)
-
-Most importantly, click Request Review when you’re ready to have someone look at
-your changes. Remember that you don’t need to wait until the work is completed
-to get a review. Earlier reviews result in less rework and better code quality.
-Reviews of work-in-progress code, including uncommitted code, are frictionless
-for both you and the person doing the review.
-
-## What are you working on?
 
 Once you’ve connected CodeStream to your team’s issue tracking service,
 everything assigned to you will be listed here.

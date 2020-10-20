@@ -55,8 +55,8 @@ requests, right inside your IDE.
 
 CodeStream turns conversation into documentation by capturing all of the
 discussion about your code, whether it was from a pull request, a feedback
-request, or just an ad-hoc question/comment, and saving it with your code. And
-the real magix is that the discussions are automatically repositioned as your
+request, or a code comment/issue, and saving it with your code. And
+the real magic is that the discussions are automatically repositioned as your
 code changes, even across branches. All with zero effort on your part.
 
 ![Knowledge Base](../assets/images/animated/KnowledgeBase1-VSC.gif)
