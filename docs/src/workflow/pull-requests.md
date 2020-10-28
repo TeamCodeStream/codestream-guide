@@ -9,6 +9,15 @@ requests](feedback-requests) as a replacement for, and not just a precursor to,
 your end-of-cycle PR-based code reviews, CodeStream allows you to keep all of
 that workflow right in your IDE.
 
+There are three elements of CodeStream's pull-request integration, and the
+following table outlines which code-hosting services are supported for each.
+
+Feature|Supported Services
+-------------|-------
+Create a pull request|GitHub, GitHub Enterprise, GitLab, GitLab Self-Managed, Bitbucket, Bitbucket Server
+Review and edit a pull request|GitHub, GitHub Enterprise
+Display pull request comments as code annotations|GitHub, GitLab, Bitbucket
+
 ## Creating a pull request
 
 Open a pull request at any time by clicking on the "+" button at the top of the
@@ -92,3 +101,34 @@ added as a "single comment" to the pull request and aren't part of any review
 you may have in progress.
 
 All the power of GitHub pull requests, and then some, right in your IDE.
+
+## Leveraging pull request comments
+
+Once the pull request has been approved and the code has been merged that's
+usually the end of life for any comments in that pull request. Although there is
+often useful information in those comments, that may have long-term value, they
+are rarely seen again. CodeStream gives those comments a second life by
+displaying them alongside the blocks of code that they refer to. 
+
+![Pull Request Comment](../assets/images/PRComment-Gutter.png)
+
+To have pull request comments displayed as annotions in your codemarks, as well
+as in the Codemarks section of the CodeStream pane, click on the gear icon in
+that section and check the box to "Show comments from pull requests". When you
+first check that box, if you haven’t already authenticated with your
+code-hosting service you’ll be prompted to do so.
+
+![Show Pull Request Comments](../assets/images/CodemarksSection-Settings.png)
+
+Comments from merged PRs will appear next to the blocks of code they refer to.
+Comments from open PRs will also be included if you are on a relevant branch.
+For example, if the open PR is a request to merge the feature/foo branch into
+master, you’ll see comments from that PR if you are checked out to either
+feature/foo or master, but not when you’re on any other branch.
+
+As the code evolves, the location of each comment is automatically updated so
+that it remains linked to the block of code it refers to.
+
+Note that PR comments for a given file are updated roughly every 30 minutes, so
+new comments may not appear right away. You can force an update by restarting
+your IDE.

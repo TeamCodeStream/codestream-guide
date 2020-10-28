@@ -17,7 +17,8 @@ to your team’s issue tracking service.
 ![Connect Issue Tracker](../assets/images/IssuesSection-Connect.png)
 
 Once you’re connected, you’ll be able to see all of the issues assigned to you,
-filtering by project, board, list, etc., as you see fit.
+filtering by project, board, list, etc., as you see fit. You can even connect to
+multiple services!
 
 ![List of Issues](../assets/images/IssuesSection-Backlog.png)
 
@@ -47,7 +48,7 @@ selected card to another list (e.g., “In Progress”).
 
 If you need to work on something that doesn’t have an associated issue you can
 either click “Start ad-hoc Work” to get started without one, or click “New
-issue" to create an issue in your issue tracking service right from CodeStream.
+issue" to create an issue on your issue tracking service right from CodeStream.
 You can even associate that issue with a block of code in your editor!
 
 Whether it's an ad-hoc item or an issue from your issue tracker, once you've

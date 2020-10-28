@@ -5,7 +5,7 @@ description:
 
 The Team tab allows anyone on the team to invite additional teammates, and
 allows admins to manage the team’s members and settings. You’ll also see a [Live
-View](team-live-view) of what your teammates are working on.
+View](myteam-section) of what your teammates are working on.
 
 ## Managing People & Roles
 

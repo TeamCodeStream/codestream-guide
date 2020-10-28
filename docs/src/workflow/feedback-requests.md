@@ -92,8 +92,9 @@ uncheck the boxes for all preceding commits. In other words, the commits
 included in the feedback request must be consecutive. Only your commits are
 checked by default, but you can include any of them in your review. (Tip: Make
 sure the email address in your git configuration matches your CodeStream email
-address. Or, ask your CodeStream team's admin to set up a blame map to map your
-git email address to you CodeStream email address.)
+address. Or, ask your CodeStream team's admin to set up a [blame
+map](../features/myteam-section) to map your git email address to you CodeStream
+email address.)
 
 Lastly, you can optionally share the feedback request out to either Slack or
 Microsoft Teams.
@@ -206,7 +207,7 @@ specific to any individual update.
 
 This process can continue across as many updates as needed to get to the
 ultimate approval of the changes. And once the feedback request has been
-approved, you can [open a pull request](pull-requests), right from CodeStream,
+approved, you can [create a pull request](pull-requests), right from CodeStream,
 to get your code merged. Note that the feedback request may not be amended or
 reopened once a pull request has been created.
 

@@ -4,10 +4,8 @@ description:
 ---
 ## System & Configuration Requirements
 
-While technically not a requirement, key elements of CodeStream’s functionality
-depend on your repository being managed by Git, or a Git hosting service like
-GitHub. If you’re not using Git, CodeStream will not be able to connect the
-codemarks you create to the appropriate blocks of code in your source files.
+The code you would like to discuss and review on CodeStream must be in a
+repository being managed by Git, or a Git hosting service like GitHub.
 
 ## Installing the CodeStream Extension
 

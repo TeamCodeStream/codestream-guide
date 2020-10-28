@@ -6,7 +6,7 @@ description:
 The CodeStream interface surfaces all the items you need to see, and do, in a
 customizable tree-based view that is always available. 
 
-SHOT of sidebar
+![CodeStream Sidebar](../assets/images/Sidebar.png)
 
 Subsequent articles will go into more detail on each section, but here's a quick
 overview.
@@ -25,7 +25,7 @@ overview.
 * [Issues](issues-section) - See all of your open issues, across multiple
   services, in one place, and click on one to update its status, create a
   feature branch to do your work, and even update your status on Slack.
-* [My Team](team-live-view) - See who is on your CodeStream team, as well as
+* [My Team](myteam-section) - See who is on your CodeStream team, as well as
   what they're working on, and invite new members.
 
 The CodeStream pane is completely customizeable. Use drag-and-drop to reorder
@@ -33,7 +33,7 @@ the sections. Resize each one individually. Expand or collapse a section as
 needed. There's also an option to maximize a section when you want to get a good
 view of a longer list. 
 
-SHOT of My Team maximized, with hover over minimize exposed
+![Maximized Section](../assets/images/MaximizedSection.png)
 
 If there's a section you don't think you'll be using, you can hide it via the
 View menu by clicking on your headshot at the top of the CodeStream pane.
@@ -41,7 +41,7 @@ View menu by clicking on your headshot at the top of the CodeStream pane.
 At the top-right of the CodeStream pane you'll find access to some options for
 creating and discovering content in your team.
 
-SHOT of top-right of CS pane
+![Global Options](../assets/images/GlobalOptions.png)
 
 * Compose "+" - Click to create a code comment/issue, request feedback on
   changes, or to create a pull request.
@@ -56,4 +56,4 @@ And lastly, at the top-left of the CodeStream pane, click on your headshot for
 options related to [account settings](account-settings) and [team
 administration](managing-the-team).
 
-SHOT of headshot menu
+![Headshot Menu](../assets/images/HeadshotMenu.png)

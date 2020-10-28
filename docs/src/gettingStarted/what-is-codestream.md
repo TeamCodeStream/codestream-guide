@@ -33,10 +33,10 @@ pull the latest.
 
 ![Review Changes](../assets/images/animated/FRPerform-VSC.gif)
 
-CodeStream’s code feedback requests are so easy that you can start doing them
+CodeStream’s feedback requests are so easy that you can start doing them
 throughout the development process instead of waiting until the end. You’re a
 few days into a sprint and have some work stubbed out? Maybe some work that
-hasn’t even been committed. Request of a review of your work in progress so that
+hasn’t even been committed? Request feedeback on your work in progress so that
 you can identify and resolve issues early instead of saving those gotchas for
 when you need to get the code merged.
 
@@ -62,8 +62,6 @@ code changes, even across branches. All with zero effort on your part.
 ![Knowledge Base](../assets/images/animated/KnowledgeBase1-VSC.gif)
 
 Previously discussed questions and issues that explain important decisions are
-now accessible right where you need them, when you need them. Just click on the
-codemark to expand it and see how something works or why something was done a
-certain way.
+now accessible right where you need them, when you need them.
 
 

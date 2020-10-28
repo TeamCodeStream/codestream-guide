@@ -40,7 +40,7 @@ member worked on to someone else on the team. The next time someone asks a
 question about that code, or requests a review of changes to that code, the
 newly mapped developer will be mentioned/assigned instead.
 
-### Live View
+## Live View
 
 In addition to listing all members, the "Current Members" section also gives you
 a live view into what everyone is working on. Below each teammate’s name is a

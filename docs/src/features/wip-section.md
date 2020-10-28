@@ -7,7 +7,7 @@ The Work In Progress section is a snapshot of the local changes you have in
 flight in your IDE, as well as the associated ticket from your issue tracking
 service. 
 
-SHOT
+![Work in Progress Section](../assets/images/WIPSection.png)
 
 All repositories you have open in your IDE are listed, and if you have any local
 (i.e, unpushed) changes in any of them you can expand that section to see the
@@ -17,14 +17,14 @@ file itself. Also look out for the file names in orange as they represent
 potential merge conflicts. Hover over the file name to see which teammate you
 need to coordinate with to avoid a conflict.
 
-SHOT of hover over orange file
+![Merge Conflict Warning](../assets/images/WIPMergeConflict.png)
 
 The icons to at the end of each repository's row allow you to quickly create a
 feedback request or a pull request. Remember that you don’t need to wait until
 the work is completed to request feedback. 
 
 What you see in the Work in Progress section is, by default, also shared with
-your teammates in the [My Team section](team-live-view). You can, however, click
+your teammates in the [My Team section](myteam-section). You can, however, click
 the icon in this section's heading to turn off sharing.
 
-SHOT of live view icon with tooltip
+![Toggle Live View](../assets/images/WIPLiveViewToggle.png)

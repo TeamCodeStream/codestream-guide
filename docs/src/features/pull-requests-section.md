@@ -5,13 +5,14 @@ description:
 
 **NOTE: The Pull Requests section currently only supports GitHub and GitHub
 Enterprise. Unless you're already connected to one of those services, the
-section will only appear if you have a repository from one the services open in
-your IDE.**
+section will only appear if you have a repository from one these services open
+in your IDE.**
 
-The pull requests section lists all open pull requests that are relevant to you,
-and gives you the ability to control the list via custom queries. 
+The Pull Requests section of the CodeStream pane lists all open pull requests
+that are relevant to you, and gives you the ability to control the list via
+custom queries. 
 
-SHOT
+![Pull Requests Section](../assets/images/PullRequestsSection.png)
 
 By default, you'll see your pull requests broken out into the following
 sections, which are really just default queries.
@@ -32,18 +33,18 @@ end of the row.
 Hover over any section's heading for options to refresh the list, edit the
 section's query, or to delete the section.
 
-SHOT of hover icons in query header
+![Query Header](../assets/images/PRQueryHeader.png)
 
 The first section actually allows you to load any pull request via URL. Just
 grab the URL of any pull request, paste it in, and you can view it right inside
 CodeStream.
 
-SHOT of loadfromURL
+![Load PR from URL](../assets/images/PRLoadFromURL.png)
 
 When you hover over the Pull Requests section heading, icons appear at the
 right.
 
-SHOT of header icons
+![Pull Requests Section Header](../assets/images/PRSectionHeader.png)
 
 Options there include the ability to refresh all the sections (i.e., queries) at
 once, create a new pull request, and to create a new query/section. Click on the
@@ -51,4 +52,4 @@ gear icon for more options, including the ability to see pull requests from all
 repositories, and not just those associated with repositories open in your IDE,
 and the ability to include labels in the list.
 
-SHOT of settings
+![Pull Request Section Settings](../assets/images/PRSectionSettings.png)
