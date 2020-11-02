@@ -117,6 +117,14 @@ even a different repo.
 
 ![Select Range](../assets/images/CodemarkSelectRange.png)
 
+You can intersperse the difference code blocks in your post by referring to each one as `[#N]`, as in the following example.
+
+![Referencing Code Blocks](../assets/images/ReferenceCodeBlocks.png)
+
+And here's how that example is rendered.
+
+![Multi-Range Codemark](../assets/images/MultiRangeCodemark.png)
+
 Once you've created the codemark, you can easily jump between the different
 locations by clicking the Jump icon at the bottom-right of each code block.
 
@@ -147,5 +155,37 @@ corresponding section of the code.
 
 ![Codemark with Related](../assets/images/CodemarkWithRelated.png)
 
+## Managing Codemarks
 
-[Learn more about managing codemarks](../features/managing-codemarks)
+Click on the ellipses menu for any codemark and you'll see options for managing the codemark.
+
+![Codemark Menu](../assets/images/CodemarkMenu2.png)
+
+* Share - In addition to sharing to Slack or Teams at the time you create a
+  codemark, you can also share it anytime thereafter.
+* Follow/Unfollow - Unfollow to stop receiving
+  [notifications](../features/notifications) for the codemark.
+* Copy link - Get a [permalink](../features/permalinks) for the codemark to
+  share it anywhere.
+* Archive - If there’s a codemark that you don’t think is important enough to be
+  on permanent display in a given file, but you don’t want to completely delete
+  it, you can archive it instead. Settings in the [Codemarks
+  section](../features/codemarks-section) allow you to easily see all archived
+  codemarks.
+* Edit - Only the codemark's author can edit it.
+* Delete - Only the codemark's author can delete it, but we encourage you to
+  archive instead of delete unless you're positive the codemark won't have any
+  future value.
+* Inject as Inline Comment - If you'd like a specific codemark to become part of
+  the repo use this option to have it added as an inline comment. You can select
+  the appropriate format, and then indicate if you want to include timestamps,
+  replies, or to have the comment wrapped at 80 characters. You can also elect
+  to have the codemark archived once it's been added as an inline comment.
+* Reposition Codemark - In most cases, a codemark will automatically remain
+  linked to the block of code it refers to as the file changes over time. For
+  example, if you cut the block of code and paste it at a different location in
+  the file, the codemark will move right along with it. There are some
+  scenarios, however, that CodeStream isn't able to handle automatically. For
+  example, if you pasted the block of code into a different file. In these
+  cases, Reposition Codemark allows you to select the new location of the block
+  of code so that the codemark is displayed properly.

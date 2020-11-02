@@ -3,10 +3,11 @@ title: Why aren't PRs/issues from all GitHub organizations listed?
 description:
 ---
 
-When you connect to GitHub you should see all of your open pull requests, as
-well as all issues assigned to you, on the Tasks tab. If PRs or issues from any
-of your GitHub organizations are missing, it's probably because at the time you
-authenticated with GitHub, you didn't grant access to all of your organizations.
+When you connect to GitHub you should see all of your open pull requests in the
+Pull Requests section of the CodeStream pane, as well as all issues assigned to
+you in the Issues section. If pull requests or issues from any of your GitHub
+organizations are missing, it's probably because at the time you authenticated
+with GitHub, you didn't grant access to all of your organizations.
 
 ![GitHub Authentication](../assets/images/GitHubAuth.png)
 

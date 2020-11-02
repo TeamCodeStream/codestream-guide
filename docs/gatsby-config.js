@@ -54,7 +54,6 @@ module.exports = {
 						'features/myteam-section',
 						'features/activity-feed',
 						'features/filter-and-search',
-						'features/managing-codemarks',
 						'features/permalinks',
 						'features/slack-integration',
 						'features/msteams-integration',

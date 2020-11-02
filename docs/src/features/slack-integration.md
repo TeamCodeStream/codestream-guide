@@ -13,7 +13,7 @@ yet joined CodeStream, or maybe don’t spend a lot of time in their IDE.
 Clicking on the Slack link at the bottom of the codemark form will take you off
 to the web to authenticate with one of your Slack workspaces.
 
-![Connect to Share](../assets/images/NewCodemark-NotConnected.png)
+![Connect to Share](../assets/images/NewCodemark-NotConnected1.png)
 
 Once you’ve connected to a workspace you’ll be able to select a channel or
 direct message to share to.

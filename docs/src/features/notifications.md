@@ -3,9 +3,9 @@ title: Notifications
 description: 
 ---
 
-CodeStream will notify you about codemarks and code reviews that you "follow",
-and you can choose whether you want to be notified via email, desktop (for the
-VS Code and JetBrains extensions only), or both.
+CodeStream will notify you about comments, issues and feedback requests that you
+"follow", and you can choose whether you want to be notified via email, desktop
+(for the VS Code and JetBrains extensions only), or both.
 
 ![Notification Settings](../assets/images/NotificationSettings1.png)
 

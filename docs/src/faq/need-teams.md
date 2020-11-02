@@ -12,13 +12,13 @@ single development channel to more narrowly focused channels (e.g., backend,
 mobile, etc.). And of course, some developers are in more than one, or even all
 of those channels.
 
-You can think of a CodeStream team the same way. While not every codemark or
-code review flowing through the activity feed needs to be relevant to every
-developer on the team, generally speaking the feed should be filled with
-discussions that most people on the team are able to contribute to in some
-fashion. If the developers on your CodeStream team aren’t happy with the
-signal-to-noise ratio in their activity feed, you can start to think about
-creating additional, more narrowly focused, teams. 
+You can think of a CodeStream team the same way. While not everything flowing
+through the activity feed needs to be relevant to every developer on the team,
+generally speaking the feed should be filled with discussions that most people
+on the team are able to contribute to in some fashion. If the developers on your
+CodeStream team aren’t happy with the signal-to-noise ratio in their activity
+feed, you can start to think about creating additional, more narrowly focused,
+teams. 
 
 A good way to think of a CodeStream team is as the set of people that work on,
 work with, or have some level of expertise in a shared set of repositories. And
@@ -26,10 +26,10 @@ note that developers can be on more than one team. Say your organization has
 Frontend and Backend development teams that are large enough that they warrant
 their own CodeStream teams. Frontend developers can still be added to the
 Backend team, and vice versa, so that they can help answer questions. But,
-they’ll have their own teams so that their activity feeds contain codemarks that
-are more relevant to them. Even if they never really switch to the other team
-when in CodeStream, they’ll still get email notifications for the other team’s
-codemarks if they’re @mentioned.
+they’ll have their own teams so that their activity feeds contain discussions
+that are more relevant to them. Even if they never really switch to the other
+team when in CodeStream, they’ll still get email notifications for the other
+team’s discussions if they’re @mentioned.
 
 To create an additional CodeStream team, click on your headshot at the top-left
 of the CodeStream pane and go to "Switch Team" > “Create New Team”.
