@@ -41,7 +41,7 @@ reply directly from Slack.
 
 ![Share on Slack or Teams](../assets/images/SharingOptions1.png)
 
-### Comment Codemarks
+## Comment Codemarks
 
 The all-purpose codemark for linking any type of discussion to a block of code.
 Ask a question. Make a suggestion. Document some code. Make note of key sections
@@ -49,7 +49,7 @@ of the codebase. The possibilities are endless!
 
 ![Comment Codemark](../assets/images/CodemarkComment5.png)
 
-### Issue Codemarks
+## Issue Codemarks
 
 When something needs to get done there’s always a better chance of it happening
 if it’s captured as an issue, with someone’s name attached. Assign issues as a
@@ -58,14 +58,31 @@ issues instead of inline FIXMEs.
 
 ![Issue Codemark](../assets/images/CodemarkIssue6.png)
 
-CodeStream integrates with issue-tracking services such as Jira, Trello, GitHub,
-and others so you can create an issue on one of those services directly from
-CodeStream. 
+If your team uses Jira (cloud or Server), Azure DevOps, Trello, Asana, GitHub
+(cloud or Enterprise), Bitbucket (cloud), GitLab (cloud or Self-Managed) or
+YouTrack for tracking issues, you can create an issue on one of those services
+directly from CodeStream. Just select the service you use from the dropdown at
+the top of the codemark form. Note that the Jira Server integration requires [a
+little up-front work](../faq/jira-server-integration) from your Jira
+administrator.
 
-![Issue Tracking Services](../assets/images/CodemarkIssueServices.png)
+![Issue Tracking Services](../assets/images/IssueTrackingIntegrations1.png)
 
-Learn more about [CodeStream's issue-tracking
-integrations](../features/issue-tracking-integrations).
+After going through the authentication process with the selected service you'll
+now be able to select a destination for your issue. For example, with Jira
+you'll be able to select the appropriate issue type and project.
+
+![Jira Selections](../assets/images/NewIssue-JiraOptions1.png)
+
+Once the issue has been created on CodeStream, it will include a link to the
+issue that was created on the external service. In the example below you'll see
+the URL for the issue on Jira.
+
+![Linked Issue](../assets/images/LinkedIssues.png)
+
+And the issue on Jira includes a link to open the relevant code in your IDE.
+
+![Issue on Jira](../assets/images/IssueOnJira1.png)
 
 ## Bringing the right people into the discussion
 

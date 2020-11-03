@@ -26,6 +26,10 @@ the same repository.
 
 ![Permalink Page](../assets/images/OpenInIDE.png)
 
+Note that if you’re using a JetBrains IDE you’ll need to first install the
+[Toolbox App](https://www.jetbrains.com/toolbox-app/) so that CodeStream can
+deep link into the IDE.
+
 ## Permalinks for Code Blocks
 
 Sometimes you don’t necessarily want to comment on a block of code, but instead

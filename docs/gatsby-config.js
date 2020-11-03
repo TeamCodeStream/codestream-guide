@@ -58,9 +58,9 @@ module.exports = {
 						'features/slack-integration',
 						'features/msteams-integration',
 						'features/issue-tracking-integrations',
-						'features/managing-the-team',
 						'features/notifications',
 						'features/account-settings',
+						'features/team-administration',
 						'features/keyboard-shortcuts',
 					],
 					FAQ: [

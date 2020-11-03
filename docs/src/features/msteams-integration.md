@@ -4,10 +4,9 @@ description:
 ---
 
 When you post a codemark your teammates will get notified via the activity feed,
-and potentially via email. Sometimes, though, you might want to share the
-codemark out to Microsoft Teams as well. This would allow you to reach people
-who haven’t yet joined CodeStream, or maybe don’t spend a lot of time in their
-IDE. 
+and potentially via email. Sometimes, though, you might want to share to
+Microsoft Teams as well. This would allow you to reach people who haven’t yet
+joined CodeStream, or maybe don’t spend a lot of time in their IDE. 
 
 ## Connecting to Microsoft Teams
 
@@ -72,22 +71,22 @@ IDE.
 
 ## Participating from Microsoft Teams
 
-When you share a codemark to Teams, not only does it notify your teammates about
-the codemark, but they can use it to jump directly into their IDEs to
-participate in the conversation on CodeStream.
+When you share to Teams, not only does it notify your teammates about the
+codemark, but they can use it to jump directly into their IDEs to participate in
+the conversation on CodeStream.
 
-![Reply from Teams](../assets/images/ShareOnMST1.png)
+![Share on Teams](../assets/images/ShareOnMST1.png)
 
 ### Open in IDE
 
-Click “Open in IDE” to view both the code, and the codemark, right inside your
+Click “Open in IDE” to view both the code, and the discussion, right inside your
 IDE. You’ll be first taken through a CodeStream web page where you’ll specify
 which IDE to open, and CodeStream will remember this selection for the next time
-you view a codemark from the same repo. You’ll then be taken to the appropriate
-source file in your IDE, scrolled to the relevant block of code, with the
-codemark displayed in the CodeStream pane to the right. If you don’t happen to
-have the given repo open in your IDE, CodeStream will automatically open the
-source file for you (assuming you’ve opened that repo previously, with
+you view a discussion from the same repository. You’ll then be taken to the
+appropriate source file in your IDE, scrolled to the relevant block of code,
+with the discussion displayed in the CodeStream pane. If you don’t happen to
+have the given repository open in your IDE, CodeStream will automatically open
+the source file for you (assuming you’ve opened that repository previously, with
 CodeStream installed, so that we know where to find it).
 
 Note that if you’re using a JetBrains IDE you’ll need to first install the
@@ -96,5 +95,5 @@ deep link into the IDE.
 
 ### Open on GitHub (or Bitbucket or GitLab)
 
-If the code block is from a repo hosted on GitHub, Bitbucket or GitLab, this
+If the code block is from a repository hosted on GitHub, Bitbucket or GitLab, this
 button will take you to the corresponding block of code on that hosting service.

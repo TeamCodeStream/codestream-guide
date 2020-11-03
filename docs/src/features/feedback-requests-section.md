@@ -3,8 +3,8 @@ title: Feedback Requests Section
 description: 
 ---
 
-The Feedback Requests section of the CodeStream pane lists all open feedback
-requests that have been assigned to you, or that you have requested. 
+The Feedback Requests section of the CodeStream pane lists all open [feedback
+requests](../workflow/feedback-requests) that have been assigned to you, or that you have requested. 
 
 ![Feedback Requests Section](../assets/images/FRSection.png)
 

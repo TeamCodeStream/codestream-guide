@@ -4,10 +4,10 @@ description:
 ---
 
 Look for the “Account” menu under the ellipses menu at the top of the CodeStream
-pane and you’ll find options for changing your profile photo, username, full
-name and email address. 
+pane and you’ll find options for viewing your own profile, and changing your
+profile photo, username, full name and email address. 
 
-![Account Settings](../assets/images/AccountSettings1.png)
+![Account Settings](../assets/images/AccountSettings2.png)
 
 Note that when you change your email address, the old one will remain in effect
 until you click on the link in the confirmation email sent to you.
@@ -17,11 +17,10 @@ under Other Actions.
 
 ## Profile
 
-If you click on a headshot from the Team tab, or anywhere else in CodeStream
-(e.g., activity feed, a codemark thread, etc.) you'll be taken to the person's
-profile page.
+If you click on a headshot from anywhere in CodeStream (e.g., activity feed, a
+discussion thread, etc.) you'll be taken to the person's profile page.
 
-![Profile Page](../assets/images/ProfilePage1.png)
+![Profile Page](../assets/images/ProfilePage2.png)
 
 When viewing your own profile page, hover over entries for username, email
 address, phone number, works on or the profile photo to see a pencil icon that

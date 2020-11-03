@@ -4,7 +4,7 @@ description:
 ---
 
 Whether they originated in a pull request, a feedback request, or through ad-hoc
-code comments/issues, "codemarks" are the discussions that annotate your
+code comments/issues, "codemarks" are the [discussions](../workflow/discuss-code) that annotate your
 codebase. The Codemarks section of the CodeStream pane lists all of the
 codemarks in the currently selected file for easy reference.
 

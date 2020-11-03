@@ -53,7 +53,7 @@ creating and discovering content in your team.
   however you see fit.
 
 And lastly, at the top-left of the CodeStream pane, click on your headshot for
-options related to [account settings](account-settings) and [team
-administration](managing-the-team).
+options related to [account settings](account-settings), [notifications](notifications) and [team
+administration](team-administration).
 
 ![Headshot Menu](../assets/images/HeadshotMenu.png)

@@ -46,7 +46,7 @@ in your editor. If you have multiple repositories open in your IDE, you can
 change this via the repo dropdown at the very top of the form. 
 
 Depending on [your team's
-settings](../features/managing-the-team/#code-review-assignment--approval),
+settings](../features/team-administration/#feedback-request-assignment--approval),
 CodeStream may suggest some reviewers. Based on the commit history of the code
 being changed, the suggestions may even include someone that isn't yet on your
 CodeStream team (in which case they'd be notified via email). Hover over a
@@ -93,8 +93,8 @@ included in the feedback request must be consecutive. Only your commits are
 checked by default, but you can include any of them in your review. (Tip: Make
 sure the email address in your git configuration matches your CodeStream email
 address. Or, ask your CodeStream team's admin to set up a [blame
-map](../features/myteam-section) to map your git email address to you CodeStream
-email address.)
+map](../features/myteam-section/#blame-map) to map your git email address to you
+CodeStream email address.)
 
 Lastly, you can optionally share the feedback request out to either Slack or
 Microsoft Teams.

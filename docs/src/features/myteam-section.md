@@ -24,21 +24,32 @@ the person on your own.
 
 ![Reinvite](../assets/images/MyTeamReinvite.png)
 
+For CodeStream On-Prem installations where outbound email hasn't been
+configured, when you invite someone CodeStream will provide you with the
+invitation code that you can then email/message to the person on your own.
+
+![Invite Manually](../assets/images/InviteOnPrem.png)
+
 The "Suggested Teammates" section, which is only available for team admins, is a
 list of possible teammates derived from the commit history of your open repos.
 At the right side of each row are links to remove the suggestion from the list
 or to invite the person.
 
-Lastly, the "Blame Map" section, which is also only available for team admins,
+## Blame Map
+
+The "Blame Map" section, which is also only available for team admins,
 allows you to define code ownership on the team. By default, when you comment on
 code, CodeStream mentions (or offers to email) the author(s) of the code you are
 commenting on. But if that person has left the company, or transitioned to a
 different role, it might not be the right thing to do.
 
+![Blame Map](../assets/images/BlameMap.png)
+
 The Blame Map allows you to direct discussions about code that the former team
-member worked on to someone else on the team. The next time someone asks a
-question about that code, or requests a review of changes to that code, the
-newly mapped developer will be mentioned/assigned instead.
+member worked on to someone else on the team. Based on the mapping in the
+screenshot above, the next time someone asks a question about code authored by
+Dave, or requests a review of changes to that code, Tracy will be
+mentioned/assigned instead of Dave.
 
 ## Live View
 
