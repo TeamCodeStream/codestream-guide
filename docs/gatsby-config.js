@@ -7,6 +7,12 @@ module.exports = {
 	pathPrefix: '/userguide',
 	plugins: [
 		{
+			resolve: 'gatsby-plugin-google-analytics',
+			options: {
+				trackingId: 'UA-107525804-1'
+			}
+		},
+		{
 			resolve: 'gatsby-theme-apollo-docs',
 			options: {
 				// THIS SECTION SHOULD BE THE SAME ACROSS ALL CODESTREAM DOC SITES
