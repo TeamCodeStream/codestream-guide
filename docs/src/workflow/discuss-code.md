@@ -27,6 +27,13 @@ on one of the icons that appears in the CodeStream pane next to your selection.
 
 ![New Codemark](../assets/images/animated/DiscussCode1-VSC.gif)
 
+If you're using a JetBrains IDE, such as IntelliJ, you can also create a
+codemark by using the "+" button that appears on hover, or on selection of a
+code block, in the editor's gutter. The following animation shows three
+different ways to use this button.
+
+![New Codemark in JetBrains](../assets/images/animated/Compose-JB.gif)
+
 Even when the CodeStream pane is closed or not in view, you can create a
 codemark via the CodeStream options in either the lightbulb or context menus.
 
@@ -127,14 +134,14 @@ Many discussions about code involve more than just one block of code, and
 concepts are often best presented when you can refer to multiple code locations
 at once. To create a multi-range codemark, click on "+ Add Code Block".
 
-![Add Code Block](../assets/images/CodemarkAddRange.png)
+![Add Code Block](../assets/images/CodemarkAddRange1.png)
 
 And then select another block of code from the same file, a different file, or
 even a different repo.
 
 ![Select Range](../assets/images/CodemarkSelectRange.png)
 
-You can intersperse the difference code blocks in your post by referring to each one as `[#N]`, as in the following example.
+You can intersperse the difference code blocks in your post by referring to each one as `[#N]` (or click the pin icon from one of the code blocks to insert the markdown for you), as in the following example.
 
 ![Referencing Code Blocks](../assets/images/ReferenceCodeBlocks.png)
 
@@ -144,6 +151,10 @@ And here's how that example is rendered.
 
 Once you've created the codemark, you can easily jump between the different
 locations by clicking the Jump icon at the bottom-right of each code block.
+
+Note that when you edit a codemark you can add and remove code blocks, and you
+can change the location of any of the code blocks by clicking the dashed square
+icon.
 
 ### Tagging
 

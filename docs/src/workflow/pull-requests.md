@@ -73,7 +73,8 @@ Edit the pull request's details, such as reviewers, assignees and labels.
 
 ![Pull Request Details](../assets/images/PRDetails-GH.png)
 
-Review the conversation and add comments.
+Review the conversation and add comments, with the ability to @mention your
+GitHub collaborators. 
 
 ![Pull Request Conversation](../assets/images/PRConversation-GH.png)
 
