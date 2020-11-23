@@ -132,7 +132,18 @@ very earliest stages of the development process.
 
 Many discussions about code involve more than just one block of code, and
 concepts are often best presented when you can refer to multiple code locations
-at once. To create a multi-range codemark, click on "+ Add Code Block".
+at once. Here are a few examples of multi-range codemark at work:
+
+* A change to a function is being contemplated that will impact its name. Each
+  instance of the function call can now be referenced in one discussion. 
+* A react component and its CSS styling aren’t interacting well, and you want to
+  ask the team for input. You might select the div and the CSS rules you think
+  should apply, so your teammates know exactly what you’re talking about.
+* Clients which make API calls to the server might get an unexpected result.
+  Select the code where you’re making the API call, and the handler in the API
+  server, to connect the two actions together.
+
+To create a multi-range codemark, click on "+ Add Code Block".
 
 ![Add Code Block](../assets/images/CodemarkAddRange1.png)
 
