@@ -65,8 +65,8 @@ issues instead of inline FIXMEs.
 
 ![Issue Codemark](../assets/images/CodemarkIssue6.png)
 
-If your team uses Jira (cloud or Server), Azure DevOps, Trello, Asana, GitHub
-(cloud or Enterprise), Bitbucket (cloud), GitLab (cloud or Self-Managed) or
+If your team uses Jira (cloud or Server), Trello, Asana, Clubhouse, GitHub
+(cloud or Enterprise), Bitbucket (cloud), GitLab (cloud or Self-Managed), Azure DevOps, or
 YouTrack for tracking issues, you can create an issue on one of those services
 directly from CodeStream. Just select the service you use from the dropdown at
 the top of the codemark form. Note that the Jira Server integration requires [a
@@ -152,7 +152,9 @@ even a different repo.
 
 ![Select Range](../assets/images/CodemarkSelectRange.png)
 
-You can intersperse the difference code blocks in your post by referring to each one as `[#N]` (or click the pin icon from one of the code blocks to insert the markdown for you), as in the following example.
+You can intersperse the difference code blocks in your post by referring to each
+one as `[#N]` (or click the pin icon from one of the code blocks to insert the
+markdown for you), as in the following example.
 
 ![Referencing Code Blocks](../assets/images/ReferenceCodeBlocks.png)
 

@@ -15,6 +15,7 @@ following table outlines which code-hosting services are supported for each.
 Feature|Supported Services
 -------------|-------
 Create a pull request|GitHub, GitHub Enterprise, GitLab, GitLab Self-Managed, Bitbucket, Bitbucket Server
+Create a pull request across forks|GitHub
 Review and edit a pull request|GitHub, GitHub Enterprise
 Display pull request comments as code annotations|GitHub, GitLab, Bitbucket
 
@@ -27,7 +28,7 @@ section. You can also use a keyboard shortcut (`ctlr+shift+/` `p`, or `ctrl+/`
 provides you with different options (tree view, list view, diff hunks) for
 reviewing your changes before opening the pull request.
 
-![Open a Pull Request](../assets/images/OpenPullRequest.png)
+![Open a Pull Request](../assets/images/OpenPullRequest1.png)
 
 With a single click you can name the pull request based on the last commit
 message, the branch name, or, if you [started work by selecting a
@@ -36,6 +37,10 @@ also explicitly tie the ticket to the pull request, and CodeStream will include
 a link to the ticket in the pull request's description. Before submitting the
 pull request you can even review your changes by clicking on any of the files
 listed below the form.
+
+To create a pull request across forks (available for GitHub only), click on the
+"compare across forks" link at the top of the page and the form will update to
+allow you to select both the base and head repositories.
 
 You can also create a pull request from within a CodeStream feedback request.
 Once the feedback request has been approved, you’ll see an option to open a pull
@@ -87,7 +92,7 @@ ways. On GitHub you can only view the changes as a series of "diff hunks".
 CodeStream provides that view as well, but if you'd prefer to see the changes in
 the context of the full file, and not just the lines that changed, you can use
 either List View or Tree View. Just select the code you want to comment on, and
-then cick on the Comment button (or select Comment from the context menu).
+then click on the Comment button (or select Comment from the context menu).
 
 ![Add Comment](../assets/images/PRComment-GH.png)
 

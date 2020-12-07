@@ -3,9 +3,21 @@ title: Issues Section
 description: 
 ---
 
-Once you’ve connected CodeStream to your team’s issue tracking service, all
-issues assigned to you will be listed in the Issues section of the CodeStream
-pane.
+If you're not already connected to an issue tracking service, initially this
+section will list all available services.
+
+* Asana
+* Azure DevOps
+* Bitbucket (cloud)
+* Clubhouse
+* GitHub (cloud or Enterprise)
+* GitLab (cloud or Self-Managed)
+* Jira (cloud or Server)
+* Trello
+* YouTrack
+
+Once you’ve connected to your team’s issue tracking service, all issues assigned
+to you will be listed in the Issues section of the CodeStream pane.
 
 ![Issues Section](../assets/images/IssuesSection.png)
 
