@@ -31,6 +31,40 @@ If you are a team admin, look for the Team Admin menu under the headshot menu at
 
 ![Team Settings](../assets/images/TeamSettings2.png)
 
+## Onboarding Settings
+
+Onboarding settings make it easy to get your entire team onto CodeStream,
+without needing to send out individual email invitations, by allowing people to
+join the team based on having certain repositories open in their IDE. And you
+don’t need to worry about teammates not signing up correctly or setting up the
+wrong integrations because you can control which integration and authentication
+options are available to them.
+
+![Onboarding Settings](../assets/images/OnboardingSettings.png)
+
+The Integration Options section allows you to smooth the onboarding process
+process for your teammates by eliminating unnecessary unnecessary options, and
+of the possibility of mistakes. You can control which authentication options
+they can use. For example, you might want everyone to sign up using GitHub. You
+can also specify your team’s preferred code host, messaging service, and issue
+tracker. Note that you can select multiple services in each category.
+
+The Team Assignment section allows you to grant access to the team based on
+access to certain repos. The initial list is based on your repositories that
+CodeStream is already aware of, but you can add more simply by opening the
+repository in your IDE.
+
+Here’s how the onboarding process works. Shoot a message to the team, maybe via
+Slack, and tell them to install the CodeStream extension in their IDE. After
+installing the extension, as long as they have one of the repositories you
+specified open in their IDE, they’ll be prompted to join your team.
+
+![Join Team](../assets/images/AutoJoinTeam.png)
+
+Do you work at a large enterprise, with the [need for multiple CodeStream
+teams](../faq/need-teams)? Just tell the team leads to sign up and create
+CodeStream teams, and then configure their Onboarding Settings.
+
 ## Live View Settings
 
 [Live View](myteam-section/#live-view) gives your team visibility into what everone is working on. By
