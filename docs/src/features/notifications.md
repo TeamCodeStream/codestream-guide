@@ -8,13 +8,16 @@ CodeStream will notify you about comments, issues and feedback requests that you
 (for the VS Code and JetBrains extensions only), or both. Look for the
 Notifications option under the headshot menu at the top of the CodeStream pane.
 
-![Notification Settings](../assets/images/NotificationSettings2.png)
+![Notification Settings](../assets/images/NotificationSettings3.png)
 
 By default, you are set to automatically follow any comment, issue or feedback
 request that you created, where you’ve been mentioned (either in the original
-post or in a subsequent reply), or to which you’ve replied. You can always elect
-to follow/unfollow any individual comment, issue or feedback request via its
-ellipses menu.
+post or in a subsequent reply), or to which you’ve replied. You'll also get an
+email reminder about open feedback requests assigned to you that you haven't
+responded to in the last 24 hours.
+
+You can always elect to follow/unfollow any individual comment, issue or
+feedback request via its ellipses menu.
 
 ![Unfollow](../assets/images/CodemarkMenu-Unfollow.png)
 

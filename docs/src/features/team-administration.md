@@ -29,7 +29,7 @@ mentioned/assigned instead of Dave.
 
 If you are a team admin, look for the Team Admin menu under the headshot menu at the top of the CodeStream pane.
 
-![Team Settings](../assets/images/TeamSettings2.png)
+![Team Settings](../assets/images/TeamSettings3.png)
 
 ## Onboarding Settings
 

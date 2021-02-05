@@ -169,6 +169,35 @@ Note that when you edit a codemark you can add and remove code blocks, and you
 can change the location of any of the code blocks by clicking the dashed square
 icon.
 
+### File Attachments
+
+Enrich your discussions about code by attaching files directly to code blocks.
+Think about how much more compelling your comments and documentation become when
+you...
+
+* Attach a spec to guide the development of a new feature
+* Attach a log file to help debug an issue in the code
+* Attach a mockup to help clarify some UI work
+* Attach a screenshot to highlight a problem
+
+When creating a code comment or issue, you can attach a file by
+dragging-and-dropping on the the description field, pasting from you clipboard,
+or by clicking the new paperclip icon.
+
+![Attach File](../assets/images/AttachFile.png)
+
+Images can even be displayed inline using markdown. Just click the pin icon to
+the right of the attachment, and CodeStream will insert the markdown for you.
+
+![Markdown](../assets/images/ImageMarkdown.png)
+
+And now your teammate knows exactly what you’re looking for!
+
+![Inline Display](../assets/images/InlineImage.png)
+
+You can click on files in the Attachments section to either download or open in
+the appropriate application.
+
 ### Tagging
 
 Look for the tag icon inside the codemark compose box to either select a tag or
