@@ -40,7 +40,7 @@ If you’re a team admin, you can even set up a branch naming template for the
 team so that all of the team’s feature branches get named in a consistent
 manner.
 
-![Branch Template](../assets/images/StartWork-BranchTemplate1.png)
+![Branch Template](../assets/images/StartWork-BranchTemplate2.png)
 
 Depending on which issue tracking service you use, you can also choose to update
 the issue's status. For example, if you use Trello, you’ll be able to move the

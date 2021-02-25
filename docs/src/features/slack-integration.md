@@ -9,7 +9,7 @@ you might want to share to Slack as well. This would allow you to reach people
 who haven’t yet joined CodeStream, or maybe don’t spend a lot of time in their
 IDE. 
 
-## Connecting to Slack
+## Sharing to Slack
 
 When posting a comment, issue or feedback request, clicking on the Slack link at
 the bottom of the form will take you off to the web to authenticate with one of
@@ -31,6 +31,11 @@ repository.
 Note that you can also share an exist post to Slack, even one created by a
 teammate. Just go to the comment, issue or feedback request and look for the
 “Share” option under the ellipses menu.
+
+Look for the "Shared To" section to keep track of where a post has been shared.
+You can even click on an entry to go straight to the given conversation on Slack.
+
+![Shared To Section](../assets/images/SharedTo.png)
 
 ## Participating from Slack
 
@@ -72,3 +77,15 @@ deep link into the IDE.
 If the code block is from a repository hosted on GitHub, Bitbucket or GitLab,
 this button will take you to the corresponding block of code on that hosting
 service.
+
+## Resolution of Codemarks & Feedback Requests
+
+When a codemark or feedback request gets resolved/approved (or rejected or
+reopened), a reply is automatically posted to any corresponding conversations on
+Slack.
+
+![Resolved on Slack](../assets/images/ResolvedOnSlack.png)
+
+Many organizations have non-developers that participate in discussions, or at
+least passively monitor them, through Slack, and these notifications help keep
+those people in the loop as discussions or feedback requests get resolved.

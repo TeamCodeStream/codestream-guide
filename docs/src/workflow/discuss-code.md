@@ -13,7 +13,7 @@ developer trying to fix a bug in someone else’s code, or even just you trying 
 remember why you made that change six months ago… whatever the case, CodeStream
 helps you understand the code by surfacing the discussions in a contextual way.
 
-![Codemark](../assets/images/CodemarkInGutter.png)
+![Codemark](../assets/images/CodemarkInGutter1.png)
 
 Even as a file changes over time, the codemarks will remain connected to the
 code. Add some new lines of code above the code block, make edits to the code,
@@ -28,9 +28,10 @@ on one of the icons that appears in the CodeStream pane next to your selection.
 ![New Codemark](../assets/images/animated/DiscussCode1-VSC.gif)
 
 If you're using a JetBrains IDE, such as IntelliJ, you can also create a
-codemark by using the "+" button that appears on hover, or on selection of a
-code block, in the editor's gutter. The following animation shows three
-different ways to use this button.
+codemark by using the "+" button that appears in the editor's gutter when you
+select a block of code. When you're viewing a diff, for either a feedback
+request or a pull request, the button will also appear when you hover in the
+gutter to make it easy to comment on a single line.
 
 ![New Codemark in JetBrains](../assets/images/animated/Compose-JB.gif)
 
@@ -54,7 +55,7 @@ The all-purpose codemark for linking any type of discussion to a block of code.
 Ask a question. Make a suggestion. Document some code. Make note of key sections
 of the codebase. The possibilities are endless!
 
-![Comment Codemark](../assets/images/CodemarkComment5.png)
+![Comment Codemark](../assets/images/CodemarkComment6.png)
 
 ## Issue Codemarks
 
@@ -63,17 +64,17 @@ if it’s captured as an issue, with someone’s name attached. Assign issues as
 way of reporting bugs. Or manage your tech debt by capturing items as tracked
 issues instead of inline FIXMEs. 
 
-![Issue Codemark](../assets/images/CodemarkIssue6.png)
+![Issue Codemark](../assets/images/CodemarkIssue7.png)
 
-If your team uses Jira (cloud or Server), Trello, Asana, Clubhouse, GitHub
-(cloud or Enterprise), Bitbucket (cloud), GitLab (cloud or Self-Managed), Azure DevOps, or
-YouTrack for tracking issues, you can create an issue on one of those services
-directly from CodeStream. Just select the service you use from the dropdown at
-the top of the codemark form. Note that the Jira Server integration requires [a
-little up-front work](../faq/jira-server-integration) from your Jira
-administrator.
+If your team uses Asana, Azure DevOps, Bitbucket (cloud), Clubhouse, GitHub
+(cloud or Enterprise), GitLab (cloud or Self-Managed), Jira (cloud or Server),
+Linear, Trello, or YouTrack (cloud) for tracking issues, you can create an issue on one
+of those services directly from CodeStream. Just select the service you use from
+the dropdown at the top of the codemark form. Note that the Jira Server
+integration requires [a little up-front work](../faq/jira-server-integration)
+from your Jira administrator.
 
-![Issue Tracking Services](../assets/images/IssueTrackingIntegrations1.png)
+![Issue Tracking Services](../assets/images/IssueTrackingIntegrations2.png)
 
 After going through the authentication process with the selected service you'll
 now be able to select a destination for your issue. For example, with Jira
@@ -119,12 +120,26 @@ code block (i.e. at the time the codemark was created), the current version, and
 a diff. You can also use the “Apply” button to apply the code block in your
 editor.
 
-![Compare and Apply](../assets/images/CodemarkWithDiff.png)
+![Compare and Apply](../assets/images/CodemarkWithDiff1.png)
 
 Keep in mind that with CodeStream you can discuss any line of code, in any
 source file, at any time, even if it’s code that you just typed into your editor
 and haven’t yet saved or committed. CodeStream allows you to discuss code at the
 very earliest stages of the development process.
+
+## Resolving Codemarks
+
+Although not required, both comment and issue codemarks can be resolved. The
+[Codemarks](../features/codemarks-section) section of the CodeStream pane breaks
+out codemarks into Open, Resolved and Archived sections, and green, purple and
+gray icons are used to represent those different states. If you see a lot of
+Open/green codemarks in the codestream pane, that means that your teammates are
+being blocked by discussions and issues that haven't be resolved. 
+
+You can add a comment at the same time your resolve the codemark, and you can
+also elect to archive the codemark at the same time.
+
+![Resolve Codemark](../assets/images/ResolveCodemark.png)
 
 ## Advanced Features
 

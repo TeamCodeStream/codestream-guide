@@ -13,8 +13,9 @@ section will list all available services.
 * GitHub (cloud or Enterprise)
 * GitLab (cloud or Self-Managed)
 * Jira (cloud or Server)
+* Linear
 * Trello
-* YouTrack
+* YouTrack (cloud)
 
 Once you’ve connected to your team’s issue tracking service, all issues assigned
 to you will be listed in the Issues section of the CodeStream pane.
@@ -39,7 +40,7 @@ to Trello, you can filter to see a specific list or set of lists.
 
 ![Filter Issues](../assets/images/IssuesFilter.png)
 
-For Jira and GitHub, you can even create custom filters.
+For Jira, Jira Server and GitHub, you can even create custom filters.
 
 ![Customer Filter](../assets/images/IssuesCustomFilter.png)
 
