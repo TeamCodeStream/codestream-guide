@@ -6,7 +6,7 @@ description:
 The CodeStream interface surfaces all the items you need to see, and do, in a
 customizable tree-based view that is always available. 
 
-![CodeStream Sidebar](../assets/images/Sidebar.png)
+![CodeStream Sidebar](../assets/images/Sidebar1.png)
 
 Subsequent articles will go into more detail on each section, but here's a quick
 overview.
@@ -19,7 +19,7 @@ overview.
 * [Codemarks](codemarks-section) - Whether they originated in a pull request, a
   feedback request, or through ad-hoc code comments/issues, "codemarks" are the
   discussions that annotate your codebase and all of the codemarks in the
-  currently selected file are listed for reference.
+  current repository are listed for reference.
 * [Work in Progress](wip-section) - A summary of your local changes, by repo, as
   well the issue you're currently working on.
 * [Issues](issues-section) - See all of your open issues, across multiple
