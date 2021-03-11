@@ -11,14 +11,14 @@
 		"serve-final": "gatsby serve --prefix-paths",
 		"pack": "[ ! -d dist ] && mkdir dist || /bin/echo -n; mv public userguide && tar czpf dist/docs-userguide.tgz userguide && mv userguide public && ls -l dist/docs-userguide.tgz",
 		"deploy-to-preview": "npm run cibuild && rsync -a --delete public/ web@tc:/cs/local/guide/userguide",
-		"cfdirty": "aws cloudfront create-invalidation --distribution-id E1EN2JD6OKX54H --paths '/userguide/*'",
+		"cfdirty": "[ -n \"$CSG_CLOUDFRONT_DIST_ID\" ] && aws cloudfront create-invalidation --distribution-id $CSG_CLOUDFRONT_DIST_ID --paths '/userguide/*' || { echo 'CSG_CLOUDFRONT_DIST_ID not defined' && exit 1; }",
 		"deploy-to-s3": "/bin/echo -n 'THIS IS PROD: Are you sure? ' && read ans && [ \"$ans\" = y ] &&  aws --quiet s3 sync public/ s3://docs.codestream.com/userguide/ --delete && npm run cfdirty"
 	},
 	"dependencies": {
-		"gatsby": "^2.20.20",
-		"gatsby-plugin-google-analytics": "^2.4.1",
-		"gatsby-theme-apollo-docs": "^4.1.4",
-		"react": "^16.13.1",
-		"react-dom": "^16.13.1"
+		"gatsby": "2.20.20",
+		"gatsby-plugin-google-analytics": "2.4.1",
+		"gatsby-theme-apollo-docs": "4.1.4",
+		"react": "16.13.1",
+		"react-dom": "16.13.1"
 	}
 }

@@ -62,3 +62,6 @@ export CSG_PIDS=$CSG_SANDBOX/pid    # pid files directory
 # The sandbox run-time environment;  eg. 'local', 'qa', 'prod', 'loadtest1', ...
 # https://github.com/TeamCodeStream/dev_tools/blob/master/README/README.deployments.md)
 [ -z "$CSG_ENV" ] && export CSG_ENV=local
+
+# For prod deployment
+export CSG_CLOUDFRONT_DIST_ID=E1EN2JD6OKX54H
