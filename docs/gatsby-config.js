@@ -76,6 +76,7 @@ module.exports = {
 						'faq/git-access',
 						'faq/need-teams',
 						'faq/github-org-repos',
+						'faq/custom-queries',
 						'faq/jira-server-integration',
 						'faq/proxy-support',
 						'faq/git-issues',
