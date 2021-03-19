@@ -78,6 +78,7 @@ module.exports = {
 						'faq/github-org-repos',
 						'faq/custom-queries',
 						'faq/jira-server-integration',
+						'faq/jira-server-version',
 						'faq/proxy-support',
 						'faq/git-issues',
 						'faq/client-logs',
