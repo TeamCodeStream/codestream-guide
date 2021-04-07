@@ -15,8 +15,8 @@ following table outlines which code-hosting services are supported for each.
 Feature|Supported Services
 -------------|-------
 Create a pull request|GitHub, GitHub Enterprise, GitLab, GitLab Self-Managed, Bitbucket, Bitbucket Server
-Create a pull request across forks|GitHub
-Review and edit a pull request|GitHub, GitHub Enterprise
+Create a pull request across forks|GitHub, GitHub Enterprise, GitLab, GitLab Self-Managed
+Review and edit a pull request|GitHub, GitHub Enterprise, GitLab, GitLab Self-Managed
 Display pull request comments as code annotations|GitHub, GitLab, Bitbucket
 
 ## Creating a pull request
@@ -66,20 +66,20 @@ did the review and when, in the description of the pull request.
 
 ## Reviewing a pull request
 
-**The ability to review pull requests is currently available for GitHub and
-GitHub Enterprise.**
+**The ability to review pull requests is currently not available for Bitbucket.**
 
 Regardless of where the pull request was created, you can edit, review, and even
-merge it, right from CodeStream. We've essentially brought GitHub right into
-your IDE, so there's zero learning curve. If you know how to work with pull
-requests on GitHub, you'll know how to do it in CodeStream as well.
+merge it, right from CodeStream. We've essentially brought GitHub and GitLab
+right into your IDE, so there's zero learning curve. If you know how to work
+with pull requests on GitHub or GitLab, you'll know how to do it in CodeStream
+as well.
 
 Edit the pull request's details, such as reviewers, assignees and labels.
 
 ![Pull Request Details](../assets/images/PRDetails-GH.png)
 
 Review the conversation and add comments, with the ability to @mention your
-GitHub collaborators. 
+collaborators. 
 
 ![Pull Request Conversation](../assets/images/PRConversation-GH.png)
 
@@ -87,12 +87,13 @@ View the changes, add comments, and submit a review.
 
 ![Pull Request Changes](../assets/images/PRChanges-GH.png)
 
-Of course, we did improve upon the GitHub experience in a couple of important
-ways. On GitHub you can only view the changes as a series of "diff hunks".
-CodeStream provides that view as well, but if you'd prefer to see the changes in
-the context of the full file, and not just the lines that changed, you can use
-either List View or Tree View. Just select the code you want to comment on, and
-then click on the Comment button (or select Comment from the context menu).
+Of course, we did improve upon the GitHub/GitLab experience in a couple of
+important ways. On GitHub and GitLab you can only view the changes as a series
+of "diff hunks". CodeStream provides that view as well, but if you'd prefer to
+see the changes in the context of the full file, and not just the lines that
+changed, you can use either List View or Tree View. Just select the code you
+want to comment on, and then click on the Comment button (or select Comment from
+the context menu).
 
 ![Add Comment](../assets/images/PRComment-GH.png)
 
@@ -100,13 +101,14 @@ When commenting you can either add a single comment, or start a review.
 
 ![Start a Review](../assets/images/PRCommentForm-GH.png)
 
-Another difference from GitHub is that CodeStream allows you to comment on lines
-of code that haven't changed. You can select ANY lines of code in the diff, and
-not just those that are part of the changeset. Note that these comments are
-added as a "single comment" to the pull request and aren't part of any review
-you may have in progress.
+Another difference is that CodeStream allows you to comment on lines of code
+that haven't changed. You can select ANY lines of code in the diff, and not just
+those that are part of the changeset. Note that these comments are added as a
+"single comment" to the pull request and aren't part of any review you may have
+in progress.
 
-All the power of GitHub pull requests, and then some, right in your IDE.
+All the power of GitHub pull requests and GitLab merge requests, and then some,
+right in your IDE.
 
 ## Leveraging pull request comments
 
