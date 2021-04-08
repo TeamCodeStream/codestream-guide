@@ -38,9 +38,9 @@ a link to the ticket in the pull request's description. Before submitting the
 pull request you can even review your changes by clicking on any of the files
 listed below the form.
 
-To create a pull request across forks (available for GitHub only), click on the
-"compare across forks" link at the top of the page and the form will update to
-allow you to select both the base and head repositories.
+To create a pull request across forks, click on the "compare across forks" link
+at the top of the page and the form will update to allow you to select both the
+base and head repositories.
 
 You can also create a pull request from within a CodeStream feedback request.
 Once the feedback request has been approved, you’ll see an option to open a pull
@@ -74,9 +74,18 @@ right into your IDE, so there's zero learning curve. If you know how to work
 with pull requests on GitHub or GitLab, you'll know how to do it in CodeStream
 as well.
 
-Edit the pull request's details, such as reviewers, assignees and labels.
+Edit a GitHub pull request's details, such as reviewers, assignees and labels.
 
 ![Pull Request Details](../assets/images/PRDetails-GH.png)
+
+For a GitLab merge request, you can use edit mode (via the dropdown at the top
+of the page) or use the sidebar.
+
+![Merge Request Details](../assets/images/PRDetails-GL.png)
+
+By default, you can only add a single reviewer and a single assignee to a GitLab merge request. If your organization supports multiple reviewers and assignees, click the gear menu in the heading of the Merge Requests section of the CodeStream pane to enable this.
+
+![Multiple Reviewers and Assignees](../assets/images/MultipleSetting-GL.png)
 
 Review the conversation and add comments, with the ability to @mention your
 collaborators. 
@@ -118,7 +127,7 @@ often useful information in those comments, that may have long-term value, they
 are rarely seen again. CodeStream gives those comments a second life by
 displaying them alongside the blocks of code that they refer to. 
 
-![Pull Request Comment](../assets/images/PRComment-Gutter.png)
+![Pull Request Comment](../assets/images/PRComment-Gutter1.png)
 
 To have pull request comments displayed as annotions in your codemarks, as well
 as in the Codemarks section of the CodeStream pane, click on the gear icon in
