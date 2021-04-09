@@ -166,13 +166,13 @@ thread. This is where they will get marked complete when the work is done.
 
 ![Change Requests](../assets/images/ReviewChgReqSection1.png)
 
-Look for the green and red buttons at the top to either approve or reject the
-changes. Note that if there are any open change requests, the approve button
-will be replaced by a blue button that indicates the number. You can still
-approve the changes but we wanted to make sure you were aware of the outstanding
-work.
+Look for the green and red buttons at the top to either approve the changes or
+request that additional changes be made. Note that if there are any open change
+requests, the approve button will be replaced by a blue button that indicates
+the number. You can still approve the changes but we wanted to make sure you
+were aware of the outstanding work.
 
-![Outstanding Change Requests](../assets/images/ApproveWithChgReqs2.png)
+![Outstanding Change Requests](../assets/images/ApproveWithChgReqs3.png)
 
 When there are multiple reviewers, and approval is required from each,
 CodeStream makes it very clear when there are still outstanding approvals. The
@@ -189,7 +189,7 @@ some changes, and then the developer responding to that feedback with more
 changes to the code. To continue the process, click the blue Amend button to add
 your changes.
 
-![Amend Review](../assets/images/FRAmend.png)
+![Amend Review](../assets/images/FRAmend1.png)
 
 As when you originally submitted the feedback request, you can choose from your
 saved and stages changes, and your local and pushed commits. Any open change

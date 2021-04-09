@@ -83,7 +83,10 @@ of the page) or use the sidebar.
 
 ![Merge Request Details](../assets/images/PRDetails-GL.png)
 
-By default, you can only add a single reviewer and a single assignee to a GitLab merge request. If your organization supports multiple reviewers and assignees, click the gear menu in the heading of the Merge Requests section of the CodeStream pane to enable this.
+By default, you can only add a single reviewer and a single assignee to a GitLab
+merge request. If your organization supports multiple reviewers and assignees,
+click the gear menu in the heading of the Merge Requests section of the
+CodeStream pane to enable this.
 
 ![Multiple Reviewers and Assignees](../assets/images/MultipleSetting-GL.png)
 

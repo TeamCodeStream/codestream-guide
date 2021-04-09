@@ -4,15 +4,17 @@ description:
 ---
 
 The Feedback Requests section of the CodeStream pane lists all open [feedback
-requests](../workflow/feedback-requests) that have been assigned to you, or that you have requested. 
+requests](../workflow/feedback-requests) that have been assigned to you or that
+you have requested, as well as your recent feedback requests that have been
+approved or where changes have been requested. 
 
-![Feedback Requests Section](../assets/images/FRSection.png)
+![Feedback Requests Section](../assets/images/FRSection1.png)
 
 Click on a request to jump in and start reviewing, or to see your teammate’s
 comments on your work.
 
-When you hover over the Pull Requests section heading, you'll see a "+" icon to
-create a new feedback request. If you're a team admin you'll also see a gear
+When you hover over the Feedback Requests section heading, you'll see a "+" icon
+to create a new feedback request. If you're a team admin you'll also see a gear
 icon to control how both feedback request assignments and approvals work for
 your team. 
 
