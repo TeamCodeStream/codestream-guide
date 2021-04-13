@@ -47,9 +47,13 @@ right.
 ![Pull Requests Section Header](../assets/images/PRSectionHeader.png)
 
 Options there include the ability to refresh all the sections (i.e., queries) at
-once, create a new pull request, and to create a new query/section. Click on the
-gear icon for more options, including the ability to see pull requests from all
-repositories, and not just those associated with repositories open in your IDE,
-and the ability to include labels in the list.
+once, create a new pull request, and to create a new section based on a custom
+query. 
+
+![Custom Query](../assets/images/PRCustomQuery.png)
+
+Click on the gear icon for more options, including the ability to see pull
+requests from all repositories, and not just those associated with repositories
+open in your IDE, and the ability to include labels in the list.
 
 ![Pull Request Section Settings](../assets/images/PRSectionSettings.png)
