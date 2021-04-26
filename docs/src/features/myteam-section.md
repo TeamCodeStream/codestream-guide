@@ -63,7 +63,8 @@ a merge conflict.
 
 You can also hover over an entry to see the files that have been changed,
 including ones that represent potential merge conflicts, and how recently this
-info was updated.
+info was updated. This information helps you avoid the costly effort of needing
+to resolve a merge conflict at a later point by preventing it up-front.
 
 ![Live View Conflict Warning](../assets/images/MyTeamLiveViewConflict.png)
 
