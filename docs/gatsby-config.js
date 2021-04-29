@@ -79,6 +79,7 @@ module.exports = {
 						'faq/custom-queries',
 						'faq/jira-server-integration',
 						'faq/jira-server-version',
+						'faq/glsm-version',
 						'faq/proxy-support',
 						'faq/git-issues',
 						'faq/client-logs',
