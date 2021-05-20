@@ -13,7 +13,7 @@ CodeStream can integrate with Jira Server using Atlassian’s published REST API
 
 Jira Server uses the OAuth standard (version 1.0a) for client authorization. For reference, this page from Atlassian describes the process: [https://developer.atlassian.com/server/jira/platform/oauth/](https://developer.atlassian.com/server/jira/platform/oauth/). However, you do not need to follow the full instructions on that page; the relevant instructions are duplicated and simplified here for clarity. Note that you will need the `openssl` command-line tool to generate a public/private key pair for use with the application link.
 
-## 1. Generate a public/private key pair
+## Generate a public/private key pair
 
 In a terminal, use `openssl` to generate your public/private key pair, following these steps carefully:
 
@@ -35,7 +35,7 @@ In a terminal, use `openssl` to generate your public/private key pair, following
 
   `openssl x509 -pubkey -noout -in jira_publickey.cer > jira_publickey.pem`
 
-## 2. Create an application link
+## Create an application link
 
 Follow these steps to create your application link within Jira Server.
 
@@ -57,7 +57,7 @@ Follow these steps to create your application link within Jira Server.
 
 ![Jira Server Application Link Created](../assets/images/JiraServerApplicationLinkCreated1.png)
 
-## 3. Set up the integration in CodeStream
+## Set up the integration in CodeStream
 
 Now you are ready to set up the integration from CodeStream to Jira Server for your team, using the application link you just created. Assuming you have signed up for CodeStream and have the extension open in your IDE:
 
