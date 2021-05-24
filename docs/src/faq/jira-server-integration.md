@@ -7,7 +7,7 @@ description:
 
 **NOTE #2: You must be a Jira administrator in order to configure this integration. To determine if you have the proper permissions in order to proceed, look for the Jira Settings menu (cog icon, mostly likely at the top-right next to your headshot) and make sure there's an "Applications" option there. If you don't have the Settings menu, or the Applications option, then you won't be able to configure the integration.**
 
-**NOTE #3: If you are using CodeStream's cloud service, this integration requires that your Jira Server instance be at a publicly accessible URL. This is not the case, however, if you are using CodeStream On-Prem.**
+**NOTE #3: This integration requires that your Jira Server instance be at a publicly accessible URL.**
 
 CodeStream can integrate with Jira Server using Atlassian’s published REST API. To enable CodeStream to integrate with your Jira Server installation, you will need to set up a CodeStream application link. This application link serves as a conduit for users to authenticate against their Jira Server account without ever having to enter their credentials in CodeStream.
 

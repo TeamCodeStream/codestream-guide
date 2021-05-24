@@ -72,7 +72,6 @@ module.exports = {
 					FAQ: [
 						'faq/what-editors',
 						'faq/store-source',
-						'faq/on-prem',
 						'faq/git-access',
 						'faq/need-teams',
 						'faq/github-org-repos',

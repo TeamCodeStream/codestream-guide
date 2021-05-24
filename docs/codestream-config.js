@@ -27,12 +27,12 @@ module.exports = {
 		// 	description: `Learn about CodeStream's Open API development and how to participate`,
 		// 	icon: IconSingleService,
 		// },
-		'On-Prem Administration': {
+		//'On-Prem Administration': {
 			// url: 'https://docs.codestream.com/onprem',
-			url: '/onprem',
-			description: 'Run CodeStream on your own network with docker',
-			icon: IconHome,
-		},
+		//	url: '/onprem',
+		//	description: 'Run CodeStream on your own network with docker',
+		//	icon: IconHome,
+		//},
 		// Support: {
 		// 	url: 'https://github.com/teamcodestream/codestream/issues/',
 		// 	description: 'Get help from the CodeStream support staff',

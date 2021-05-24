@@ -24,12 +24,6 @@ the person on your own.
 
 ![Reinvite](../assets/images/MyTeamReinvite.png)
 
-For CodeStream On-Prem installations where outbound email hasn't been
-configured, when you invite someone CodeStream will provide you with the
-invitation code that you can then email/message to the person on your own.
-
-![Invite Manually](../assets/images/InviteOnPrem.png)
-
 The "Suggested Teammates" section, which is only available for team admins, is a
 list of possible teammates derived from the commit history of your open repos.
 At the right side of each row are links to remove the suggestion from the list
