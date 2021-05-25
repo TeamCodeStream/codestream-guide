@@ -68,6 +68,7 @@ module.exports = {
 						'features/account-settings',
 						'features/team-administration',
 						'features/keyboard-shortcuts',
+						'features/markdown',
 					],
 					FAQ: [
 						'faq/what-editors',
