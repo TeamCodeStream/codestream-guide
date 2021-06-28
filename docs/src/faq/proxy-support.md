@@ -10,9 +10,6 @@ to work with it. To find CodeStream’s settings in your IDE:
 * VS Code - Go to Settings/Preferences and search for “CodeStream”.
 * Visual Studio - Go to Tools > Options > CodeStream.
 * JetBrains - Go to Settings/Preferences > Tools > CodeStream.
-* Atom - Go to Settings/Preferences > Packages, and then find CodeStream in the
-  Community Packages section. Click on the Settings button in the CodeStream
-  box.
 
 Look for the “Proxy Support” setting and make sure it is set to “on”. You will
 also need to disable Strict SSL checking since your CodeStream extension won’t

@@ -12,10 +12,8 @@ repository being managed by Git, or a Git hosting service like GitHub.
 Install CodeStream for [VS
 Code](https://marketplace.visualstudio.com/items?itemName=CodeStream.codestream),
 [Visual
-Studio](https://marketplace.visualstudio.com/items?itemName=CodeStream.codestream-vs),
-[JetBrains](https://plugins.jetbrains.com/plugin/12206-codestream) or
-[Atom](https://atom.io/packages/codestream). Support for more editors is on the
-way.
+Studio](https://marketplace.visualstudio.com/items?itemName=CodeStream.codestream-vs) or
+[JetBrains](https://plugins.jetbrains.com/plugin/12206-codestream).
 
 Once you've installed the extension, the CodeStream pane should automatically
 appear in the sidebar for VS Code, or in a tool window at the right side for a

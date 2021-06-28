@@ -34,9 +34,3 @@ and reference the GitHub issue number in the subject.
   as well as the ActivityLog.xml from
   `%AppData%\Microsoft\VisualStudio\16.0_<RandomText>` for Visual Studio 2019 or
   `%AppData%\Microsoft\VisualStudio\15.0_<RandomText>` for Visual Studio 2017
-
-**Atom**
-- Open the command palette
-- Search for and select "Codestream: Open Logs"
-- In the tree view, a new folder named like `atom-codestream-` should have been added
-- Grab all the files in that folder

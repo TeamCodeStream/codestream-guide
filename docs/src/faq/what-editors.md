@@ -6,10 +6,8 @@ description:
 CodeStream is currently available for [VS
 Code](https://marketplace.visualstudio.com/items?itemName=CodeStream.codestream),
 [Visual
-Studio](https://marketplace.visualstudio.com/items?itemName=CodeStream.codestream-vs),
-[JetBrains](https://plugins.jetbrains.com/plugin/12206-codestream), and
-[Atom](https://atom.io/packages/codestream), but support is on the way for
-Eclipse, Sublime and others.
+Studio](https://marketplace.visualstudio.com/items?itemName=CodeStream.codestream-vs) and all
+[JetBrains IDEs](https://plugins.jetbrains.com/plugin/12206-codestream) (including Android Studio).
 
 ### What if I don't use a supported editor?
 
