@@ -84,6 +84,7 @@ module.exports = {
 						'faq/custom-queries',
 						'faq/git-issues',
 						'faq/client-logs',
+            'faq/custom-queries-gl',
 					],
 				},
 			},
