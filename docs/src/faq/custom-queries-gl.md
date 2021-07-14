@@ -1,11 +1,9 @@
 ---
-title: GitLab Custom Queries
-description: This doc will show you how to do custom queries for GitLab in CodeStream. CodeStream supports custom GitLab querying of both merge requests and GitLab issues.
+title: GitLab custom queries
+description:
 ---
 
-## Searching Issues
-
-Custom issue filtering allows you to specify which GitLab issues you want to see in the issues section.
+Custom issue filtering allows you to specify which GitLab issues you want to see in the Issues section.
 
 ### Search Syntax
 
@@ -69,7 +67,7 @@ iids[]=1&group_id=473&labels=bug
 
 ## Minimum Qualifiers
 
-By default, custom filters use `scope=all` which searches issues across all of GitLab. To avoid pulling all issues listed on GitLab, you will need to refine this search using at least one of the minimum qualifiers listed below:
+By default, custom filters use `scope=all` which searches issues across all of GitLab. To avoid pulling all issues listed on GitLab, you will need to refine this search using at least one of the follwing qualifiers:
 
 * scope=assigned\_to\_me
 * scope=created\_by\_me
