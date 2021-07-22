@@ -73,7 +73,7 @@ iids[]=1&group_id=473&labels=bug
 
 ### Minimum MR Qualifiers
 
-By default, custom filters use `scope=all` which searches merge requests across all of GitLab. To avoid pulling all MRs listed on GitLab, you will need to refine this search using at least one of the follwing qualifiers:
+By default, custom filters use `scope=all` which searches merge requests across all of GitLab. To avoid pulling all MRs listed on GitLab, you will need to refine this search using at least one of the following qualifiers:
 
 * scope=assigned\_to\_me
 * scope=created\_by\_me
@@ -155,7 +155,7 @@ iids[]=1&group_id=473&labels=bug
 
 ### Minimum Issue Qualifiers
 
-By default, custom filters use `scope=all` which searches issues across all of GitLab. To avoid pulling all issues listed on GitLab, you will need to refine this search using at least one of the follwing qualifiers:
+By default, custom filters use `scope=all` which searches issues across all of GitLab. To avoid pulling all issues listed on GitLab, you will need to refine this search using at least one of the following qualifiers:
 
 * scope=assigned\_to\_me
 * scope=created\_by\_me
