@@ -18,6 +18,7 @@ assignee_id=5&scope=created_by_me
 labels=foo,help wanted&scope=created_by_me
 iids[]=1,2&milestone=1.0.0&my_reaction_emoji=star&scope=assigned_to_me
 project_id=23&state=opened&reviewer_id=@me
+scope=assigned_to_me&not[labels]=duplicate&not[milestone]=review
 ```
 
 | Attribute   | Type  | Description |
@@ -46,7 +47,7 @@ project_id=23&state=opened&reviewer_id=@me
 | `search` | string | Search merge requests against their `title` and `description`. |
 | `in` | string | Modify the scope of the `search` attribute. `title`, `description`, or a string joining them with comma. Default is `title,description`. |
 | `wip` | string | Filter merge requests against their `wip` status. `yes` to return only draft merge requests, `no` to return non-draft merge requests. |
-| `not` | hash | Return merge requests that do not match the parameters supplied. Accepts: `labels`, `milestone`, `author_id`, `author_username`, `assignee_id`, `assignee_username`, `reviewer_id`, `reviewer_username`, `my_reaction_emoji`. |
+| `not` | hash | Return merge requests that do not match the parameters supplied. Accepts: `labels`, `milestone`, `author_id`, `author_username`, `assignee_id`, `assignee_username`, `reviewer_id`, `reviewer_username`, `my_reaction_emoji`. See example above for how to format `not` as a `hash` type.|
 | `environment` | string |  Returns merge requests deployed to the given environment. Expected in ISO 8601 format (`2019-03-15T08:00:00Z`) |
 | `deployed_before` | datetime | Return merge requests deployed before the given date/time. Expected in ISO 8601 format (`2019-03-15T08:00:00Z`) |
 | `deployed_after` | datetime | Return merge requests deployed after the given date/time. Expected in ISO 8601 format (`2019-03-15T08:00:00Z`) |
