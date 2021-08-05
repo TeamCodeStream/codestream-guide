@@ -3,9 +3,6 @@ title: Request Feedback
 description: 
 ---
 
-**Feedback Requests are currently available in
-CodeStream’s extensions for VS Code, JetBrains, and Visual Studio.**
-
 CodeStream's Feedback Requests are powerful enough to use for tradtional
 end-of-cycle code reviews, but at the same time they're so easy and flexible
 that you can use them throughout the development process to get quick feedback
