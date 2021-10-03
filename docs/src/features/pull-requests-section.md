@@ -60,7 +60,7 @@ open in your IDE, and the ability to include labels in the list.
 
 ![Pull Request Section Settings](../assets/images/PRSectionSettings.png)
 
-## GitHub custom queries
+## GitHub Custom Queries
 
 By default, GitHub's search API does a global search across all of
 GitHub. As a result, you'll need to make sure that your query includes at least
@@ -84,7 +84,7 @@ appropriately limited.
 More details about GitHub's search syntax can be [found
 here](https://docs.github.com/en/github/searching-for-information-on-github/searching-issues-and-pull-requests).
 
-## GitLab custom queries
+## GitLab Custom Queries
 
 All searches are done using `attribute=value` format with an `&` between each parameter. For parameters with a space in them (e.g. `labels=foo,help wanted`) leave them as is (do not put any quotes in the parameter). You can use `@me` to specify your user id and user name otherwise they can be found on GitLab. All filters, by default, have parameter `scope=all` (see [Minimum Qualifiers](#minimum-qualifiers)). To overwrite this, use `scope=X`. See examples given below.
 

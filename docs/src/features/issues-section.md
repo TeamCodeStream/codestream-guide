@@ -40,11 +40,9 @@ to Trello, you can filter to see a specific list or set of lists.
 
 ![Filter Issues](../assets/images/IssuesFilter.png)
 
-For Jira, Jira Server, GitHub, GitHub Enterprise, GitLab and GitLab Self-Managed
-you can even create custom filters. Note that there are some special guidelines
-when creating a custom query for [GitHub and GitHub
-Enterprise](../workflow/pull-requests) or for [GitLab and GitLab
-Self-Managed](../workflow/pull-requests).
+For Jira, Jira Server, GitHub, GitHub Enterprise, GitLab and GitLab Self-Managed you can even create custom
+filters. Note that there are some special
+guidelines when creating a custom query for [GitHub and GitHub Enterprise](pull-requests-section/#github-custom-queries) or for [GitLab and GitLab Self-Managed](pull-requests-section/#gitlab-custom-queries).
 
 ![Customer Filter](../assets/images/IssuesCustomFilter.png)
 
