@@ -16,14 +16,15 @@ and reference the GitHub issue number in the subject.
   and then click OK. (Note that you can remove this after you’ve sent us the log
   files so that logging isn't as verbose.)
 - Restart the IDE.-->
-- Reproduce the issue and then go to Help > Collect Logs and Diagnostic Data.
-  This will open the finder where you should see a newly created zip file.
+- Reproduce the issue and then in your IDE go to Help > Collect Logs and
+  Diagnostic Data. This will open the finder where you should see a newly
+  created zip file.
 
 **VS Code**
-- Reproduce the issue and then open the Output view (“View: Toggle Output” from
-  the command palette) and select "CodeStream" from the dropdown menu at the
-  top-right. Copy all of the output you see and save it in a text file.
-- Change the dropdown select to “CodeStream (Agent)” and grab that output as well.
+- Reproduce the issue and then open the Output view in VS Code (“View: Toggle
+  Output” from the command palette) and select "CodeStream (Agent)" from the
+  dropdown menu at the top-right. Copy all of the output you see and save it in
+  a text file.
 
 **Visual Studio**
 - Go to Tools > Options > CodeStream and make sure your log level is set to at

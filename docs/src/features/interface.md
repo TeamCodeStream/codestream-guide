@@ -5,7 +5,7 @@ description:
 
 The CodeStream interface surfaces all the items you need to see, and do, in a
 customizable tree-based view that is always available. 
-
+FIXME
 ![CodeStream Sidebar](../assets/images/Sidebar1.png)
 
 Subsequent articles will go into more detail on each section, but here's a quick
@@ -20,8 +20,6 @@ overview.
   feedback request, or through ad-hoc code comments/issues, "codemarks" are the
   discussions that annotate your codebase and all of the codemarks in the
   current repository are listed for reference.
-* [Work in Progress](wip-section) - A summary of your local changes, by repo, as
-  well the issue you're currently working on.
 * [Issues](issues-section) - See all of your open issues, across multiple
   services, in one place, and click on one to update its status, create a
   feature branch to do your work, and even update your status on Slack.
@@ -52,8 +50,8 @@ creating and discovering content in your team.
   dice your team’s collection of code comments/issues and feature requests
   however you see fit.
 
-And lastly, at the top-left of the CodeStream pane, click on your headshot for
-options related to [account settings](account-settings), [notifications](notifications) and [team
+And lastly, at the top-left of the CodeStream pane, click on your username for
+options related to [account settings](account-settings), [notifications](notifications) and [organization
 administration](team-administration).
 
-![Headshot Menu](../assets/images/HeadshotMenu.png)
+![Username Menu](../assets/images/HeadshotMenu.png)

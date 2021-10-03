@@ -3,10 +3,10 @@ title: Filter and Search
 description: 
 ---
 
-Filter & Search allows you to slice and dice your team’s collection of comments,
-issues and feedback requests however you see fit. By default, you’ll get a view
-of any open issues or feedback requests assigned to you, followed by all open
-issues and feedback requests.
+Filter & Search allows you to slice and dice your organization's collection of
+comments, issues and feedback requests however you see fit. By default, you’ll
+get a view of any open issues or feedback requests assigned to you, followed by
+all open issues and feedback requests.
 
 ![Filter and Search](../assets/images/FilterAndSearch2.png)
 

@@ -46,7 +46,7 @@ CodeStream also offers the following notifications that can be turned on and off
 email reminder about open feedback requests assigned to you that you haven't
 responded to in the last 24 hours.
 * Notify me about new unreviewed commits from teammates when I pull - Any time you pull, if there are new commits from a teammate on the current branch you'll get a toast notification. Click the "Review" button to start reviewing your teammate's changes and provide feedback.
-* Send me weekly emails summarizing my activity - Sent every Monday with information about you and your team's activity for the previous week.
+* Send me weekly emails summarizing my activity - Sent every Monday with information about you and your organization's activity for the previous week.
 
 If you've connected to GitHub or GitHub Enterprise to leverage CodeStream's [pull request integration](../workflow/pull-requests) you'll also be notified when a pull request is assigned to you or you are added as a reviewer.
 

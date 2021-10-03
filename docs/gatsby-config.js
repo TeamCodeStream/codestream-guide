@@ -41,8 +41,7 @@ module.exports = {
 					'Getting Started': [
 						'gettingStarted/what-is-codestream',
 						'gettingStarted/install-codestream',
-						'gettingStarted/create-a-team',
-						'gettingStarted/join-a-team',
+						'gettingStarted/signup',
 					],
 					'CodeStream Workflow': [
 						'workflow/start-work',
@@ -55,7 +54,6 @@ module.exports = {
 						'features/pull-requests-section',
 						'features/feedback-requests-section',
 						'features/codemarks-section',
-						'features/wip-section',
 						'features/issues-section',
 						'features/myteam-section',
 						'features/activity-feed',
@@ -74,7 +72,6 @@ module.exports = {
 						'faq/what-editors',
 						'faq/store-source',
 						'faq/git-access',
-						'faq/need-teams',
 						'faq/github-org-repos',
 						'faq/proxy-support',
 						'faq/jira-server-integration',

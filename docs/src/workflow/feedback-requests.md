@@ -42,7 +42,7 @@ requesting feedback on changes in the repo/branch of the file currently selected
 in your editor. If you have multiple repositories open in your IDE, you can
 change this via the repo dropdown at the very top of the form. 
 
-Depending on [your team's
+Depending on [your organization's
 settings](../features/team-administration/#feedback-request-assignment--approval),
 CodeStream may suggest some reviewers. Based on the commit history of the code
 being changed, the suggestions may even include someone that isn't yet on your
@@ -76,7 +76,7 @@ file), you can commit and push the file so that they can make use of it as well.
 The changes represented across the selected files are broken out into four
 different categories, allowing you to select exactly what you would like to
 include in the feedback request. This includes changes that haven't been pushed,
-or event committed!
+or even committed!
 
 * Saved Changes
 * Staged Changes
@@ -89,7 +89,7 @@ uncheck the boxes for all preceding commits. In other words, the commits
 included in the feedback request must be consecutive. Only your commits are
 checked by default, but you can include any of them in your review. (Tip: Make
 sure the email address in your git configuration matches your CodeStream email
-address. Or, ask your CodeStream team's admin to set up a [blame
+address. Or, ask your organization's admin to set up a [blame
 map](../features/myteam-section/#blame-map) to map your git email address to you
 CodeStream email address.)
 

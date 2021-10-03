@@ -20,6 +20,25 @@ there are new messages, and a number means there are new mentions.
 
 ![Status Bar](../assets/images/StatusBarWithMentions2.png)
 
+A filter at the top of the activity feed allows you to determine what you'll see
+in the feed.
+
+* Activity from everyone in my organization - This option allows you to see all
+  activity from your organization, and should only be used in very small
+  organizations.
+* Activity associated with code open in my IDE (default) - You'll only see
+  discussions related to code in the repositories you have open in your IDE,
+  although you'll always see posts where you're @mentioned even if it's
+  associated with code from other repositories.
+* Activity associated with code in selected folder - This option is geared
+  towards those of you working with monorepos. You'll only see discussions
+  related to code in the selected folder, although you'll always see posts
+  where you're @mentioned even if it's associated with code from other
+  folders.
+
+FIXME
+![Activity Feed Filters](../assets/images/StatusBarWithMentions2.png)
+
 As you might expect, new stuff gets added to the top of the feed, even if it’s a
 new reply to a very old discussion. CodeStream makes it even easier to identify
 what’s new by adding a blue border on the left side. For example, here’s a new
@@ -42,3 +61,4 @@ thread and add a new reply of your own.
 The activity feed goes all the way back to the beginning of time for your team,
 but if you’re looking for specific older codemarks you might be better off going
 to [Filter & Search](filter-and-search).
+

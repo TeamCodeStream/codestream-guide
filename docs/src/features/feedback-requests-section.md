@@ -14,14 +14,15 @@ Click on a request to jump in and start reviewing, or to see your teammate’s
 comments on your work.
 
 When you hover over the Feedback Requests section heading, you'll see a "+" icon
-to create a new feedback request. If you're a team admin you'll also see a gear
+to create a new feedback request. If you're an admin you'll also see a gear
 icon to control how both feedback request assignments and approvals work for
-your team. 
+your organization. 
 
 ![Feedback Request Settings](../assets/images/FRTeamSettings.png)
 
 By default, the person requesting feedback can decide how approvals work, but
-you can, instead, set a default behavior for all feedback requests for the team.
+you can, instead, set a default behavior for all feedback requests for the
+organization.
 
 * Any reviewer can approve - Any one can approve the feedback request,
   regardless of how many reviewers are assigned.
@@ -29,8 +30,8 @@ you can, instead, set a default behavior for all feedback requests for the team.
   individually approve the feedback request before it’s considered approved.
 
 You can also decide if and how CodeStream suggests reviewers. Round-robin will
-cycle through all developers on the team. Random will randomly assign the
-feedback request to any developer on the team. The Authorship options will
-suggest up to three reviewers based on the developers who wrote the lines of
-code impacted by the changes, as well as other developers who may have committed
-to the branch.
+cycle through all developers in the organization. Random will randomly assign
+the feedback request to any developer in the organization. The Authorship
+options will suggest up to three reviewers based on the developers who wrote the
+lines of code impacted by the changes, as well as other developers who may have
+committed to the branch.

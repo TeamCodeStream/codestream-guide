@@ -70,9 +70,7 @@ If your team uses Asana, Azure DevOps, Bitbucket (cloud), Clubhouse, GitHub
 (cloud or Enterprise), GitLab (cloud or Self-Managed), Jira (cloud or Server),
 Linear, Trello, or YouTrack (cloud) for tracking issues, you can create an issue on one
 of those services directly from CodeStream. Just select the service you use from
-the dropdown at the top of the codemark form. Note that the Jira Server
-integration requires [a little up-front work](../faq/jira-server-integration)
-from your Jira administrator.
+the dropdown at the top of the codemark form.
 
 ![Issue Tracking Services](../assets/images/IssueTrackingIntegrations2.png)
 

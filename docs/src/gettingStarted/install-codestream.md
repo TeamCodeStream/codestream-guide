@@ -20,5 +20,4 @@ appear in the sidebar for VS Code, or in a tool window at the right side for a
 JetBrains IDE or Visual Studio. If for some reason it doesn't, simply click on
 the CodeStream entry in your IDE's status bar.
 
-Now that you’ve got the plugin up and running, you’re ready to sign up and
-create a team!
+Now that you’ve got the plugin up and running, you’re ready to sign up!

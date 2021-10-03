@@ -21,10 +21,4 @@ need to coordinate with to avoid a conflict.
 
 The icons to at the end of each repository's row allow you to quickly create a
 feedback request or a pull request. Remember that you don’t need to wait until
-the work is completed to request feedback. 
-
-What you see in the Work in Progress section is, by default, also shared with
-your teammates in the [My Team section](myteam-section). You can, however, click
-the icon in this section's heading to turn off sharing.
-
-![Toggle Live View](../assets/images/WIPLiveViewToggle.png)
+the work is completed to request feedback.
