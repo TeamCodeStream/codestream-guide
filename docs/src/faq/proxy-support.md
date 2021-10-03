@@ -1,6 +1,5 @@
 ---
 title: CodeStream proxy support
-description:
 ---
 
 If you are experiencing connectivity issues with the CodeStream extension it
