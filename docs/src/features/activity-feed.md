@@ -36,8 +36,7 @@ in the feed.
   where you're @mentioned even if it's associated with code from other
   folders.
 
-FIXME
-![Activity Feed Filters](../assets/images/StatusBarWithMentions2.png)
+![Activity Feed Filters](../assets/images/ActivityFeedFilters.png)
 
 As you might expect, new stuff gets added to the top of the feed, even if it’s a
 new reply to a very old discussion. CodeStream makes it even easier to identify

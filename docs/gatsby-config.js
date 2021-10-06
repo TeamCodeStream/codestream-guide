@@ -55,8 +55,8 @@ module.exports = {
 						'features/feedback-requests-section',
 						'features/codemarks-section',
 						'features/issues-section',
-						'features/myteam-section',
 						'features/activity-feed',
+						'features/myorganization',
 						'features/filter-and-search',
 						'features/permalinks',
 						'features/slack-integration',
@@ -69,7 +69,6 @@ module.exports = {
 						'features/markdown',
 					],
 					FAQ: [
-						'faq/what-editors',
 						'faq/store-source',
 						'faq/git-access',
 						'faq/github-org-repos',

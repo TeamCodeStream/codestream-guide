@@ -3,34 +3,31 @@ title: Organization Settings & Admin
 description: 
 ---
 
-## Managing People & Roles FIXME
+## Managing People & Roles
 
-The [My Team section](myteam-section) of the CodeStream pane allows you to
-invite people via email address, and allows team admins to assign and remove
-admin privileges.
+Select "My Organization" from the [My Organization](myorganization) menu at the
+top of the CodeStream pane to invite people to the organization and assign or
+remove admin privileges.
 
-![Admin Privileges](../assets/images/AdminRights1.png)
+![Admin Privileges](../assets/images/AdminRights2.png)
 
-The "Blame Map" section allows you to define code ownership on the team. By
-default, when you comment on code, CodeStream mentions (or offers to email) the
-author(s) of the code you are commenting on. But if that person has left the
-company, or transitioned to a different role, it might not be the right thing to
-do.
+Select "Blame Map" to define code ownership with your organization.
 
-![Blame Map](../assets/images/BlameMap.png)
+![Blame Map](../assets/images/MyOrgBlameMap.png)
 
-The Blame Map allows you to direct discussions about code that the former team
-member worked on to someone else on the team. Based on the mapping in the
-screenshot above, the next time someone asks a question about code authored by
-Dave, or requests a review of changes to that code, Tracy will be
-mentioned/assigned instead of Dave.
+By default, when you comment on code, CodeStream mentions (or offers to email)
+the author(s) of the code you are commenting on. But if that person has left the
+company it might not be the right thing to do. Note that non-admins are able to
+set up blame maps for themselves to handle situations where the email address
+they use to commit code is different than the one they used to sign up for
+CodeStream.
 
 ## Organization Settings
 
 If you are an organiztion admin, look for the Organization Admin menu under the
 headshot menu at the top of the CodeStream pane.
 
-![Team Settings](../assets/images/TeamSettings3.png)
+![Organization Settings](../assets/images/OrganizationSettings.png)
 
 ## Onboarding Settings
 
@@ -39,8 +36,8 @@ to join your CodeStream organization without being first invited. Not only does
 this make it very easy to get your teammates on board, but it ensures that
 they'll be part of your organization (as opposed to accidentally creating their
 own).
-FIXME
-![Domain-based Joining](../assets/images/OnboardingSettings.png)
+
+![Domain-based Joining](../assets/images/OnboardingDomainJoining.png)
 
 The Integration Options section allows you to smooth the onboarding process
 process for your teammates by eliminating unnecessary unnecessary options, and
@@ -48,8 +45,8 @@ of the possibility of mistakes. You can control which authentication options
 they can use. For example, you might want everyone to sign up using GitHub. You
 can also specify your organization's preferred code host, messaging service, and
 issue tracker. Note that you can select multiple services in each category.
-FIXME
-![Integration Options](../assets/images/OnboardingSettings.png)
+
+![Integration Options](../assets/images/OnboardingIntegrations.png)
 
 ## Feedback Request Assignment & Approval
 

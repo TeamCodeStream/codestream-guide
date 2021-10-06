@@ -23,7 +23,7 @@ code into any of the boxes rather than typing each number individually.
 
 ![Confirm Email](../assets/images/EmailConfirmation1.png)
 
-## Create or Join an Organization
+## CodeStream Organizations
 
 An “organization” on CodeStream is where you and your teammates will discuss
 code. Similar to a Slack workspace, all of the developers in your company should
@@ -37,31 +37,32 @@ day job and another for an open-source project you work on. Or maybe you're a
 consultant that is a member of different CodeStream organizations for each of
 your clients.
 
+## Create or join an organization
+
+If you were invited to join an organization on CodeStream, all you need to do is
+sign up using the same email address the invitation was sent to. You'll
+automatically be added to that organization.
+
 If you're the first person from your company to sign up for CodeStream you can
 go ahead and create a new organization. Otherwise, there may be existing
-CodeStream organizations available for you to join. For example, any
-organization to which you've been invited would be listed here. You may also be
-able to join an organization based on your email domain. If you think your
-company is already on CodeStream, but don't see an organization to join, make
-sure that you've signed up with your work email address. Click the link to
-change your email address if necessary.
+CodeStream organizations available for you to join based on your email domain.
+If you think your company is already on CodeStream, but don't see an
+organization to join, make sure that you've signed up with your work email
+address. Click the link to change your email address if necessary.
 
-FIXME
-![Create or Join an Organization](../assets/images/TeamName1.png)
+![Create or Join an Organization](../assets/images/CreateOrJoinOrg.png)
 
 If you decide to create an organization you'll be asked to give it a name, and
 if you signed up with your work email address, you'll also be able to indicate
 that anyone else on that email domain can join the organization.
 
-FIXME
-![Create an Organization](../assets/images/TeamName1.png)
+![Create an Organization](../assets/images/CreateOrg.png)
 
 ## Invite your team
 
 Collaboration is a team sport so invite your teammates to join you on CodeStream!
 
-FIXME
-![Invite Teammates](../assets/images/MyTeamSection-Initial.png)
+![Invite Teammates](../assets/images/InviteTeammates.png)
 
 CodeStream will offer up some suggestions based on the commit history of the
 repositories you have open in your IDE.

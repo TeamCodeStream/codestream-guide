@@ -5,8 +5,8 @@ description:
 
 The CodeStream interface surfaces all the items you need to see, and do, in a
 customizable tree-based view that is always available. 
-FIXME
-![CodeStream Sidebar](../assets/images/Sidebar1.png)
+
+![CodeStream Sidebar](../assets/images/Sidebar2.png)
 
 Subsequent articles will go into more detail on each section, but here's a quick
 overview.
@@ -23,8 +23,6 @@ overview.
 * [Issues](issues-section) - See all of your open issues, across multiple
   services, in one place, and click on one to update its status, create a
   feature branch to do your work, and even update your status on Slack.
-* [My Team](myteam-section) - See who is on your CodeStream team, as well as
-  what they're working on, and invite new members.
 
 The CodeStream pane is completely customizeable. Use drag-and-drop to reorder
 the sections. Resize each one individually. Expand or collapse a section as
@@ -46,6 +44,8 @@ creating and discovering content in your team.
 * [Activity Feed](activity-feed) - The Activity Feed will let you know about new
   code comments/issues and feedback requests, as well as replies to existing
   ones.
+* [My Organization](myorganization) - See who is in your CodeStream
+  organization, invite new members, and create blame maps.
 * [Filter & Search](filter-and-search) - Filter & Search allows you to slice and
   dice your team’s collection of code comments/issues and feature requests
   however you see fit.
