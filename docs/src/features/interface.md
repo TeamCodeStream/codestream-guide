@@ -37,7 +37,7 @@ View menu by clicking on your headshot at the top of the CodeStream pane.
 At the top-right of the CodeStream pane you'll find access to some options for
 creating and discovering content in your team.
 
-![Global Options](../assets/images/GlobalOptions.png)
+![Global Options](../assets/images/GlobalOptions2.png)
 
 * Compose "+" - Click to create a code comment/issue, request feedback on
   changes, or to create a pull request.
@@ -54,4 +54,4 @@ And lastly, at the top-left of the CodeStream pane, click on your username for
 options related to [account settings](account-settings), [notifications](notifications) and [organization
 administration](team-administration).
 
-![Username Menu](../assets/images/HeadshotMenu.png)
+![Username Menu](../assets/images/HeadshotMenu1.png)

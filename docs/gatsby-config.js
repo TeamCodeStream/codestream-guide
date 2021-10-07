@@ -69,8 +69,6 @@ module.exports = {
 						'features/markdown',
 					],
 					FAQ: [
-						'faq/store-source',
-						'faq/git-access',
 						'faq/github-org-repos',
 						'faq/proxy-support',
 						'faq/jira-server-integration',

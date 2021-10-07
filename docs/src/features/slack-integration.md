@@ -28,7 +28,7 @@ channel to use based on the repository you are in, click the gear menu at the
 top of the “Post to” popup and you can set the default behavior for each
 repository.
 
-Note that you can also share an exist post to Slack, even one created by a
+Note that you can also share an existing post to Slack, even one created by a
 teammate. Just go to the comment, issue or feedback request and look for the
 “Share” option under the ellipses menu.
 

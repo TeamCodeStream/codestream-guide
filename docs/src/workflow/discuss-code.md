@@ -38,9 +38,9 @@ gutter to make it easy to comment on a single line.
 Even when the CodeStream pane is closed or not in view, you can create a
 codemark via the CodeStream options in either the lightbulb or context menus.
 
-![Context Menu](../assets/images/ContextMenu3.png)
+![Context Menu](../assets/images/ContextMenu4.png)
 
-Lastly, you can also look for the "+" at the top of the CodeStream pane.
+Lastly, you can also look for the "+" menu at the top of the CodeStream pane.
 
 Need to reach teammates that don’t spend a lot of time in the IDE? Or maybe some
 teammates that aren’t yet on CodeStream? You can optionally share a codemark out
@@ -115,15 +115,14 @@ have locally.
 
 CodeStream recognizes these situations and includes the original version of the
 code block (i.e. at the time the codemark was created), the current version, and
-a diff. You can also use the “Apply” button to apply the code block in your
-editor.
+a diff.
 
 ![Compare and Apply](../assets/images/CodemarkWithDiff1.png)
 
 Keep in mind that with CodeStream you can discuss any line of code, in any
 source file, at any time, even if it’s code that you just typed into your editor
-and haven’t yet saved or committed. CodeStream allows you to discuss code at the
-very earliest stages of the development process.
+and haven’t yet committed. CodeStream allows you to discuss code at the very
+earliest stages of the development process.
 
 ## Resolving Codemarks
 
@@ -218,9 +217,9 @@ create a tag using any combination of color and text label.
 
 ![Tags Popup](../assets/images/TagsPopup.png)
 
-Tags are a great way to broadly organize and group your team’s codemarks, and
-the possibilities here are endless. Note that you can also filter by tag on the
-[Filter & Search page](../features/filter-and-search).
+Tags are a great way to broadly organize and group your organization's
+codemarks, and the possibilities here are endless. Note that you can also filter
+by tag on the [Filter & Search page](../features/filter-and-search).
 
 ### Related Codemarks
 

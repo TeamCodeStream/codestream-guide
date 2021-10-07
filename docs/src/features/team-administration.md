@@ -39,15 +39,6 @@ own).
 
 ![Domain-based Joining](../assets/images/OnboardingDomainJoining.png)
 
-The Integration Options section allows you to smooth the onboarding process
-process for your teammates by eliminating unnecessary unnecessary options, and
-of the possibility of mistakes. You can control which authentication options
-they can use. For example, you might want everyone to sign up using GitHub. You
-can also specify your organization's preferred code host, messaging service, and
-issue tracker. Note that you can select multiple services in each category.
-
-![Integration Options](../assets/images/OnboardingIntegrations.png)
-
 ## Feedback Request Assignment & Approval
 
 Admins can control how both feedback request assignments and approvals work

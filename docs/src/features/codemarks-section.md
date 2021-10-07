@@ -16,10 +16,10 @@ Click on any item to review the details and discussion. With the exception of
 pull-request comments, bubbles to the right will indicate the number of replies.
 
 By default, all codemarks from the current repository are displayed, but you can
-change the filter to show all codemarks created by your team, codemarks in the
-current branch, codemarks in the current folder, or just codemarks in the
-currently selected file. Note that codemarks from feedback requests and pull
-requests only appear when you have the Current File filter selected.
+change the filter to show all codemarks in the current branch, codemarks in the
+current folder, or just codemarks in the currently selected file. Note that
+codemarks from feedback requests and pull requests only appear when you have the
+Current File filter selected.
 
 ![Codemarks Section Settings](../assets/images/CodemarksSectionSettings1.png)
 

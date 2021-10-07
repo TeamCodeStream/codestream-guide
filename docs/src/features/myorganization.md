@@ -12,7 +12,7 @@ organization, invite new members, and create blame maps.
 
 Select "My Organization" to see a list of all members of your CodeStream
 organization. Admins will be identified in the list, and if you are an admin,
-you'll have a dropdown to assign remove admin priviledges to any member.
+you'll have a dropdown to assign or remove admin priviledges to any member.
 
 ![Organization Members](../assets/images/MyOrgMembers.png)
 
@@ -25,7 +25,8 @@ Select "Invite Teammates" to invite new members to your organization.
 The "Outstanding Invitations" section lists all open invitations, and at the
 right side of each row are links to remove the invitation or to reinvite.
 Clicking "reinvite" will have CodeStream send another invitation via email, but
-you also have the option to generate an email yourself.
+you can also hover over the reinvite link for the option to generate an email
+yourself.
 
 The "Suggested Teammates" section, which is only available for admins, is a list
 of possible teammates derived from the commit history of your open repositories.
@@ -40,7 +41,7 @@ example, your CodeStream email address might be dave@acme.com, but you might
 also commit code as dave@webmail.com. Click "Add mapping", enter your git email
 address, and then select your entry from the list of organization members. That
 way, when someone comments on code committed by dave@webmail.com, CodeStream
-will know to at mention you (i.e., dave@acme.com).
+will know to at-mention you (i.e., dave@acme.com).
 
 ![Blame Map](../assets/images/MyOrgBlameMap.png)
 

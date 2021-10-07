@@ -36,8 +36,8 @@ name of the feature branch.
 
 ![Branch Details](../assets/images/StartWork-BranchOptions.png)
 
-If you’re a team admin, you can even set up a branch naming template for the
-team so that all of the team’s feature branches get named in a consistent
+If you’re an admin, you can even set up a branch naming template for the
+organization so that everyone’s feature branches get named in a consistent
 manner.
 
 ![Branch Template](../assets/images/StartWork-BranchTemplate2.png)
@@ -50,11 +50,4 @@ If you need to work on something that doesn’t have an associated issue you can
 either click “Start ad-hoc Work” to get started without one, or click “New
 issue" to create an issue on your issue tracking service right from CodeStream.
 You can even associate that issue with a block of code in your editor!
-
-Whether it's an ad-hoc item or an issue from your issue tracker, once you've
-decided what you're working on it will be reflected in the Work In Progress
-section. To clear your selection, just hover over the issue name and click the
-"x" that appears to the right.
-
-![Work in Progress](../assets/images/WIPSection.png)
 
