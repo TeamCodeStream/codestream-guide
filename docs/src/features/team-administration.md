@@ -66,7 +66,7 @@ committed to the branch.
 
 Update the name of your CodeStream organization at any time.
 
-![Change Team Name](../assets/images/ChangeTeamName.png)
+![Change Team Name](../assets/images/ChangeOrgName.png)
 
 ## Data Export 
 

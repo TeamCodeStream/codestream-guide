@@ -3,7 +3,7 @@ title: Configuring the Jira Server Integration
 description:
 ---
 
-**NOTE #1: Recent versions of Jira Server (>=8.14.0) support the use of API Tokens to access the Jira Server REST API. We recommend you use API Tokens if possible to avoid the more complicated setup described here. [Check your Jira Server version](https://docs.codestream.com/userguide/faq/jira-server-version/).**
+**NOTE #1: Recent versions of Jira Server (>=8.14.0) support the use of API Tokens to access the Jira Server REST API. We recommend you use API Tokens if possible to avoid the more complicated setup described here. [Check your Jira Server version](jira-server-version/).**
 
 **NOTE #2: You must be a Jira administrator in order to configure this integration. To determine if you have the proper permissions in order to proceed, look for the Jira Settings menu (cog icon, mostly likely at the top-right next to your headshot) and make sure there's an "Applications" option there. If you don't have the Settings menu, or the Applications option, then you won't be able to configure the integration.**
 
@@ -73,4 +73,9 @@ Now you are ready to set up the integration from CodeStream to Jira Server for y
 
 ![Completed Jira Server Integration](../assets/images/CompletedJiraServerIntegration1.png)
 
-* Now that the integration has been set up for your team, other users will NOT have to go through the process described above. Other users on your team will see the integration with your Jira Server (specified by host) alongside other available integrations. Initiating this integration will only require your other users to allow the CodeStream application link to access their account, as you did in the final step.
+* Now that the integration has been set up for your organization, other users
+  will NOT have to go through the process described above. Other users in your
+  organization will see the integration with your Jira Server (specified by
+  host) alongside other available integrations. Initiating this integration will
+  only require your other users to allow the CodeStream application link to
+  access their account, as you did in the final step.
